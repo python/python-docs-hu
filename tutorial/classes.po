@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -43,7 +43,7 @@ msgstr ""
 "ugyanazon a néven érhetik el a szülőosztály metódusait.  Az objektumok "
 "tetszőleges számú és típusú adatot tartalmazhatnak. Ahogy a modulok, úgy "
 "az osztályok is részt vesznek a Python dinamikus természetében: futás "
-"közben létrehozhatóak, és tovább módosíthatóak létrehozásuk után. 
+"közben létrehozhatóak, és tovább módosíthatóak létrehozásuk után."
 
 #: ../../tutorial/classes.rst:17
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 "függvényhívások során. Bizonyos értelemben egy objektum jellemzői is külön "
 "névteret alkotnak. Fontos tudni, hogy különböző névterekben lévő két név között "
 "semmilyen kapcsolat nem létezik.  Például ha két különböző modul egyaránt "
-"definiálhat egy "maximumalizal" nevű függvényt bármilyen keveredés "
+"definiálhat egy \"maximumalizal\" nevű függvényt bármilyen keveredés "
 "nélkül, mert a modulok használóinak a függvénynév előtagjában a modul "
 "nevével egyértelműen jelezniük kell, hogy pontosan melyik függvényt "
 "fogják használni."
@@ -1108,7 +1108,7 @@ msgstr ""
 "Ha a cserélt név hosszabb mint 255 karakter, az értelmező  csonkíthatja az új "
 "nevet.  Külső osztályoknál, vagy ahol az osztálynév következetesen "
 "alsóvonásokból áll??? nem történik csonkítás.   A névcsonkítás célja az, hogy az "
-"osztályoknak egyszerű megoldást biztosítson a "private" változók és metódusok "
+"osztályoknak egyszerű megoldást biztosítson a \"private\" változók és metódusok "
 "definiálására --- anélkül, hogy aggódnunk kellene a származtatott osztályokban "
 "megjelenő privát változók miatt, vagy esetleg a származtatott osztályban már "
 "meglévő változó privát változóval való felülírása miatt. Fontos tudni, hogy a "
@@ -1154,7 +1154,7 @@ msgid ""
 "or C \"struct\", bundling together a few named data items.  An empty class "
 "definition will do nicely::"
 msgstr ""
-"Alkalomadtán hasznos lehet a Pascal "record", vagy a C "struct" adattípusaihoz "
+"Alkalomadtán hasznos lehet a Pascal \"record\", vagy a C \"struct\" adattípusaihoz "
 "hasonló szerkezetek használata -- egybefogni néhány  összetartozó adatot. A "
 "következő üres osztálydefiníció ezt szépen  megvalósítja::"
 

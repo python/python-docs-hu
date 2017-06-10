@@ -498,7 +498,7 @@ msgstr ""
 "Jó gyakorlat a :keyword:`with` kulcsszó használata, amikor "
 "fájlobjektummal foglalkozunk. Ennek az az előnye, hogy a fájl "
 "megfelelően bezáródik, akkor is, ha közben kivétel lép fel. És sokkal "
-"rövidebb is, mint a megfelelő :keyword:`try`\ -\ :keyword:`finally` "
+"rövidebb is, mint a megfelelő :keyword:`try`\\ -\\ :keyword:`finally` "
 "blokk használata::"
 
 #: ../../tutorial/inputoutput.rst:378
