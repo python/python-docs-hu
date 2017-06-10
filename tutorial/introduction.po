@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -192,7 +192,7 @@ msgid ""
 msgstr ""
 "A számok mellett a Python karakterláncokkal is tud műveleteket végezni. "
 "A karakterláncokat egyszeres (``'...'``) vagy dupla idézőjelek "
-"(``"..."``) közé lehet zárni. A két jelölés között nincs jelentős "
+"(``\"...\"``) közé lehet zárni. A két jelölés között nincs jelentős "
 "különbség [#]_. A ``\\`` használható arra, hogy a karakterláncbeli "
 "idézőjeleket levédjük::"
 
@@ -386,8 +386,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:331
 msgid "If you need a different string, you should create a new one::"
-msgstr "If you need a different string, you should create a new one::
-Ha másik karakterláncra van szükség, alkothatunk egy újat::"
+msgstr "Ha másik karakterláncra van szükség, alkothatunk egy újat::"
 
 #: ../../tutorial/introduction.rst:338
 msgid "The built-in function :func:`len` returns the length of a string::"
@@ -615,9 +614,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:529
 msgid "Footnotes"
-msgstr ".. [#] Mivel a ``**`` nagyobb precedenciájú, mint a ``-``, a ``-3**2`` mint
-``-(3**2)`` fog értelmezésre kerülni, így az eredmény ``-9``.  Hogy
-ezt elkerüljük, és ``9``-et kapjunk, ``(-3)**2`` formában kell írni."
+msgstr "Lábjegyzet"
 
 #: ../../tutorial/introduction.rst:530
 msgid ""
@@ -625,6 +622,9 @@ msgid ""
 " as ``-(3**2)`` and thus result in ``-9``.  To avoid this and get ``9``, you"
 " can use ``(-3)**2``."
 msgstr ""
+"Mivel a ``**`` nagyobb precedenciájú, mint a ``-``, a ``-3**2`` mint "
+"``-(3**2)`` fog értelmezésre kerülni, így az eredmény ``-9``.  Hogy "
+"ezt elkerüljük, és ``9``-et kapjunk, ``(-3)**2`` formában kell írni."
 
 #: ../../tutorial/introduction.rst:534
 msgid ""

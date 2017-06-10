@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -51,7 +51,7 @@ msgid ""
 "colon (``':'``) is missing before it.  File name and line number are printed"
 " so you know where to look in case the input came from a script."
 msgstr ""
-"Az elemző megismétli a hibás sort, és kitesz egy kis ,,nyilat" amely a sorban "
+"Az elemző megismétli a hibás sort, és kitesz egy kis 'nyilat' amely a sorban "
 "előforduló legelsőnek észlelt hibára mutat.  A hibát a nyilat *megelőző* szócska "
 "(token) okozza (vagy legalábbis itt észlelte az értelemező): a példában, a hibát "
 "a :keyword:`print` utasításnál észlelte, mivel a kettőspont (``':'``) hiányzik "

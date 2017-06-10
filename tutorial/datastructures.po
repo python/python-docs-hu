@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -276,8 +276,7 @@ msgstr ""
 
 #: ../../tutorial/datastructures.rst:294
 msgid "The following list comprehension will transpose rows and columns::"
-msgstr "A következő listaértelmezés felcseréli a sorokat és az oszlopokat
-(transzponálja a mátrixot)::"
+msgstr "A következő listaértelmezés felcseréli a sorokat és az oszlopokat (transzponálja a mátrixot)::"
 
 #: ../../tutorial/datastructures.rst:299
 msgid ""
@@ -330,8 +329,7 @@ msgstr ""
 
 #: ../../tutorial/datastructures.rst:353
 msgid ":keyword:`del` can also be used to delete entire variables::"
-msgstr "A :keyword:`del` utasítást arra is használhatjuk,  hogy az egész változót
-töröljük::"
+msgstr "A :keyword:`del` utasítást arra is használhatjuk,  hogy az egész változót töröljük::"
 
 #: ../../tutorial/datastructures.rst:357
 msgid ""
@@ -786,7 +784,7 @@ msgid ""
 msgstr ""
 "Más nyelvek visszaadhatják a megváltoztatott objektumok, amely "
 "lehetővé teszi a metódusok olyan láncolását, mint a következő "
-"kódban ``d->insert("a")->remove("b")->sort();``."
+"kódban ``d->insert(\"a\")->remove(\"b\")->sort();``."
 
 #: ../../tutorial/datastructures.rst:714
 msgid ""

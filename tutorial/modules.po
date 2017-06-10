@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -162,8 +162,8 @@ msgstr ""
 
 #: ../../tutorial/modules.rst:100
 msgid "There is even a variant to import all names that a module defines::"
-msgstr "Ha a modulban lévő összes nevet közvetlenül a helyi szimbólumtáblába szeretnéd
-importálni, így tudod megtenni::"
+msgstr "Ha a modulban lévő összes nevet közvetlenül a helyi szimbólumtáblába szeretnéd "
+"importálni, így tudod megtenni::"
 
 #: ../../tutorial/modules.rst:106
 msgid ""
@@ -213,7 +213,7 @@ msgid ""
 "this code at the end of your module::"
 msgstr ""
 "a modulbeli kód végrehajtásra kerül, ugyanúgy, mintha importáltad volna, "
-"csak a ``__name__`` változót ``"__main__"`` értékre állítva. Ez azt "
+"csak a ``__name__`` változót ``\"__main__\"`` értékre állítva. Ez azt "
 "jelenti, hogyha a következő kódot a modul végéhez adod::"
 
 #: ../../tutorial/modules.rst:141
@@ -224,7 +224,7 @@ msgid ""
 msgstr ""
 "akkor a fájlt szkriptként is használhatóvá teszed és modulként is, mivel "
 "a kód, amely a parancssort feldolgozza csak akkor kerül végrehajtásra, "
-"amikor az fő ("main") fájlként kerül végrehajtásra:"
+"amikor az fő (\"main\") fájlként kerül végrehajtásra:"
 
 #: ../../tutorial/modules.rst:150
 msgid "If the module is imported, the code is not run::"
@@ -377,7 +377,7 @@ msgstr ""
 ":option:`-OO` paraméter az az assert utasításokon felül a "
 "dokumentációs karakterláncokat is.  Mivel több modul épít ezekre az "
 "összetevőkre, csak akkor használd ezt, ha tudod, mit teszel. Az "
-""optimalizált" modulok ``opt-`` jelöléssel rendelkeznek, és általában "
+"\"optimalizált\" modulok ``opt-`` jelöléssel rendelkeznek, és általában "
 "kissebbek.  A későbbi kiadásokban az optimalizálás hatása változhat."
 
 #: ../../tutorial/modules.rst:225
@@ -791,7 +791,7 @@ msgid ""
 "absolute imports."
 msgstr ""
 "Vegyük észre, hogy a relatív importálás az aktuális modul neve alapján "
-"működik. Mivel a főmodul neve mindig ``"__main__"``, ezért azok a "
+"működik. Mivel a főmodul neve mindig ``\"__main__\"``, ezért azok a "
 "modulok, amelyeket egy alkalmazás főmoduljának szánunk, mindig abszolút "
 "importálást kell használnia."
 

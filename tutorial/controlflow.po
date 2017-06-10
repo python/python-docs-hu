@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -399,7 +399,7 @@ msgid ""
 "efficient."
 msgstr ""
 "A ``eredmeny.append(b)`` utasítás meghívja az ``eredmeny`` listaobjektum "
-"egy metódusát.  A metódus egy olyan függvény, amely egy objektumhoz ,,tartozik", "
+"egy metódusát.  A metódus egy olyan függvény, amely egy objektumhoz tartozik, "
 "``obj.metódusnév`` alakban írjuk, ahol az ``obj`` valamelyik objektum (lehet egy "
 "kifejezés), és a ``metódusnév`` egy olyan metódus neve, amelyet az objektumtípus "
 "definiál.  Különböző típusoknak különböző metódusai vannak.  Különböző "

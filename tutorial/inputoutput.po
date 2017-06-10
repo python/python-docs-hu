@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -118,8 +118,8 @@ msgstr "Néhány példa::"
 
 #: ../../tutorial/inputoutput.rst:70
 msgid "Here are two ways to write a table of squares and cubes::"
-msgstr "Ha akarunk készíteni egy táblázatot, amiben a számok második és harmadik
-hatványai szerepelnek, két lehetőségünk is van::"
+msgstr "Ha akarunk készíteni egy táblázatot, amiben a számok második és harmadik "
+"hatványai szerepelnek, két lehetőségünk is van::"
 
 #: ../../tutorial/inputoutput.rst:102
 msgid ""
@@ -187,8 +187,7 @@ msgstr ""
 
 #: ../../tutorial/inputoutput.rst:147
 msgid "Positional and keyword arguments can be arbitrarily combined::"
-msgstr "A hely szerinti és a kulcsszavas argumentumok tetszőlegesen
-keverhetőek::"
+msgstr "A hely szerinti és a kulcsszavas argumentumok tetszőlegesen keverhetőek::"
 
 #: ../../tutorial/inputoutput.rst:153
 msgid ""

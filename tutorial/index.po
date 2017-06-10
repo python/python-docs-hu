@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -18,9 +18,7 @@ msgstr ""
 
 #: ../../tutorial/index.rst:5
 msgid "The Python Tutorial"
-msgstr "######################
-Python-oktató
-######################"
+msgstr "Python-oktató"
 
 #: ../../tutorial/index.rst:7
 msgid ""
