@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:5
 msgid "An Informal Introduction to Python"
-msgstr ""
+msgstr "Kötetlen bevezető a Pythonba"
 
 #: ../../tutorial/introduction.rst:7
 msgid ""
@@ -29,6 +29,13 @@ msgid ""
 " that a secondary prompt on a line by itself in an example means you must "
 "type a blank line; this is used to end a multi-line command."
 msgstr ""
+"A következő példákban a kimenetet és a bemenetet az elsődleges és másodlagos "
+"promptok (``>>>`` és ``...``)  meglétével, illetve hiányával "
+"különböztetjük meg. A példák kipróbálásához mindent be kell írnod a "
+"promptok után, amikor a prompt megjelenik; azok a sorok, amelyek előtt "
+"nincs prompt, a fordító kimenetei. "
+"Az önmagában álló másodlagos prompt a példa egyik sorában azt jelenti, "
+"hogy csak egy Újsort kell ütni; ez jelzi egy többsoros utasítás végét."
 
 #: ../../tutorial/introduction.rst:14
 msgid ""
@@ -40,24 +47,33 @@ msgid ""
 "character. Since comments are to clarify code and are not interpreted by "
 "Python, they may be omitted when typing in examples."
 msgstr ""
+"Ennek a kézikönyvnek sok példájában -- még azokban is, amelyeket interaktív "
+"módon írtunk be -- szerepelnek megjegyzések. A Pythonban a megjegyzések "
+"kettőskereszttel (``'#'``) kezdődnek és a sor végéig tartanak. Egy "
+"megjegyzés lehet sor elején, vagy követhet szóközt, tabulátor-karaktert, "
+"de ha egy karakterlánc belsejébe teszed, az nem lesz megjegyzés (lásd a "
+"példában!). A kettőskereszt karakter egy karakterláncon belül csak egy "
+"kettőskeresztet jelent."
 
 #: ../../tutorial/introduction.rst:22
 msgid "Some examples::"
-msgstr ""
+msgstr "Pár példa::"
 
 #: ../../tutorial/introduction.rst:33
 msgid "Using Python as a Calculator"
-msgstr ""
+msgstr "A Python használata számológépként"
 
 #: ../../tutorial/introduction.rst:35
 msgid ""
 "Let's try some simple Python commands.  Start the interpreter and wait for "
 "the primary prompt, ``>>>``.  (It shouldn't take long.)"
 msgstr ""
+"Próbáljunk ki néhány Python utasítást. Indítsuk el az értelmezőt, és várjuk meg "
+"az elsődleges promptot: ``>>>``. (Nem kell sokáig várni.)"
 
 #: ../../tutorial/introduction.rst:42
 msgid "Numbers"
-msgstr ""
+msgstr "Számok"
 
 #: ../../tutorial/introduction.rst:44
 msgid ""
@@ -67,6 +83,11 @@ msgid ""
 "languages (for example, Pascal or C); parentheses (``()``) can be used for "
 "grouping. For example::"
 msgstr ""
+"A parancsértelmező úgy működik, mint egy sima számológép: be lehet írni "
+"egy kifejezést, és az kiszámolja az értékét. A kifejezések nyelvtana a "
+"szokásos: a ``+``, ``-``, ``*`` és ``/`` műveletek ugyanúgy működnek, "
+"mint a legtöbb nyelvben (például Pascal vagy C); zárójeleket (``()``) "
+"használhatunk a csoportosításra.  Például::"
 
 #: ../../tutorial/introduction.rst:59
 msgid ""
@@ -74,6 +95,10 @@ msgid ""
 "ones with a fractional part (e.g. ``5.0``, ``1.6``) have type "
 ":class:`float`.  We will see more about numeric types later in the tutorial."
 msgstr ""
+"Az egész számok (pl. ``2``, ``4``, ``20``)  :class:`int` típusúak, "
+"azok, amiknek törtrésze is van (e.g. ``5.0``, ``1.6``) a "
+":class:`float` típusba.  Az oktató további részében még többet tanulunk "
+"meg a típusokról."
 
 #: ../../tutorial/introduction.rst:63
 msgid ""
@@ -81,30 +106,41 @@ msgid ""
 "get an integer result (discarding any fractional result) you can use the "
 "``//`` operator; to calculate the remainder you can use ``%``::"
 msgstr ""
+"Az osztás (``/``) mindig lebegőpontos értékeket ad vissza. "
+"Lefelé kerekítő :term:`egészosztás` elvégzéséhez, amellyel egész értéket "
+"kapunk a ``//`` operátor használható; az osztás maradékához a ``%``::"
 
 #: ../../tutorial/introduction.rst:77
 msgid ""
 "With Python, it is possible to use the ``**`` operator to calculate powers "
 "[#]_::"
 msgstr ""
+"A Pythonban a ``**`` operátor használható a hatvány kiszámítására [#]_::"
 
 #: ../../tutorial/introduction.rst:84
 msgid ""
 "The equal sign (``=``) is used to assign a value to a variable. Afterwards, "
 "no result is displayed before the next interactive prompt::"
 msgstr ""
+"A C-hez hasonlóan az egyenlőségjellel (``'='``) lehet értéket adni egy "
+"változónak. Az értékadás után az értelmező újabb utasításra vár, látszólag nem "
+"történik semmi::"
 
 #: ../../tutorial/introduction.rst:92
 msgid ""
 "If a variable is not \"defined\" (assigned a value), trying to use it will "
 "give you an error::"
 msgstr ""
+"Ha egy változó nincs definiálva (nincs érték rendelve hozzá), és "
+"használni próbáljuk, akkor hibaüzenetet kapunk::"
 
 #: ../../tutorial/introduction.rst:100
 msgid ""
 "There is full support for floating point; operators with mixed type operands"
 " convert the integer operand to floating point::"
 msgstr ""
+"A programnyelv teljeskörűen támogatja a lebegőpontos számokat; azok a műveletek "
+"amelyeknél keverednek a típusok, az egészeket lebegőpontossá alakítják::"
 
 #: ../../tutorial/introduction.rst:108
 msgid ""
@@ -112,6 +148,9 @@ msgid ""
 " ``_``.  This means that when you are using Python as a desk calculator, it "
 "is somewhat easier to continue calculations, for example::"
 msgstr ""
+"Interaktív módban az utoljára kiírt kifejezés értéke a ``_`` (alsóvonás) "
+"változóban van. Így, ha a Pythont asztali számológépként használod, akkor "
+"egyszerűbb folytatni a számolásokat, például::"
 
 #: ../../tutorial/introduction.rst:121
 msgid ""
@@ -119,6 +158,11 @@ msgid ""
 "assign a value to it --- you would create an independent local variable with"
 " the same name masking the built-in variable with its magic behavior."
 msgstr ""
+"Ezt a változót csak olvasható változóként kezelhetjük. Ne adjunk értéket "
+"neki, mert ha adunk, akkor létrehozunk egy független helyi változót "
+"azonos névvel, amely meggátolja a beépített változó elérését, amely "
+"mágikus módon viselkedik.  (Ha egy globális változó nevével létrehozunk "
+"egy helyi változót, akkor az értelmező a helyit használja.)"
 
 #: ../../tutorial/introduction.rst:125
 msgid ""
@@ -128,10 +172,16 @@ msgid ""
 ":ref:`complex numbers <typesnumeric>`, and uses the ``j`` or ``J`` suffix to"
 " indicate the imaginary part (e.g. ``3+5j``)."
 msgstr ""
+"Az :class:`int` és :class:`float` osztályokon felül a Python támogat "
+"egyéb typusokat is, mint például a :class:`~decimal.Decimal` és "
+":class:`~fractions.Fraction`. "
+"A Python beépített támogatással rendelkezik a :ref:`komplex számok "
+"<typesnumeric>` tekintetében, és a  ``j`` vagy ``J`` utótagot hasznája a "
+"képzetes rész jelölésére (pl. ``3+5j``, ``1j``)."
 
 #: ../../tutorial/introduction.rst:135
 msgid "Strings"
-msgstr ""
+msgstr "Karakterláncok"
 
 #: ../../tutorial/introduction.rst:137
 msgid ""
@@ -140,6 +190,11 @@ msgid ""
 "double quotes (``\"...\"``) with the same result [#]_.  ``\\`` can be used "
 "to escape quotes::"
 msgstr ""
+"A számok mellett a Python karakterláncokkal is tud műveleteket végezni. "
+"A karakterláncokat egyszeres (``'...'``) vagy dupla idézőjelek "
+"(``"..."``) közé lehet zárni. A két jelölés között nincs jelentős "
+"különbség [#]_. A ``\\`` használható arra, hogy a karakterláncbeli "
+"idézőjeleket levédjük::"
 
 #: ../../tutorial/introduction.rst:155
 msgid ""
@@ -152,6 +207,15 @@ msgid ""
 "readable output, by omitting the enclosing quotes and by printing escaped "
 "and special characters::"
 msgstr ""
+"Az interaktív parancsértelmezőben a kimeneti karakterlánc idézőjelekben "
+"jelenik meg, és a speciális karakterek vissza-perrel (``\\``) levédve. "
+"Bár ez néha különbözőnek látszik a bemenettől (az idézőjel fajtája "
+"megváltozhat), a két karakterlánc egyenértékű. A karakterlánc dupla "
+"idézőjelbe (``\"``) van zárva, ha a karakterlánc tartalmaz egyszeres "
+"idézőjelet, és duplát nem különben egyszeres idézőjelben van.  A "
+":func:`print` függvény egy sokkal olvashatóbb kimenetet eredményez, "
+"elhagyva az idézőjeleket és kiírva a levédett és speciális "
+"karaktereket::"
 
 #: ../../tutorial/introduction.rst:175
 msgid ""
@@ -159,6 +223,9 @@ msgid ""
 " characters, you can use *raw strings* by adding an ``r`` before the first "
 "quote::"
 msgstr ""
+"Ha nem akarod, hogy a ``\\`` jellek kezdődő karakterek speciális "
+"karakterként értelmeződjenek, akkor *nyers karakterláncokat* "
+"használhatsz egy ``r``-et helyezve a kezdő idézőjel elé::"
 
 #: ../../tutorial/introduction.rst:185
 msgid ""
@@ -167,41 +234,56 @@ msgid ""
 "included in the string, but it's possible to prevent this by adding a ``\\``"
 " at the end of the line.  The following example::"
 msgstr ""
+"A literális karakterláncok többsorosak is lehetnek. Egy lehetőség erre "
+"a hármas idézőjelek használata: ``\"\"\"...\"\"\"`` vagy ``'''...'''``. "
+"Ilyenkor az újsorok automatikusan belekerülnek a karakterláncba, de ez a "
+"viselkedés megszüntethető, ha a sor végére egy ``\\``-t adsz. A következő "
+"példa ::"
 
 #: ../../tutorial/introduction.rst:196
 msgid ""
 "produces the following output (note that the initial newline is not "
 "included):"
 msgstr ""
+"az alábbi kimenetet adja (vedd észre, hogy az első sorban nincs soremelés):"
 
 #: ../../tutorial/introduction.rst:204
 msgid ""
 "Strings can be concatenated (glued together) with the ``+`` operator, and "
 "repeated with ``*``::"
 msgstr ""
+"Karakterláncokat a ``+`` művelettel ragaszthatunk össze és ``*``-gal "
+"ismételhetünk. ::"
 
 #: ../../tutorial/introduction.rst:211
 msgid ""
 "Two or more *string literals* (i.e. the ones enclosed between quotes) next "
 "to each other are automatically concatenated. ::"
 msgstr ""
+"Két egymást követő literális karakterláncot (azokat, amik idézőjelben "
+"vannak, és nem egy változóban, vagy nem egy függvény hoz létre) az "
+"értelmező magától összefűz::"
 
 #: ../../tutorial/introduction.rst:217
 msgid ""
 "This only works with two literals though, not with variables or "
 "expressions::"
 msgstr ""
+"De ez csak két literálissal működik, változóval vagy kifejezéssel nem::"
 
 #: ../../tutorial/introduction.rst:227
 msgid ""
 "If you want to concatenate variables or a variable and a literal, use "
 "``+``::"
 msgstr ""
+"Ha változókat akarsz összefűzni, vagy változót literálissal, használj "
+"``+`` műveletet::"
 
 #: ../../tutorial/introduction.rst:232
 msgid ""
 "This feature is particularly useful when you want to break long strings::"
 msgstr ""
+"A literálisok összefűzése különösen hasznos hosszú sorok széttörésére::"
 
 #: ../../tutorial/introduction.rst:239
 msgid ""
@@ -209,34 +291,44 @@ msgid ""
 "index 0. There is no separate character type; a character is simply a string"
 " of size one::"
 msgstr ""
+"A karakterláncokat *indexelhetjük*, az első karakterhez tartozik a 0 "
+"index, a következőhöz az 1-es index és így tovább. Nincs külön karakter "
+"típus; egy karakter egyszerűen egy egy hosszúságú karakterlánc::"
 
 #: ../../tutorial/introduction.rst:249
 msgid ""
 "Indices may also be negative numbers, to start counting from the right::"
 msgstr ""
+"Az indexek negatívak is lehetnek, ilyenkor jobbról kezdünk el számolni::"
 
 #: ../../tutorial/introduction.rst:258
 msgid "Note that since -0 is the same as 0, negative indices start from -1."
 msgstr ""
-
 #: ../../tutorial/introduction.rst:260
 msgid ""
 "In addition to indexing, *slicing* is also supported.  While indexing is "
 "used to obtain individual characters, *slicing* allows you to obtain "
 "substring::"
 msgstr ""
+"Az indexelésen felül a *szeletelés* is támogatott. Míg az indexelés "
+"egyetlen karaktert jelöl ki, a *szeletelés* egy rész-karakterláncot::"
 
 #: ../../tutorial/introduction.rst:268
 msgid ""
 "Note how the start is always included, and the end always excluded.  This "
 "makes sure that ``s[:i] + s[i:]`` is always equal to ``s``::"
 msgstr ""
+"A kezdő index mindig beleértendő az eredménybe, a végső index pedig nem. "
+"Ez teszi lehetővé, hogy ``s[:i] + s[i:]`` mindig egyenlő ``s``-el::"
 
 #: ../../tutorial/introduction.rst:276
 msgid ""
 "Slice indices have useful defaults; an omitted first index defaults to zero,"
 " an omitted second index defaults to the size of the string being sliced. ::"
 msgstr ""
+"A szeletek indexeinek hasznos alapértékei vannak; a kihagyott első index "
+"alapértéke 0, az elhagyott második index alapértéke a szeletelendő "
+"karakterlánc hossza::"
 
 #: ../../tutorial/introduction.rst:286
 msgid ""
@@ -245,6 +337,10 @@ msgid ""
 "Then the right edge of the last character of a string of *n* characters has "
 "index *n*, for example::"
 msgstr ""
+"Úgy a legkönnyebb megjegyezni hogy működnek a szeletek, ha azt képzeljük, hogy "
+"az indexek  a karakterek *közé* mutatnak, az első karakter bal élét számozzuk "
+"nullának. Ekkor az *n* karakterből álló karakterlánc utolsó karakterének jobb "
+"éle az *n*, például::"
 
 #: ../../tutorial/introduction.rst:297
 msgid ""
@@ -253,6 +349,10 @@ msgid ""
 "from *i* to *j* consists of all characters between the edges labeled *i* and"
 " *j*, respectively."
 msgstr ""
+"Az első sorban álló számok adják a 0...5 indexeket a karakterláncban; a második "
+"sor mutatja a megfelelő negatív indexeket. Az *i*-től *j*-ig terjedő szelet "
+"mindazokat a karaktereket tartalmazza, amelyek az *i* és *j* jelű élek között "
+"vannak."
 
 #: ../../tutorial/introduction.rst:302
 msgid ""
@@ -260,30 +360,38 @@ msgid ""
 "indices, if both are within bounds.  For example, the length of "
 "``word[1:3]`` is 2."
 msgstr ""
+"A nem negatív indexek esetén a szelet hossza az indexek különbségével egyenlő, "
+"ha mindkettő a valódi szóhatárokon belül van. Például a ``szo[1:3]`` hossza 2."
 
 #: ../../tutorial/introduction.rst:306
 msgid "Attempting to use an index that is too large will result in an error::"
-msgstr ""
+msgstr "Ha olyan indexet használunk, amely túl nagy, az eredmény hibát ad::"
 
 #: ../../tutorial/introduction.rst:313
 msgid ""
 "However, out of range slice indexes are handled gracefully when used for "
 "slicing::"
 msgstr ""
+"Ellenben a tartományon kívüli indexek a szeletekben rugalmasan kezeli a "
+"Python nyelv::"
 
 #: ../../tutorial/introduction.rst:321
 msgid ""
 "Python strings cannot be changed --- they are :term:`immutable`. Therefore, "
 "assigning to an indexed position in the string results in an error::"
 msgstr ""
+"A Python karakterláncait nem lehet megváltoztatni azok "
+":term:`megváltoztathatatlanok`.  Ezért, ha egy adott indexű helyhez "
+"értéket rendelünk, hibát kapunk::"
 
 #: ../../tutorial/introduction.rst:331
 msgid "If you need a different string, you should create a new one::"
-msgstr ""
+msgstr "If you need a different string, you should create a new one::
+Ha másik karakterláncra van szükség, alkothatunk egy újat::"
 
 #: ../../tutorial/introduction.rst:338
 msgid "The built-in function :func:`len` returns the length of a string::"
-msgstr ""
+msgstr "A beépített :func:`len` függvény a karakterlánc hosszával tér vissza::"
 
 #: ../../tutorial/introduction.rst:349
 msgid ":ref:`textseq`"
@@ -333,7 +441,7 @@ msgstr ""
 
 #: ../../tutorial/introduction.rst:369
 msgid "Lists"
-msgstr ""
+msgstr "Listák"
 
 #: ../../tutorial/introduction.rst:371
 msgid ""
@@ -343,12 +451,18 @@ msgid ""
 "contain items of different types, but usually the items all have the same "
 "type. ::"
 msgstr ""
+"A Python többfajta *összetett* adattípust ismer, amellyel több különböző értéket "
+"csoportosíthatunk. A legsokoldalúbb a *lista*, amelyet vesszőkkel elválasztott "
+"értékekként írhatunk be szögletes zárójelbe zárva. A lista elemeinek nem kell "
+"azonos típusúaknak lenniük, bár gyakran minden elem azonos típusú. ::"
 
 #: ../../tutorial/introduction.rst:380
 msgid ""
 "Like strings (and all other built-in :term:`sequence` type), lists can be "
 "indexed and sliced::"
 msgstr ""
+"Ahogy a karakterláncokat (és minden más beépített "
+":term:`sorozattípust`), a listákat is indexelhetjük és szeletelhetjük::"
 
 #: ../../tutorial/introduction.rst:390
 msgid ""
@@ -356,42 +470,52 @@ msgid ""
 "This means that the following slice returns a new (shallow) copy of the "
 "list::"
 msgstr ""
+"All slice operations return a new list containing the requested elements.  This "
+"means that the following slice returns a new (shallow) copy of the list::"
 
 #: ../../tutorial/introduction.rst:396
 msgid "Lists also support operations like concatenation::"
-msgstr ""
+msgstr "A listák az összefűzést is támogatják::"
 
 #: ../../tutorial/introduction.rst:401
 msgid ""
 "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
 "type, i.e. it is possible to change their content::"
 msgstr ""
+"A karakterláncokkal ellentétben -- amelyek :term:`megváltoztathatatlan` adattípusok -- a listák "
+":term:`megváltoztatható` adattípusok, azaz módosíthatjuk a tartalmát::"
 
 #: ../../tutorial/introduction.rst:411
 msgid ""
 "You can also add new items at the end of the list, by using the "
 ":meth:`~list.append` *method* (we will see more about methods later)::"
 msgstr ""
+"Akár új elemeket is adhatunk a lista végéhez a :meth:`~list.append` "
+"*metódussal* (erről később többet megtudhatunk)::"
 
 #: ../../tutorial/introduction.rst:419
 msgid ""
 "Assignment to slices is also possible, and this can even change the size of "
 "the list or clear it entirely::"
 msgstr ""
+"Akát szeletnek is adhatunk értéket, és ez akár a lista méretét is "
+"megváltoztathatja, vagy teljesen törölheti a tartalmát::"
 
 #: ../../tutorial/introduction.rst:438
 msgid "The built-in function :func:`len` also applies to lists::"
-msgstr ""
+msgstr "A :func:`len` beépített függvény listákra is alkalmazható::"
 
 #: ../../tutorial/introduction.rst:444
 msgid ""
 "It is possible to nest lists (create lists containing other lists), for "
 "example::"
 msgstr ""
+"Lehetséges a listákat egymásba ágyazni (olyan listákat létrehozni, "
+"amelyek újabb listákat tartalmaznak), például::"
 
 #: ../../tutorial/introduction.rst:460
 msgid "First Steps Towards Programming"
-msgstr ""
+msgstr "Első lépések a programozás felé"
 
 #: ../../tutorial/introduction.rst:462
 msgid ""
@@ -399,10 +523,13 @@ msgid ""
 "two together.  For instance, we can write an initial sub-sequence of the "
 "*Fibonacci* series as follows::"
 msgstr ""
+"Természetesen a Pythont sokkal összetettebb feladatokra is használhatjuk annál, "
+"minthogy kiszámoljuk 2+2 értékét.  Például írhatunk egy rövid ciklust a "
+"Fibonacci-sorozat kiiratására::"
 
 #: ../../tutorial/introduction.rst:480
 msgid "This example introduces several new features."
-msgstr ""
+msgstr "Ebben a példában a Python több új tulajdonságát megtaláljuk:"
 
 #: ../../tutorial/introduction.rst:482
 msgid ""
@@ -412,6 +539,10 @@ msgid ""
 "all evaluated first before any of the assignments take place.  The right-"
 "hand side expressions are evaluated  from the left to the right."
 msgstr ""
+"Az első sor egy *többszörös értékadást* tartalmaz: ``a`` és ``b`` egyszerre "
+"veszi fel a 0 és 1 értékeket. Az utolsó sorban újból ezt használjuk, hogy "
+"megmutassuk, hogy előbb a jobboldal értékelődik ki, és csak azután megy végbe az "
+"értékadás. A jobboldali kifejezések jobbról balra értékelődnek ki."
 
 #: ../../tutorial/introduction.rst:488
 msgid ""
@@ -424,6 +555,15 @@ msgid ""
 "than), ``>`` (greater than), ``==`` (equal to), ``<=`` (less than or equal "
 "to), ``>=`` (greater than or equal to) and ``!=`` (not equal to)."
 msgstr ""
+"A :keyword:`while` ciklus addig hajtódik végre, amíg a feltétel (itt: ``b < "
+"10``) igaz marad.  A Pythonban -- ahogy a C-ben is -- minden nullától eltérő "
+"egész érték igazat, a nulla hamisat jelent.  A feltétel lehet egy karakterlánc "
+"vagy egy lista (gyakorlatilag bármilyen sorozat): minden aminek nem nulla a "
+"hossza -- igaz, az üres sorozatok hamisak.  A példában használt feltétel egy "
+"egyszerű összehasonlítás.  A legalapvetőbb összehasonlító relációkat a C-vel "
+"azonosan jelöljük: ``<`` (kisebb mint), ``>`` (nagyobb mint), ``==`` "
+"(egyenlőek), ``<=`` (kisebb vagy egyenlő), ``>=`` (nagyobb vagy egyenlő) és "
+"``!=`` (nem egyenlő)."
 
 #: ../../tutorial/introduction.rst:497
 msgid ""
@@ -436,6 +576,18 @@ msgid ""
 "(since the parser cannot guess when you have typed the last line).  Note "
 "that each line within a basic block must be indented by the same amount."
 msgstr ""
+"A ciklus *magját beljebb húzzuk*: a behúzás a Python jelölése az "
+"utasítások csoportosítására.  A Python alapértelmezett interaktív "
+"parancsértelmezőjében neked kell (néhány) szóközt beírnod minden "
+"behúzott sor elé.  Gyakorlatban az összetettebb programkódokat úgyis "
+"szövegszerkesztővel fogod elkészíteni, a legtöbb szövegszerkesztőnek "
+"van eszköze az automatikus behúzásra.  Ha egy összetett utasítást "
+"írunk be párbeszédes (interaktív) módban, azt egy üres sornak kell "
+"követnie (mivel az értelmező nem tudja kitalálni, lesz-e még újabb "
+"sor).  Jegyezd meg, hogy minden sort ugyanannyival kell beljebb húzni. "
+"(Az IDLE integrált fejlesztői környezetben található parancsértelmező "
+"és az ipython nevű parancsértelmező automatikusan behúzza a "
+"ciklusmagot.)"
 
 #: ../../tutorial/introduction.rst:506
 msgid ""
@@ -446,16 +598,26 @@ msgid ""
 "without quotes, and a space is inserted between items, so you can format "
 "things nicely, like this::"
 msgstr ""
+"A :func:`print` függvény kiírja annak a kifejezésnek az értékét, amelyet "
+"megadtunk.  Ez abban különbözik attól, mintha a kifejezést csak önmagában írnánk "
+"be (mint ahogy számológépként használtuk), ahogy a többszörös "
+"argumentumokat és a karakterláncokat kezeli.  A karakterláncokat "
+"idézőjelek nélkül írja ki, és szóközöket illeszt az egyes tagok közé, "
+"így széppé teheted a kimenetet::"
 
 #: ../../tutorial/introduction.rst:517
 msgid ""
 "The keyword argument *end* can be used to avoid the newline after the "
 "output, or end the output with a different string::"
 msgstr ""
+"Az *end* kulcsszavas argumentum használható arra, hogy megakadályozzuk "
+"a print után az újsor kiírását, vagy mást írjunk ki a print végén::"
 
 #: ../../tutorial/introduction.rst:529
 msgid "Footnotes"
-msgstr ""
+msgstr ".. [#] Mivel a ``**`` nagyobb precedenciájú, mint a ``-``, a ``-3**2`` mint
+``-(3**2)`` fog értelmezésre kerülni, így az eredmény ``-9``.  Hogy
+ezt elkerüljük, és ``9``-et kapjunk, ``(-3)**2`` formában kell írni."
 
 #: ../../tutorial/introduction.rst:530
 msgid ""
