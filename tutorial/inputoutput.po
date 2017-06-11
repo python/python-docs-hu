@@ -126,7 +126,7 @@ msgid ""
 "(Note that in the first example, one space between each column was added by "
 "the way :func:`print` works: it always adds spaces between its arguments.)"
 msgstr ""
-"(Megjegyzés: az oszlopok között egy szóköznyi helyet a :keyword:`print` "
+"(Megjegyzés: az oszlopok között egy szóköznyi helyet a :func:`print` "
 "utasítás hagyott ki, mindig szóközöket hagy az argumentumai között.)"
 
 #: ../../tutorial/inputoutput.rst:105
