@@ -52,7 +52,7 @@ msgstr ""
 ":keyword:`else` rész szintén elmaradhat.  Az ':keyword:`elif`' kulcsszó -- amely "
 "az 'else if' rövidítése -- hasznos a felesleges behúzások elkerülésre. Egy "
 ":keyword:`if` ...\ :keyword:`elif` ... :keyword:`elif` ... sor helyettesíti a "
-"más nyelvekben található :keyword:`switch` és :keyword:`case` utasításokat."
+"más nyelvekben található ``switch`` és ``case`` utasításokat."
 
 #: ../../tutorial/controlflow.rst:43
 msgid ":keyword:`for` Statements"
