@@ -284,7 +284,7 @@ msgid ""
 ":func:`open` returns a :term:`file object`, and is most commonly used with "
 "two arguments: ``open(filename, mode)``."
 msgstr ""
-"Az :func:`open` függvény egy  :term:`fájlobjektummal`  tér vissza, és "
+"Az :func:`open` függvény egy  :term:`file object`-tel tér vissza, és "
 "rendszerint két paraméterrel használjuk: ``open(fájlnév, mód)``."
 
 #: ../../tutorial/inputoutput.rst:241
