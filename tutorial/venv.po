@@ -59,7 +59,7 @@ msgid ""
 "particular version of Python, plus a number of additional packages."
 msgstr ""
 "Erre a problémára az a megoldás, hogy "
-":term:`virtuális környezet`-et hozunk létre: egy könyvtárstruktúrát, "
+":term:`virtual environment`-et hozunk létre: egy könyvtárstruktúrát, "
 "amelyben egy Python van telepítve egy bizonyos Python-verzióval, és pár "
 "további csomaggal."
 
