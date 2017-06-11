@@ -579,7 +579,7 @@ msgid ""
 msgstr ""
 "A :func:`~json.dumps` függvény egy másik változata, amelynek "
 ":func:`~json.dump`, a neve az objektumot egy :term:`text file`-ba "
-"szerializálja.  Tehát, ha ``f`` egy :term:`szövegfájl`-objektum, amelyet "
+"szerializálja.  Tehát, ha ``f`` egy :term:`text file` objektum, amelyet "
 "írásra nyitottunk meg, megtehetjük az alábbit::"
 
 #: ../../tutorial/inputoutput.rst:424
@@ -588,7 +588,7 @@ msgid ""
 " been opened for reading::"
 msgstr ""
 "Az objektum visszaállítása pedig, ha ``f`` egy olvasásra megnyitott "
-":term:`szövegfájl`-objektum, így történik::"
+":term:`text file` objektum, így történik::"
 
 #: ../../tutorial/inputoutput.rst:429
 msgid ""
