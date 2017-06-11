@@ -469,8 +469,6 @@ msgid ""
 "This means that the following slice returns a new (shallow) copy of the "
 "list::"
 msgstr ""
-"All slice operations return a new list containing the requested elements.  This "
-"means that the following slice returns a new (shallow) copy of the list::"
 
 #: ../../tutorial/introduction.rst:396
 msgid "Lists also support operations like concatenation::"
@@ -481,8 +479,8 @@ msgid ""
 "Unlike strings, which are :term:`immutable`, lists are a :term:`mutable` "
 "type, i.e. it is possible to change their content::"
 msgstr ""
-"A karakterláncokkal ellentétben -- amelyek :term:`megváltoztathatatlan` adattípusok -- a listák "
-":term:`megváltoztatható` adattípusok, azaz módosíthatjuk a tartalmát::"
+"A karakterláncokkal ellentétben -- amelyek :term:`immutable` adattípusok -- a listák "
+":term:`mutable` adattípusok, azaz módosíthatjuk a tartalmát::"
 
 #: ../../tutorial/introduction.rst:411
 msgid ""
