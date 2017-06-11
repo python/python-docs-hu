@@ -107,7 +107,7 @@ msgid ""
 "``//`` operator; to calculate the remainder you can use ``%``::"
 msgstr ""
 "Az osztás (``/``) mindig lebegőpontos értékeket ad vissza. "
-"Lefelé kerekítő :term:`egészosztás` elvégzéséhez, amellyel egész értéket "
+"Lefelé kerekítő :term:`floor division` elvégzéséhez, amellyel egész értéket "
 "kapunk a ``//`` operátor használható; az osztás maradékához a ``%``::"
 
 #: ../../tutorial/introduction.rst:77
