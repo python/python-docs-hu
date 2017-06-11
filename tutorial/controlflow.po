@@ -186,7 +186,7 @@ msgid ""
 msgstr ""
 "A ciklusszervező utasításoknak lehet egy ``else`` águk. Ez akkor hajtódik "
 "végre, ha a ciklus végighaladt a listán (:keyword:`for` esetén), illetve ha a "
-"feltétel hamissá vált (:keyword:`when` esetén), de nem hajtódik végre, ha a "
+"feltétel hamissá vált (:keyword:`while` esetén), de nem hajtódik végre, ha a "
 "ciklust a :keyword:`break` utasítással szakítottuk meg. Ezt a következő példával "
 "szemléltetjük, amely a prímszámokat keresi meg::"
 
