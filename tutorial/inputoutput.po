@@ -578,7 +578,7 @@ msgid ""
 " if ``f`` is a :term:`text file` object opened for writing, we can do this::"
 msgstr ""
 "A :func:`~json.dumps` függvény egy másik változata, amelynek "
-":func:`~json.dump`, a neve az objektumot egy :term:`szövegfájlba` "
+":func:`~json.dump`, a neve az objektumot egy :term:`text file`-ba "
 "szerializálja.  Tehát, ha ``f`` egy :term:`szövegfájl`-objektum, amelyet "
 "írásra nyitottunk meg, megtehetjük az alábbit::"
 
