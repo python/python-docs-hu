@@ -461,7 +461,7 @@ msgid ""
 "indexed and sliced::"
 msgstr ""
 "Ahogy a karakterláncokat (és minden más beépített "
-":term:`sorozattípust`), a listákat is indexelhetjük és szeletelhetjük::"
+":term:`sequence`-t), a listákat is indexelhetjük és szeletelhetjük::"
 
 #: ../../tutorial/introduction.rst:390
 msgid ""
