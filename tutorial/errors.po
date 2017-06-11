@@ -54,7 +54,7 @@ msgstr ""
 "Az elemző megismétli a hibás sort, és kitesz egy kis 'nyilat' amely a sorban "
 "előforduló legelsőnek észlelt hibára mutat.  A hibát a nyilat *megelőző* szócska "
 "(token) okozza (vagy legalábbis itt észlelte az értelemező): a példában, a hibát "
-"a :keyword:`print` utasításnál észlelte, mivel a kettőspont (``':'``) hiányzik "
+"a :func:`print` utasításnál észlelte, mivel a kettőspont (``':'``) hiányzik "
 "előle.  A fájl neve és a sorszám kiíródik, így tudhatod, hol keressed, ha egy "
 "szkriptet futtattál."
 
