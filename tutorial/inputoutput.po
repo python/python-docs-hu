@@ -375,7 +375,8 @@ msgstr ""
 "jelenthet neked. "
 "Ha használod a *méret* paramétert, akkor a visszatérési értékként kapott "
 "karakterlánc hosszát maximalizálni tudod. Ha eléred a fájl végét,  az "
-"``f.read()`` egy üres karakterlánccal tér vissza (``""``). ::"
+"``f.read()`` egy üres karakterlánccal tér vissza (``''``).  "
+"::"
 
 #: ../../tutorial/inputoutput.rst:288
 msgid ""
@@ -484,8 +485,7 @@ msgstr ""
 "Ha már minden módosítást elvégeztél a fájllal, hívd meg az ``f.close()`` "
 "metódust a bezárásához, és megnyitott fájl által felhasznált "
 "rendszererőforrások felszabadításához. A ``f.close()`` hívása után a "
-"fájl objektum használatára tett kísérletek automatikusan meghiúsulnak. "
-"::"
+"fájl objektum használatára tett kísérletek automatikusan meghiúsulnak. ::"
 
 #: ../../tutorial/inputoutput.rst:368
 msgid ""
@@ -554,7 +554,7 @@ msgstr ""
 ":dfn:`szerializáció`.  A karakterláncból az adat visszaállítása pedig a "
 ":dfn:`deszerializáció`.  A szerializáció és a deszerializáció között a "
 "karakterlánc-reprezentációt fáljban tárolhatjuk, vagy elküldhetjük hálózati "
-"kapcsolaton keresztül egy távoli számítógépnek. "
+"kapcsolaton keresztül egy távoli számítógépnek."
 
 #: ../../tutorial/inputoutput.rst:408
 msgid ""
@@ -568,8 +568,8 @@ msgid ""
 "If you have an object ``x``, you can view its JSON string representation "
 "with a simple line of code::"
 msgstr ""
-"Ha van egy ``x`` objektumunk, annak a JSON karakterlánc-reprezentációját  "
-"egyetlen sor kóddal megkaphatjuk:"
+"Ha van egy ``x`` objektumunk, annak a JSON karakterlánc-reprezentációját "
+"egyetlen sor kóddal megkaphatjuk::"
 
 #: ../../tutorial/inputoutput.rst:418
 msgid ""
