@@ -961,7 +961,7 @@ msgstr ""
 "egyik metódus, amely egy szintén a szülőosztályban definiált másik "
 "metódust hívná eredetileg, lehet, hogy a származtatott osztály által "
 "felülírt metódust fogja meghívni.  (C++ programozóknak: a Pythonban "
-"lényegében minden metódus :keyword:`virtuális`.)"
+"lényegében minden metódus ``virtual``.)"
 
 #: ../../tutorial/classes.rst:595
 msgid ""
