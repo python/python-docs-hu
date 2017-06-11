@@ -2,7 +2,7 @@
 # Copyright (C) 2001-2017, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -34,7 +34,7 @@ msgstr ""
 "A Python értelemező szokásos helye a :file:`/usr/local/bin/python3.6` vagy "
 ":file:`/usr/bin/python3.6` azokon a gépeken, ahol elérhető; helyezd el a "
 ":file:`/usr/local/bin` illetve :file:`/usr/bin` útvonalat a Unix shell keresési útvonalán, akkor "
-"egyszerűen a következőt írhatod a Unix shellbe a Python indításához [#]_ ::"
+"egyszerűen a következőt írhatod a Unix shellbe a Python indításához:"
 
 #: ../../tutorial/interpreter.rst:21
 msgid ""
@@ -43,7 +43,7 @@ msgid ""
 "local Python guru or system administrator.  (E.g., :file:`/usr/local/python`"
 " is a popular alternative location.)"
 msgstr ""
-"Mivel a telepítés helye telepítési opció, más helyen is lehet a program; ha nem "
+"[#]_ Mivel a telepítés helye telepítési opció, más helyen is lehet a program; ha nem "
 "tudod az értelmezőt elindítani, kérj segítséget egy nagyobb tudású embertől. "
 "(Például a :file:`/usr/local/python` is egy gyakori hely.)"
 
