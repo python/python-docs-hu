@@ -400,7 +400,7 @@ msgstr ""
 "révén érjük el (lásd később ebben a fejezetben) vagy indexelés révén "
 "(vagy akár jellemzőjük révén a :func:`namedtuples "
 "<collections.namedtuple>` esetén).  "
-"A listák :term:`megváltoztatható` adattípusok, és az elemeik gyakran "
+"A listák :term:`mutable` adattípusok, és az elemeik gyakran "
 "eltérő típusúak, és elmeiket általában úgy érjük el, hogy végigmegyünk "
 "az elemeiken."
 
