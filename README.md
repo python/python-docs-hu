@@ -95,32 +95,32 @@ For consistency in our translations, here are some propositions and
 reminders for frequent terms you'll have to translate, don't hesitate
 to open an issue if you disagree.
 
-| english                     | hungarian                   |
-|-----------------------------|-----------------------------|
-| argument                    | argumentum                  |
-| built-in (function)         | beépített (függvény)        |
-| control flow statements     | vezérlő utasítások          |
-| string-literal              | literális karakterlánc      |
-| backslash                   | vissza-per jel              |
-| positional argument         | hely szerinti argumentum    |
-| keyword argument            | kulcsszavas argumentum      |
-| prompt                      | prompt                      |
-| tuple                       | tuple  tuple-t, tuple-nek...|
-| sequence                    | sorozat                     |
-| object                      | objektum                    |
-| attribute (class)           | jellemző                    |
-| data attribute              | adatjellemző                |
-| method                      | metódus                     |
-| exception                   | kivétel                     |
-| raise an exception          | kivételt vált ki            |
-| clause                      | ág                          |
-| handler (exeption)          | kezelő                      |
-| token                       | token                       |
-| default                     | alapértelmezett             |
-| scope                       | hatáskör, hatókör           |
-| right-hand side expression  | jobboldali kifejezés        |
-| sequence unpacking          | sorozat szétpakolása        |
-| shortcut operators          | ???                         |
-| slice notation              | szelet jelölési mód         |
-| list comprehension          | listaértelmezés             |
-| library reference           | referencia könyvtár         |
+|english                     |hungarian                   |
+|:---------------------------|:---------------------------|
+|argument                    |argumentum                  |
+|built-in (function)         |beépített (függvény)        |
+|control flow statements     |vezérlő utasítások          |
+|string-literal              |literális karakterlánc      |
+|backslash                   |vissza-per jel              |
+|positional argument         |hely szerinti argumentum    |
+|keyword argument            |kulcsszavas argumentum      |
+|prompt                      |prompt                      |
+|tuple                       |tuple  tuple-t, tuple-nek...|
+|sequence                    |sorozat                     |
+|object                      |objektum                    |
+|attribute (class)           |jellemző                    |
+|data attribute              |adatjellemző                |
+|method                      |metódus                     |
+|exception                   |kivétel                     |
+|raise an exception          |kivételt vált ki            |
+|clause                      |ág                          |
+|handler (exeption)          |kezelő                      |
+|token                       |token                       |
+|default                     |alapértelmezett             |
+|scope                       |hatáskör, hatókör           |
+|right-hand side expression  |jobboldali kifejezés        |
+|sequence unpacking          |sorozat szétpakolása        |
+|shortcut operators          |???                         |
+|slice notation              |szelet jelölési mód         |
+|list comprehension          |listaértelmezés             |
+|library reference           |referencia könyvtár         |
