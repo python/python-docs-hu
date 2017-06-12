@@ -9,6 +9,7 @@ msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: gbtami <gbtami@gmail.com>, 2017\n"
 "Language-Team: Hungarian (https://www.transifex.com/python-doc/teams/5390/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:11
 msgid "Interactive Mode"
-msgstr ""
+msgstr "Interaktív (párbeszédes) mód"
 
 #: ../../tutorial/appendix.rst:16
 msgid "Error Handling"
@@ -148,8 +149,9 @@ msgstr ""
 
 #: ../../tutorial/appendix.rst:123
 msgid "Footnotes"
-msgstr ""
+msgstr "Lábjegyzet"
 
 #: ../../tutorial/appendix.rst:124
 msgid "A problem with the GNU Readline package may prevent this."
 msgstr ""
+"Egy a GNU Readline csomaggal kapcsolatos probléma megakadályozhatja ezt."
