@@ -59,7 +59,7 @@ What to translate/not translate
 
 - Prioritize the higher version, identical strings between version can
   automatically be reused.
-- Do not translate content of `:keyword:...`, `:func:...`, `:ref:...` and `:mod:...`
+- Do not translate content of `:keyword:...`, `:mod:...`, `:class:...`, `:meth:...`, `:func:...`, `:ref:...`
 - Put english words, if you have to use them, in *italics* (surrounded
   by stars).
 
@@ -98,29 +98,43 @@ to open an issue if you disagree.
 |english                     |hungarian                   |
 |:---------------------------|:---------------------------|
 |argument                    |argumentum                  |
-|built-in (function)         |beépített (függvény)        |
-|control flow statements     |vezérlő utasítások          |
-|string-literal              |literális karakterlánc      |
+|attribute (class)           |attribútum                  |
 |backslash                   |vissza-per jel              |
-|positional argument         |hely szerinti argumentum    |
-|keyword argument            |kulcsszavas argumentum      |
-|prompt                      |prompt                      |
-|tuple                       |tuple  tuple-t, tuple-nek...|
-|sequence                    |sorozat                     |
-|object                      |objektum                    |
-|attribute (class)           |jellemző                    |
-|data attribute              |adatjellemző                |
-|method                      |metódus                     |
-|exception                   |kivétel                     |
-|raise an exception          |kivételt vált ki            |
+|buffer                      |puffer                      |
+|built-in (function)         |beépített (függvény)        |
+|byte                        |bájt                        |
+|bytearray (type)            |bytearray                   |
+|bytes (type)                |bytes                       |
+|class                       |osztály                     |
 |clause                      |ág                          |
-|handler (exeption)          |kezelő                      |
-|token                       |token                       |
+|control flow statements     |vezérlő utasítások          |
+|data attribute              |adat attribútum             |
 |default                     |alapértelmezett             |
-|scope                       |hatáskör, hatókör           |
-|right-hand side expression  |jobboldali kifejezés        |
-|sequence unpacking          |sorozat szétpakolása        |
-|shortcut operators          |???                         |
-|slice notation              |szelet jelölési mód         |
-|list comprehension          |listaértelmezés             |
+|dictionary                  |szótár                      |
+|exception                   |kivétel                     |
+|file                        |fájl                        |
+|handler (exeption)          |kezelő                      |
+|immutable                   |nem módosítható             |
+|iterable                    |iterálható                  |
+|keyword argument            |kulcsszavas argumentum      |
 |library reference           |referencia könyvtár         |
+|list                        |lista                       |
+|list comprehension          |listaértelmezés? listaépítés? listafeldolgozás?|
+|method                      |metódus                     |
+|mutable                     |módosítható                 |
+|object                      |objektum                    |
+|package                     |csomag                      |
+|positional argument         |hely szerinti argumentum    |
+|prompt                      |prompt                      |
+|raise an exception          |kivételt vált ki            |
+|right-hand side expression  |jobboldali kifejezés        |
+|scope                       |hatáskör, hatókör           |
+|sequence                    |sorozat                     |
+|sequence unpacking          |sorozat szétpakolása        |
+|set                         |halmaz                      |
+|shallow copy, deep copy     |alapszintű másolat, teljes körű másolat|
+|slice notation              |szelet jelölési mód         |
+|string                      |karakterlánc, sztring       |
+|string-literal              |literális karakterlánc      |
+|token                       |token                       |
+|tuple                       |tuple  tuple-t, tuple-nek...|
