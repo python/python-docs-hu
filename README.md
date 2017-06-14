@@ -119,7 +119,7 @@ to open an issue if you disagree.
 |keyword argument            |kulcsszavas argumentum      |
 |library reference           |referencia könyvtár         |
 |list                        |lista                       |
-|list comprehension          |listaértelmezés? listaépítés? listafeldolgozás?|
+|list comprehension          |listaépítés                 |
 |method                      |metódus                     |
 |mutable                     |módosítható                 |
 |object                      |objektum                    |
@@ -138,3 +138,4 @@ to open an issue if you disagree.
 |string-literal              |literális karakterlánc      |
 |token                       |token                       |
 |tuple                       |tuple  tuple-t, tuple-nek...|
+|Unicode                     |Unicode                     |
