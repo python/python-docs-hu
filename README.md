@@ -99,7 +99,7 @@ to open an issue if you disagree.
 |:---------------------------|:---------------------------|
 |argument                    |argumentum                  |
 |attribute (class)           |attribútum                  |
-|backslash                   |vissza-per jel              |
+|backslash                   |vissza perjel               |
 |buffer                      |puffer                      |
 |built-in (function)         |beépített (függvény)        |
 |byte                        |bájt                        |
@@ -108,7 +108,7 @@ to open an issue if you disagree.
 |class                       |osztály                     |
 |clause                      |ág                          |
 |control flow statements     |vezérlő utasítások          |
-|data attribute              |adat attribútum             |
+|data attribute              |adat-attribútum             |
 |default                     |alapértelmezett             |
 |dictionary                  |szótár                      |
 |exception                   |kivétel                     |
@@ -133,7 +133,7 @@ to open an issue if you disagree.
 |sequence unpacking          |sorozat szétpakolása        |
 |set                         |halmaz                      |
 |shallow copy, deep copy     |alapszintű másolat, teljes körű másolat|
-|slice notation              |szelet jelölési mód         |
+|slice notation              |szeletjelölési mód          |
 |string                      |karakterlánc, sztring       |
 |string-literal              |literális karakterlánc      |
 |token                       |token                       |
