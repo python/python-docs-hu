@@ -108,7 +108,7 @@ to open an issue if you disagree.
 |class                       |osztály                     |
 |clause                      |ág                          |
 |control flow statements     |vezérlő utasítások          |
-|data attribute              |adat-attribútum             |
+|data attribute              |adatattribútum              |
 |default                     |alapértelmezett             |
 |dictionary                  |szótár                      |
 |exception                   |kivétel                     |
