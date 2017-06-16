@@ -117,7 +117,7 @@ to open an issue if you disagree.
 |immutable                   |nem módosítható             |
 |iterable                    |iterálható                  |
 |keyword argument            |kulcsszavas argumentum      |
-|library reference           |referencia könyvtár         |
+|library reference           |A Python standard könyvtárának kézikönyve|
 |list                        |lista                       |
 |list comprehension          |listaépítés                 |
 |method                      |metódus                     |
