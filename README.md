@@ -127,7 +127,7 @@ to open an issue if you disagree.
 |positional argument         |hely szerinti argumentum    |
 |prompt                      |prompt                      |
 |raise an exception          |kivételt vált ki            |
-|right-hand side expression  |jobboldali kifejezés        |
+|right-hand side expression  |jobb oldali kifejezés       |
 |scope                       |hatáskör, hatókör           |
 |sequence                    |sorozat                     |
 |sequence unpacking          |sorozat szétpakolása        |
