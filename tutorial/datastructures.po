@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-25 14:21+0000\n"
-"PO-Revision-Date: 2025-07-18 18:50+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../tutorial/datastructures.rst:5
 msgid "Data Structures"
 msgstr "Adatstruktúrák"
 
-#: ../../tutorial/datastructures.rst:7
 msgid ""
 "This chapter describes some things you've learned about already in more "
 "detail, and adds some new things as well."
@@ -34,11 +32,9 @@ msgstr ""
 "Ez a fejezet az eddig tanultakból pár dolgot részletesebben is leír, és pár "
 "új dolgot is megmutat."
 
-#: ../../tutorial/datastructures.rst:13
 msgid "More on Lists"
 msgstr "A listákról bővebben"
 
-#: ../../tutorial/datastructures.rst:15
 msgid ""
 "The list data type has some more methods.  Here are all of the methods of "
 "list objects:"
@@ -46,30 +42,25 @@ msgstr ""
 "A lista adattípusnak a már megismerteken kívül több metódusa (method) is "
 "van. Az összes metódus ismertetése:"
 
-#: ../../tutorial/datastructures.rst:22
 msgid "Add an item to the end of the list.  Similar to ``a[len(a):] = [x]``."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:28
 msgid ""
 "Extend the list by appending all the items from the iterable.  Similar to "
 "``a[len(a):] = iterable``."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:35
 msgid ""
 "Insert an item at a given position.  The first argument is the index of the "
 "element before which to insert, so ``a.insert(0, x)`` inserts at the front "
 "of the list, and ``a.insert(len(a), x)`` is equivalent to ``a.append(x)``."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:43
 msgid ""
 "Remove the first item from the list whose value is equal to *x*.  It raises "
 "a :exc:`ValueError` if there is no such item."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:50
 msgid ""
 "Remove the item at the given position in the list, and return it.  If no "
 "index is specified, ``a.pop()`` removes and returns the last item in the "
@@ -77,17 +68,14 @@ msgid ""
 "outside the list range."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:59
 msgid "Remove all items from the list.  Similar to ``del a[:]``."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:65
 msgid ""
-"Return zero-based index in the list of the first item whose value is equal "
-"to *x*. Raises a :exc:`ValueError` if there is no such item."
+"Return zero-based index of the first occurrence of *x* in the list. Raises "
+"a :exc:`ValueError` if there is no such item."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:68
 msgid ""
 "The optional arguments *start* and *end* are interpreted as in the slice "
 "notation and are used to limit the search to a particular subsequence of the "
@@ -95,29 +83,23 @@ msgid ""
 "sequence rather than the *start* argument."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:77
 msgid "Return the number of times *x* appears in the list."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:83
 msgid ""
 "Sort the items of the list in place (the arguments can be used for sort "
 "customization, see :func:`sorted` for their explanation)."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:90
 msgid "Reverse the elements of the list in place."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:96
 msgid "Return a shallow copy of the list.  Similar to ``a[:]``."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:99
 msgid "An example that uses most of the list methods::"
 msgstr "Egy példa, amely tartalmazza a legtöbb metódust::"
 
-#: ../../tutorial/datastructures.rst:101
 msgid ""
 ">>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', "
 "'banana']\n"
@@ -142,7 +124,6 @@ msgid ""
 "'pear'"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:122
 msgid ""
 "You might have noticed that methods like ``insert``, ``remove`` or ``sort`` "
 "that only modify the list have no return value printed -- they return the "
@@ -150,7 +131,6 @@ msgid ""
 "structures in Python."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:127
 msgid ""
 "Another thing you might notice is that not all data can be sorted or "
 "compared.  For instance, ``[None, 'hello', 10]`` doesn't sort because "
@@ -159,20 +139,17 @@ msgid ""
 "relation.  For example, ``3+4j < 5+7j`` isn't a valid comparison."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:138
 msgid "Using Lists as Stacks"
 msgstr "Lista használata veremként"
 
-#: ../../tutorial/datastructures.rst:143
 msgid ""
 "The list methods make it very easy to use a list as a stack, where the last "
 "element added is the first element retrieved (\"last-in, first-out\").  To "
-"add an item to the top of the stack, use :meth:`!append`.  To retrieve an "
-"item from the top of the stack, use :meth:`!pop` without an explicit index.  "
-"For example::"
+"add an item to the top of the stack, use :meth:`~list.append`.  To retrieve "
+"an item from the top of the stack, use :meth:`~list.pop` without an explicit "
+"index.  For example::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:148
 msgid ""
 ">>> stack = [3, 4, 5]\n"
 ">>> stack.append(6)\n"
@@ -191,11 +168,9 @@ msgid ""
 "[3, 4]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:168
 msgid "Using Lists as Queues"
 msgstr "A listák használata sorként (queue)"
 
-#: ../../tutorial/datastructures.rst:172
 msgid ""
 "It is also possible to use a list as a queue, where the first element added "
 "is the first element retrieved (\"first-in, first-out\"); however, lists are "
@@ -209,7 +184,6 @@ msgstr ""
 "(pop) az gyors, addig a lista elejére beszúrás (insert) és onnan kiszedés "
 "lassú (mert az egész listát eggyel el kell tolni)."
 
-#: ../../tutorial/datastructures.rst:178
 msgid ""
 "To implement a queue, use :class:`collections.deque` which was designed to "
 "have fast appends and pops from both ends.  For example::"
@@ -218,7 +192,6 @@ msgstr ""
 "amely úgy lett kialakítva, hogy mindkét oldalához gyorsan hozzá lehessen "
 "fűzni és elvenni elemet. Például::"
 
-#: ../../tutorial/datastructures.rst:181
 msgid ""
 ">>> from collections import deque\n"
 ">>> queue = deque([\"Eric\", \"John\", \"Michael\"])\n"
@@ -232,11 +205,9 @@ msgid ""
 "deque(['Michael', 'Terry', 'Graham'])"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:196
 msgid "List Comprehensions"
 msgstr "Listaértelmezés"
 
-#: ../../tutorial/datastructures.rst:198
 msgid ""
 "List comprehensions provide a concise way to create lists. Common "
 "applications are to make new lists where each element is the result of some "
@@ -249,11 +220,9 @@ msgstr ""
 "valamilyen műveletet végzünk, vagy az elemek egy részhalmazát vesszük, "
 "amelyek bizonyos feltételeknek megfelelnek."
 
-#: ../../tutorial/datastructures.rst:203
 msgid "For example, assume we want to create a list of squares, like::"
 msgstr "Például, ha a négyzetszámok listáját akarjuk létrehozni, mint alább::"
 
-#: ../../tutorial/datastructures.rst:205
 msgid ""
 ">>> squares = []\n"
 ">>> for x in range(10):\n"
@@ -263,7 +232,6 @@ msgid ""
 "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:212
 msgid ""
 "Note that this creates (or overwrites) a variable named ``x`` that still "
 "exists after the loop completes.  We can calculate the list of squares "
@@ -273,23 +241,18 @@ msgstr ""
 "amely a ciklus lefutása után is létezni fog. A listát ilyen mellékhatás "
 "nélkül is létrehozhatjuk az alábbi módon::"
 
-#: ../../tutorial/datastructures.rst:216
 msgid "squares = list(map(lambda x: x**2, range(10)))"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:218
 msgid "or, equivalently::"
 msgstr "vagy ezzel egyenértékű módon::"
 
-#: ../../tutorial/datastructures.rst:220
 msgid "squares = [x**2 for x in range(10)]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:222
 msgid "which is more concise and readable."
 msgstr "amely sokkal tömörebb és olvashatóbb."
 
-#: ../../tutorial/datastructures.rst:224
 msgid ""
 "A list comprehension consists of brackets containing an expression followed "
 "by a :keyword:`!for` clause, then zero or more :keyword:`!for` or :keyword:`!"
@@ -299,17 +262,14 @@ msgid ""
 "lists if they are not equal::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:231
 msgid ""
 ">>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]\n"
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:234
 msgid "and it's equivalent to::"
 msgstr "és ez egyenértékű az alábbival::"
 
-#: ../../tutorial/datastructures.rst:236
 msgid ""
 ">>> combs = []\n"
 ">>> for x in [1,2,3]:\n"
@@ -321,7 +281,6 @@ msgid ""
 "[(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:245
 msgid ""
 "Note how the order of the :keyword:`for` and :keyword:`if` statements is the "
 "same in both these snippets."
@@ -329,7 +288,6 @@ msgstr ""
 "Vedd észre, hogy a :keyword:`for` és :keyword:`if` állítások sorrendje "
 "azonos mindkét példában."
 
-#: ../../tutorial/datastructures.rst:248
 msgid ""
 "If the expression is a tuple (e.g. the ``(x, y)`` in the previous example), "
 "it must be parenthesized. ::"
@@ -337,7 +295,6 @@ msgstr ""
 "Ha a kifejezés egy tuple (pl. az ``(x, y)`` az előző példában), akkor "
 "zárójelbe kell rakni. ::"
 
-#: ../../tutorial/datastructures.rst:251
 msgid ""
 ">>> vec = [-4, -2, 0, 2, 4]\n"
 ">>> # create a new list with the values doubled\n"
@@ -368,25 +325,21 @@ msgid ""
 "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:279
 msgid ""
 "List comprehensions can contain complex expressions and nested functions::"
 msgstr ""
 "Egy listaértelmezés összetett kifejezéseket és egymásba ágyazott "
 "függvényeket is tartalmazhat::"
 
-#: ../../tutorial/datastructures.rst:281
 msgid ""
 ">>> from math import pi\n"
 ">>> [str(round(pi, i)) for i in range(1, 6)]\n"
 "['3.1', '3.14', '3.142', '3.1416', '3.14159']"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:286
 msgid "Nested List Comprehensions"
 msgstr "Egymásba ágyazott listaértelmezések"
 
-#: ../../tutorial/datastructures.rst:288
 msgid ""
 "The initial expression in a list comprehension can be any arbitrary "
 "expression, including another list comprehension."
@@ -394,7 +347,6 @@ msgstr ""
 "Egy listaértelmezés eredeti kifejezése tetszőleges kifejezés lehet, akár egy "
 "másik listaértelmezés is."
 
-#: ../../tutorial/datastructures.rst:291
 msgid ""
 "Consider the following example of a 3x4 matrix implemented as a list of 3 "
 "lists of length 4::"
@@ -402,7 +354,6 @@ msgstr ""
 "Tekintsük a következő példát, amelyben egy 3x4-es mátrixot egy 4-elemű "
 "listákból álló 3-elemű lista tárol::"
 
-#: ../../tutorial/datastructures.rst:294
 msgid ""
 ">>> matrix = [\n"
 "...     [1, 2, 3, 4],\n"
@@ -411,26 +362,22 @@ msgid ""
 "... ]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:300
 msgid "The following list comprehension will transpose rows and columns::"
 msgstr ""
 "A következő listaértelmezés felcseréli a sorokat és az oszlopokat "
 "(transzponálja a mátrixot)::"
 
-#: ../../tutorial/datastructures.rst:302
 msgid ""
 ">>> [[row[i] for row in matrix] for i in range(4)]\n"
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:305
 msgid ""
 "As we saw in the previous section, the inner list comprehension is evaluated "
 "in the context of the :keyword:`for` that follows it, so this example is "
 "equivalent to::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:309
 msgid ""
 ">>> transposed = []\n"
 ">>> for i in range(4):\n"
@@ -440,11 +387,9 @@ msgid ""
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:316
 msgid "which, in turn, is the same as::"
 msgstr "amely pedig azonos az alábbival::"
 
-#: ../../tutorial/datastructures.rst:318
 msgid ""
 ">>> transposed = []\n"
 ">>> for i in range(4):\n"
@@ -458,7 +403,6 @@ msgid ""
 "[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:329
 msgid ""
 "In the real world, you should prefer built-in functions to complex flow "
 "statements. The :func:`zip` function would do a great job for this use case::"
@@ -467,33 +411,28 @@ msgstr ""
 "összetett folyamatok helyett. A :func:`zip` függvény remek eredményt ad "
 "ebben az esetben::"
 
-#: ../../tutorial/datastructures.rst:332
 msgid ""
 ">>> list(zip(*matrix))\n"
 "[(1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12)]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:335
 msgid ""
 "See :ref:`tut-unpacking-arguments` for details on the asterisk in this line."
 msgstr ""
 "Lásd :ref:`tut-unpacking-arguments` fejezetet a fenti sorban szereplő "
 "csillaggal kapcsolatban."
 
-#: ../../tutorial/datastructures.rst:340
 msgid "The :keyword:`!del` statement"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:342
 msgid ""
 "There is a way to remove an item from a list given its index instead of its "
-"value: the :keyword:`del` statement.  This differs from the :meth:`!pop` "
-"method which returns a value.  The :keyword:`!del` statement can also be "
-"used to remove slices from a list or clear the entire list (which we did "
+"value: the :keyword:`del` statement.  This differs from the :meth:`~list."
+"pop` method which returns a value.  The :keyword:`!del` statement can also "
+"be used to remove slices from a list or clear the entire list (which we did "
 "earlier by assignment of an empty list to the slice).  For example::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:348
 msgid ""
 ">>> a = [-1, 1, 66.25, 333, 333, 1234.5]\n"
 ">>> del a[0]\n"
@@ -507,17 +446,14 @@ msgid ""
 "[]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:359
 msgid ":keyword:`del` can also be used to delete entire variables::"
 msgstr ""
 "A :keyword:`del` utasítást arra is használhatjuk,  hogy az egész változót "
 "töröljük::"
 
-#: ../../tutorial/datastructures.rst:361
 msgid ">>> del a"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:363
 msgid ""
 "Referencing the name ``a`` hereafter is an error (at least until another "
 "value is assigned to it).  We'll find other uses for :keyword:`del` later."
@@ -526,11 +462,9 @@ msgstr ""
 "értéket adunk neki).  Később a :keyword:`del` utasításnak más alkalmazásával "
 "is találkozunk."
 
-#: ../../tutorial/datastructures.rst:370
 msgid "Tuples and Sequences"
 msgstr "Tuple-ok és sorozatok"
 
-#: ../../tutorial/datastructures.rst:372
 msgid ""
 "We saw that lists and strings have many common properties, such as indexing "
 "and slicing operations.  They are two examples of *sequence* data types "
@@ -547,12 +481,10 @@ msgstr ""
 "használják még a rendezett sorozat elnevezést, de az abban szereplő "
 "rendezett jelző félrevezető."
 
-#: ../../tutorial/datastructures.rst:378
 msgid ""
 "A tuple consists of a number of values separated by commas, for instance::"
 msgstr "A tuple objektumokat tartalmaz vesszőkkel elválasztva, például::"
 
-#: ../../tutorial/datastructures.rst:380
 msgid ""
 ">>> t = 12345, 54321, 'hello!'\n"
 ">>> t[0]\n"
@@ -574,7 +506,6 @@ msgid ""
 "([1, 2, 3], [3, 2, 1])"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:400
 msgid ""
 "As you see, on output tuples are always enclosed in parentheses, so that "
 "nested tuples are interpreted correctly; they may be input with or without "
@@ -590,26 +521,24 @@ msgstr ""
 "de létrehozható olyan tuple, amelynek vannak megváltoztatható elemei, "
 "például listák."
 
-#: ../../tutorial/datastructures.rst:407
 msgid ""
 "Though tuples may seem similar to lists, they are often used in different "
 "situations and for different purposes. Tuples are :term:`immutable`, and "
 "usually contain a heterogeneous sequence of elements that are accessed via "
 "unpacking (see later in this section) or indexing (or even by attribute in "
-"the case of :func:`namedtuples <collections.namedtuple>`). Lists "
-"are :term:`mutable`, and their elements are usually homogeneous and are "
-"accessed by iterating over the list."
+"the case of :func:`namedtuples <collections.namedtuple>`). Lists are :term:"
+"`mutable`, and their elements are usually homogeneous and are accessed by "
+"iterating over the list."
 msgstr ""
 "Habár a tuple-ok hasonlóaknak látszanak a listákhoz, gyakran eltérő "
-"helyzetekben és különböző célokra használjuk azokat. A tuple-"
-"ok :term:`immutable` adattípusok, és gyakran azonos típusú elemek sorozatát "
-"tárolja, amelyeket az úgynevezett szétpakolás révén érjük el (lásd később "
-"ebben a fejezetben) vagy indexelés révén (vagy akár jellemzőjük révén "
-"a :func:`namedtuples <collections.namedtuple>` esetén).  A "
-"listák :term:`mutable` adattípusok, és az elemeik gyakran eltérő típusúak, "
-"és elmeiket általában úgy érjük el, hogy végigmegyünk az elemeiken."
+"helyzetekben és különböző célokra használjuk azokat. A tuple-ok :term:"
+"`immutable` adattípusok, és gyakran azonos típusú elemek sorozatát tárolja, "
+"amelyeket az úgynevezett szétpakolás révén érjük el (lásd később ebben a "
+"fejezetben) vagy indexelés révén (vagy akár jellemzőjük révén a :func:"
+"`namedtuples <collections.namedtuple>` esetén).  A listák :term:`mutable` "
+"adattípusok, és az elemeik gyakran eltérő típusúak, és elmeiket általában "
+"úgy érjük el, hogy végigmegyünk az elemeiken."
 
-#: ../../tutorial/datastructures.rst:415
 msgid ""
 "A special problem is the construction of tuples containing 0 or 1 items: the "
 "syntax has some extra quirks to accommodate these.  Empty tuples are "
@@ -622,7 +551,6 @@ msgstr ""
 "nulla elemű; az egy elemű pedig az érték után tett vesszővel  (nem elég, ha "
 "az értéket zárójelbe tesszük). Csúnya, de hatékony. Például::"
 
-#: ../../tutorial/datastructures.rst:421
 msgid ""
 ">>> empty = ()\n"
 ">>> singleton = 'hello',    # <-- note trailing comma\n"
@@ -634,7 +562,6 @@ msgid ""
 "('hello',)"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:430
 msgid ""
 "The statement ``t = 12345, 54321, 'hello!'`` is an example of *tuple "
 "packing*: the values ``12345``, ``54321`` and ``'hello!'`` are packed "
@@ -644,11 +571,9 @@ msgstr ""
 "csomagolásra*: a ``12345``, ``54321`` és ``'hello!'`` értékek egy tuple-ba "
 "kerülnek becsomagolásra. A fordított művelet is lehetséges, például::"
 
-#: ../../tutorial/datastructures.rst:434
 msgid ">>> x, y, z = t"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:436
 msgid ""
 "This is called, appropriately enough, *sequence unpacking* and works for any "
 "sequence on the right-hand side.  Sequence unpacking requires that there are "
@@ -662,11 +587,9 @@ msgstr ""
 "meg, hogy a többszörös értékadás valójában csak a tuple-ba csomagolás és a "
 "sorozat-szétpakolás kombinációja!"
 
-#: ../../tutorial/datastructures.rst:446
 msgid "Sets"
 msgstr "A halmazok (set)"
 
-#: ../../tutorial/datastructures.rst:448
 msgid ""
 "Python also includes a data type for *sets*.  A set is an unordered "
 "collection with no duplicate elements.  Basic uses include membership "
@@ -680,7 +603,6 @@ msgstr ""
 "kiszűrése.  A set objektumok támogatják az olyan matematikai műveleteket, "
 "mint az egyesítés, metszet,  különbség, és a szimmetrikus eltérés."
 
-#: ../../tutorial/datastructures.rst:453
 msgid ""
 "Curly braces or the :func:`set` function can be used to create sets.  Note: "
 "to create an empty set you have to use ``set()``, not ``{}``; the latter "
@@ -688,15 +610,13 @@ msgid ""
 "section."
 msgstr ""
 "A halmazok létrehozására a kapcsos zárójel, vagy a :func:`set()` függvény "
-"használható. Jegyezzük meg, hogy az üres halmaz létrehozásához csak "
-"a  :func:`set()` használható, a `{}` nem, mert az utóbbi üres szótárat hoz "
-"létre: egy olyan adattszerkezetet, amelyet a következő fejezetben tárgyalunk."
+"használható. Jegyezzük meg, hogy az üres halmaz létrehozásához csak a  :func:"
+"`set()` használható, a `{}` nem, mert az utóbbi üres szótárat hoz létre: egy "
+"olyan adattszerkezetet, amelyet a következő fejezetben tárgyalunk."
 
-#: ../../tutorial/datastructures.rst:457
 msgid "Here is a brief demonstration::"
 msgstr "Íme egy rövid bemutató::"
 
-#: ../../tutorial/datastructures.rst:459
 msgid ""
 ">>> basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}\n"
 ">>> print(basket)                      # show that duplicates have been "
@@ -723,38 +643,33 @@ msgid ""
 "{'r', 'd', 'b', 'm', 'z', 'l'}"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:482
 msgid ""
 "Similarly to :ref:`list comprehensions <tut-listcomps>`, set comprehensions "
 "are also supported::"
 msgstr "A listaértelmezéshez hasonlóan létezik halmazértelmezés is::"
 
-#: ../../tutorial/datastructures.rst:485
 msgid ""
 ">>> a = {x for x in 'abracadabra' if x not in 'abc'}\n"
 ">>> a\n"
 "{'r', 'd'}"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:493
 msgid "Dictionaries"
 msgstr "Szótárak"
 
-#: ../../tutorial/datastructures.rst:495
 msgid ""
-"Another useful data type built into Python is the *dictionary* "
-"(see :ref:`typesmapping`). Dictionaries are sometimes found in other "
-"languages as \"associative memories\" or \"associative arrays\".  Unlike "
-"sequences, which are indexed by a range of numbers, dictionaries are indexed "
-"by *keys*, which can be any immutable type; strings and numbers can always "
-"be keys.  Tuples can be used as keys if they contain only strings, numbers, "
-"or tuples; if a tuple contains any mutable object either directly or "
-"indirectly, it cannot be used as a key. You can't use lists as keys, since "
-"lists can be modified in place using index assignments, slice assignments, "
-"or methods like :meth:`!append` and :meth:`!extend`."
+"Another useful data type built into Python is the *dictionary* (see :ref:"
+"`typesmapping`). Dictionaries are sometimes found in other languages as "
+"\"associative memories\" or \"associative arrays\".  Unlike sequences, which "
+"are indexed by a range of numbers, dictionaries are indexed by *keys*, which "
+"can be any immutable type; strings and numbers can always be keys.  Tuples "
+"can be used as keys if they contain only strings, numbers, or tuples; if a "
+"tuple contains any mutable object either directly or indirectly, it cannot "
+"be used as a key. You can't use lists as keys, since lists can be modified "
+"in place using index assignments, slice assignments, or methods like :meth:"
+"`~list.append` and :meth:`~list.extend`."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:506
 msgid ""
 "It is best to think of a dictionary as a set of *key: value* pairs, with the "
 "requirement that the keys are unique (within one dictionary). A pair of "
@@ -763,12 +678,11 @@ msgid ""
 "dictionary; this is also the way dictionaries are written on output."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:512
 msgid ""
 "The main operations on a dictionary are storing a value with some key and "
-"extracting the value given the key.  It is also possible to delete a "
-"key:value pair with ``del``. If you store using a key that is already in "
-"use, the old value associated with that key is forgotten.  It is an error to "
+"extracting the value given the key.  It is also possible to delete a key:"
+"value pair with ``del``. If you store using a key that is already in use, "
+"the old value associated with that key is forgotten.  It is an error to "
 "extract a value using a non-existent key."
 msgstr ""
 "A legfontosabb műveletek egy szótáron: eltárolni egy értéket egy kulccsal "
@@ -777,7 +691,6 @@ msgstr ""
 "amilyen kulcsot  már használtál, a kulcshoz az új érték fog tartozni, a régi "
 "érték elveszik.  Hiba, ha egy nemlétező kulcsra hivatkozol."
 
-#: ../../tutorial/datastructures.rst:518
 msgid ""
 "Performing ``list(d)`` on a dictionary returns a list of all the keys used "
 "in the dictionary, in insertion order (if you want it sorted, just use "
@@ -785,11 +698,9 @@ msgid ""
 "use the :keyword:`in` keyword."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:523
 msgid "Here is a small example using a dictionary::"
 msgstr "Íme egy kis példa a szótár használatára::"
 
-#: ../../tutorial/datastructures.rst:525
 msgid ""
 ">>> tel = {'jack': 4098, 'sape': 4139}\n"
 ">>> tel['guido'] = 4127\n"
@@ -811,7 +722,6 @@ msgid ""
 "False"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:544
 msgid ""
 "The :func:`dict` constructor builds dictionaries directly from sequences of "
 "key-value pairs::"
@@ -819,13 +729,11 @@ msgstr ""
 "A :func:`dict` konstruktor közvetlenül tuple-okban tárolt kulcs-érték párok "
 "listájából is létre tudja hozni a szótárat. ::"
 
-#: ../../tutorial/datastructures.rst:547
 msgid ""
 ">>> dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:550
 msgid ""
 "In addition, dict comprehensions can be used to create dictionaries from "
 "arbitrary key and value expressions::"
@@ -833,13 +741,11 @@ msgstr ""
 "Ezen felül a szótárértelmezés használható arra, hogy szótárat hozzunk létre "
 "tetszőleges kulcs- és értékkifejezésekből::"
 
-#: ../../tutorial/datastructures.rst:553
 msgid ""
 ">>> {x: x**2 for x in (2, 4, 6)}\n"
 "{2: 4, 4: 16, 6: 36}"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:556
 msgid ""
 "When the keys are simple strings, it is sometimes easier to specify pairs "
 "using keyword arguments::"
@@ -847,23 +753,19 @@ msgstr ""
 "Ha a kulcsok egyszerű karakterláncok, néha egyszerűbb a párokat kulcsszavas "
 "argumentumokkal létrehozni::"
 
-#: ../../tutorial/datastructures.rst:559
 msgid ""
 ">>> dict(sape=4139, guido=4127, jack=4098)\n"
 "{'sape': 4139, 'guido': 4127, 'jack': 4098}"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:566
 msgid "Looping Techniques"
 msgstr "Ciklustechnikák"
 
-#: ../../tutorial/datastructures.rst:568
 msgid ""
 "When looping through dictionaries, the key and corresponding value can be "
 "retrieved at the same time using the :meth:`~dict.items` method. ::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:571
 msgid ""
 ">>> knights = {'gallahad': 'the pure', 'robin': 'the brave'}\n"
 ">>> for k, v in knights.items():\n"
@@ -873,7 +775,6 @@ msgid ""
 "robin the brave"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:578
 msgid ""
 "When looping through a sequence, the position index and corresponding value "
 "can be retrieved at the same time using the :func:`enumerate` function. ::"
@@ -881,7 +782,6 @@ msgstr ""
 "Ha sorozaton megyünk végig, akkor a helyet jelző index értékét és a hozzá "
 "tartozó értéket egyszerre kaphatjuk meg az :func:`enumerate` függvénnyel. ::"
 
-#: ../../tutorial/datastructures.rst:581
 msgid ""
 ">>> for i, v in enumerate(['tic', 'tac', 'toe']):\n"
 "...     print(i, v)\n"
@@ -891,15 +791,13 @@ msgid ""
 "2 toe"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:588
 msgid ""
 "To loop over two or more sequences at the same time, the entries can be "
 "paired with the :func:`zip` function. ::"
 msgstr ""
-"Két vagy több sorozat egyszerre történő feldolgozásához  a sorozatokat "
-"a :func:`zip` függvénnyel kell párba állítani."
+"Két vagy több sorozat egyszerre történő feldolgozásához  a sorozatokat a :"
+"func:`zip` függvénnyel kell párba állítani."
 
-#: ../../tutorial/datastructures.rst:591
 msgid ""
 ">>> questions = ['name', 'quest', 'favorite color']\n"
 ">>> answers = ['lancelot', 'the holy grail', 'blue']\n"
@@ -911,7 +809,6 @@ msgid ""
 "What is your favorite color?  It is blue."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:600
 msgid ""
 "To loop over a sequence in reverse, first specify the sequence in a forward "
 "direction and then call the :func:`reversed` function. ::"
@@ -919,7 +816,6 @@ msgstr ""
 "Egy sorozaton visszafelé haladáshoz először add meg a sorozatot, majd utána "
 "hívd meg a :func:`reversed` függvényt."
 
-#: ../../tutorial/datastructures.rst:603
 msgid ""
 ">>> for i in reversed(range(1, 10, 2)):\n"
 "...     print(i)\n"
@@ -931,7 +827,6 @@ msgid ""
 "1"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:612
 msgid ""
 "To loop over a sequence in sorted order, use the :func:`sorted` function "
 "which returns a new sorted list while leaving the source unaltered. ::"
@@ -939,7 +834,6 @@ msgstr ""
 "Rendezett sorrendben való listázáshoz használd a :func:`sorted` függvényt, "
 "amely új, rendezett listát ad vissza, változatlanul hagyva a régi listát."
 
-#: ../../tutorial/datastructures.rst:615
 msgid ""
 ">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
 ">>> for i in sorted(basket):\n"
@@ -953,15 +847,13 @@ msgid ""
 "pear"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:626
 msgid ""
-"Using :func:`set` on a sequence eliminates duplicate elements. The use "
-"of :func:`sorted` in combination with :func:`set` over a sequence is an "
+"Using :func:`set` on a sequence eliminates duplicate elements. The use of :"
+"func:`sorted` in combination with :func:`set` over a sequence is an "
 "idiomatic way to loop over unique elements of the sequence in sorted "
 "order. ::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:630
 msgid ""
 ">>> basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']\n"
 ">>> for f in sorted(set(basket)):\n"
@@ -973,7 +865,6 @@ msgid ""
 "pear"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:639
 msgid ""
 "It is sometimes tempting to change a list while you are looping over it; "
 "however, it is often simpler and safer to create a new list instead. ::"
@@ -982,7 +873,6 @@ msgstr ""
 "listával, azonban gyakran egyszerűbb és biztonságosabb egy új listát "
 "létrehozni ehelyett. ::"
 
-#: ../../tutorial/datastructures.rst:642
 msgid ""
 ">>> import math\n"
 ">>> raw_data = [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]\n"
@@ -995,11 +885,9 @@ msgid ""
 "[56.2, 51.7, 55.3, 52.5, 47.8]"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:656
 msgid "More on Conditions"
 msgstr "A feltételekről bővebben"
 
-#: ../../tutorial/datastructures.rst:658
 msgid ""
 "The conditions used in ``while`` and ``if`` statements can contain any "
 "operators, not just comparisons."
@@ -1007,7 +895,6 @@ msgstr ""
 "A  ``while`` és az ``if`` utasításokban eddig használt feltételek egyéb "
 "műveleteket is tartalmazhatnak az összehasonlítás mellett."
 
-#: ../../tutorial/datastructures.rst:662
 msgid ""
 "The comparison operators ``in`` and ``not in`` are membership tests that "
 "determine whether a value is in (or not in) a container.  The operators "
@@ -1016,7 +903,6 @@ msgid ""
 "than that of all numerical operators."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:668
 msgid ""
 "Comparisons can be chained.  For example, ``a < b == c`` tests whether ``a`` "
 "is less than ``b`` and moreover ``b`` equals ``c``."
@@ -1024,7 +910,6 @@ msgstr ""
 "Relációkat láncolhatunk is, például: az  ``a < b == c`` megvizsgálja, hogy "
 "az ``a`` kisebb-e mint ``b``, és ezen felül  ``b`` egyenlő-e ``c``-vel."
 
-#: ../../tutorial/datastructures.rst:671
 msgid ""
 "Comparisons may be combined using the Boolean operators ``and`` and ``or``, "
 "and the outcome of a comparison (or of any other Boolean expression) may be "
@@ -1041,7 +926,6 @@ msgstr ""
 "mint az ``(A and (not B)) or C``. Természetesen a zárójeleket használhatjuk "
 "a kívánt feltétel eléréséhez."
 
-#: ../../tutorial/datastructures.rst:678
 msgid ""
 "The Boolean operators ``and`` and ``or`` are so-called *short-circuit* "
 "operators: their arguments are evaluated from left to right, and evaluation "
@@ -1058,7 +942,6 @@ msgstr ""
 "visszatérési értéke -- ha általános értékeket és nem logikai értéket "
 "használunk -- az utolsónak kifejtett argumantummal egyezik."
 
-#: ../../tutorial/datastructures.rst:685
 msgid ""
 "It is possible to assign the result of a comparison or other Boolean "
 "expression to a variable.  For example, ::"
@@ -1066,7 +949,6 @@ msgstr ""
 "Lehetséges, hogy egy reláció vagy más logikai kifejezés értékét egy "
 "változóba rakjuk. Például::"
 
-#: ../../tutorial/datastructures.rst:688
 msgid ""
 ">>> string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'\n"
 ">>> non_null = string1 or string2 or string3\n"
@@ -1074,7 +956,6 @@ msgid ""
 "'Trondheim'"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:693
 msgid ""
 "Note that in Python, unlike C, assignment inside expressions must be done "
 "explicitly with the :ref:`walrus operator <why-can-t-i-use-an-assignment-in-"
@@ -1082,11 +963,9 @@ msgid ""
 "in C programs: typing ``=`` in an expression when ``==`` was intended."
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:703
 msgid "Comparing Sequences and Other Types"
 msgstr "Sorozatok és más típusok összehasonlítása"
 
-#: ../../tutorial/datastructures.rst:704
 msgid ""
 "Sequence objects typically may be compared to other objects with the same "
 "sequence type. The comparison uses *lexicographical* ordering: first the "
@@ -1102,7 +981,6 @@ msgid ""
 "of the same type::"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:716
 msgid ""
 "(1, 2, 3)              < (1, 2, 4)\n"
 "[1, 2, 3]              < [1, 2, 4]\n"
@@ -1113,7 +991,6 @@ msgid ""
 "(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)"
 msgstr ""
 
-#: ../../tutorial/datastructures.rst:724
 msgid ""
 "Note that comparing objects of different types with ``<`` or ``>`` is legal "
 "provided that the objects have appropriate comparison methods.  For example, "
@@ -1128,11 +1005,9 @@ msgstr ""
 "Máskülönben, egy önkényes rendezés helyett, az értelmező :exc:`TypeError` "
 "kivételt dob. "
 
-#: ../../tutorial/datastructures.rst:732
 msgid "Footnotes"
 msgstr "Lábjegyzet"
 
-#: ../../tutorial/datastructures.rst:733
 msgid ""
 "Other languages may return the mutated object, which allows method chaining, "
 "such as ``d->insert(\"a\")->remove(\"b\")->sort();``."

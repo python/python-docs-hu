@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-25 14:21+0000\n"
-"PO-Revision-Date: 2025-07-18 18:50+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,12 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../tutorial/venv.rst:6
 msgid "Virtual Environments and Packages"
 msgstr "Virtuális környezetek és csomagok"
 
-#: ../../tutorial/venv.rst:9
 msgid "Introduction"
 msgstr "Bevezetés"
 
-#: ../../tutorial/venv.rst:11
 msgid ""
 "Python applications will often use packages and modules that don't come as "
 "part of the standard library.  Applications will sometimes need a specific "
@@ -44,7 +41,6 @@ msgstr ""
 "feltételezi, hogy egy bizonyos hibát javította, vagy esetleg az alkalmazás a "
 "könyvtárnak egy idejétmúlt verziójához készült."
 
-#: ../../tutorial/venv.rst:17
 msgid ""
 "This means it may not be possible for one Python installation to meet the "
 "requirements of every application.  If application A needs version 1.0 of a "
@@ -58,7 +54,6 @@ msgstr ""
 "konfliktust okoz, és akár az 1.0-ás, akár a 2.0-ás verziót telepítem, az "
 "egyik alkalmazás képtelen lesz működni."
 
-#: ../../tutorial/venv.rst:23
 msgid ""
 "The solution for this problem is to create a :term:`virtual environment`, a "
 "self-contained directory tree that contains a Python installation for a "
@@ -68,7 +63,6 @@ msgstr ""
 "létre: egy könyvtárstruktúrát, amelyben egy Python van telepítve egy "
 "bizonyos Python-verzióval, és pár további csomaggal."
 
-#: ../../tutorial/venv.rst:27
 msgid ""
 "Different applications can then use different virtual environments. To "
 "resolve the earlier example of conflicting requirements, application A can "
@@ -85,20 +79,16 @@ msgstr ""
 "könyvtárát 3.0-ásra kell frissíteni, az nem befolyásolja az A alkalmazás "
 "környezetét."
 
-#: ../../tutorial/venv.rst:36
 msgid "Creating Virtual Environments"
 msgstr "Virtuális környezet létrehozása"
 
-#: ../../tutorial/venv.rst:38
 msgid ""
-"The module used to create and manage virtual environments is "
-"called :mod:`venv`.  :mod:`venv` will install the Python version from which "
-"the command was run (as reported by the :option:`--version` option). For "
-"instance, executing the command with ``python3.12`` will install version "
-"3.12."
+"The module used to create and manage virtual environments is called :mod:"
+"`venv`.  :mod:`venv` will install the Python version from which the command "
+"was run (as reported by the :option:`--version` option). For instance, "
+"executing the command with ``python3.12`` will install version 3.12."
 msgstr ""
 
-#: ../../tutorial/venv.rst:44
 msgid ""
 "To create a virtual environment, decide upon a directory where you want to "
 "place it, and run the :mod:`venv` module as a script with the directory "
@@ -108,18 +98,15 @@ msgstr ""
 "szeretnénk helyezni, és futtassuk a :mod:`venv` modult szkriptként evvel a "
 "könyvtár-útvonallal::"
 
-#: ../../tutorial/venv.rst:47
 msgid "python -m venv tutorial-env"
 msgstr ""
 
-#: ../../tutorial/venv.rst:49
 msgid ""
 "This will create the ``tutorial-env`` directory if it doesn't exist, and "
 "also create directories inside it containing a copy of the Python "
 "interpreter and various supporting files."
 msgstr ""
 
-#: ../../tutorial/venv.rst:53
 msgid ""
 "A common directory location for a virtual environment is ``.venv``. This "
 "name keeps the directory typically hidden in your shell and thus out of the "
@@ -128,27 +115,21 @@ msgid ""
 "some tooling supports."
 msgstr ""
 
-#: ../../tutorial/venv.rst:59
 msgid "Once you've created a virtual environment, you may activate it."
 msgstr "Amikor létrehoztuk a virtuális környezetet, aktiválhatjuk."
 
-#: ../../tutorial/venv.rst:61
 msgid "On Windows, run::"
 msgstr "Windowson így::"
 
-#: ../../tutorial/venv.rst:63
 msgid "tutorial-env\\Scripts\\activate"
 msgstr ""
 
-#: ../../tutorial/venv.rst:65
 msgid "On Unix or MacOS, run::"
 msgstr "Unixon (beleértve a Linuxokat) vagy MacOS-en így::"
 
-#: ../../tutorial/venv.rst:67
 msgid "source tutorial-env/bin/activate"
 msgstr ""
 
-#: ../../tutorial/venv.rst:69
 msgid ""
 "(This script is written for the bash shell.  If you use the :program:`csh` "
 "or :program:`fish` shells, there are alternate ``activate.csh`` and "
@@ -158,7 +139,6 @@ msgstr ""
 "shellt használunk, akkor a ``activate.csh`` illetve ``activate.fish`` "
 "szkripteket kell használnunk.)"
 
-#: ../../tutorial/venv.rst:74
 msgid ""
 "Activating the virtual environment will change your shell's prompt to show "
 "what virtual environment you're using, and modify the environment so that "
@@ -170,7 +150,6 @@ msgstr ""
 "környezetet, hogy a ``python`` parancs futtatása a megfelelő Python-verziót "
 "és telepítést futtassa. Például:"
 
-#: ../../tutorial/venv.rst:79
 msgid ""
 "$ source ~/envs/tutorial-env/bin/activate\n"
 "(tutorial-env) $ python\n"
@@ -183,44 +162,36 @@ msgid ""
 ">>>"
 msgstr ""
 
-#: ../../tutorial/venv.rst:91
 msgid "To deactivate a virtual environment, type::"
 msgstr ""
 
-#: ../../tutorial/venv.rst:93
 msgid "deactivate"
 msgstr ""
 
-#: ../../tutorial/venv.rst:95
 msgid "into the terminal."
 msgstr ""
 
-#: ../../tutorial/venv.rst:98
 msgid "Managing Packages with pip"
 msgstr "Csomagkezelés pip-pel"
 
-#: ../../tutorial/venv.rst:100
 msgid ""
-"You can install, upgrade, and remove packages using a program "
-"called :program:`pip`.  By default ``pip`` will install packages from the "
-"`Python Package Index <https://pypi.org>`_.  You can browse the Python "
-"Package Index by going to it in your web browser."
+"You can install, upgrade, and remove packages using a program called :"
+"program:`pip`.  By default ``pip`` will install packages from the `Python "
+"Package Index <https://pypi.org>`_.  You can browse the Python Package Index "
+"by going to it in your web browser."
 msgstr ""
 
-#: ../../tutorial/venv.rst:105
 msgid ""
 "``pip`` has a number of subcommands: \"install\", \"uninstall\", \"freeze\", "
 "etc.  (Consult the :ref:`installing-index` guide for complete documentation "
 "for ``pip``.)"
 msgstr ""
 
-#: ../../tutorial/venv.rst:109
 msgid ""
 "You can install the latest version of a package by specifying a package's "
 "name:"
 msgstr "A csomag legfrissebb verzióját a csomagnév megadásával telepíthetjük:"
 
-#: ../../tutorial/venv.rst:111
 msgid ""
 "(tutorial-env) $ python -m pip install novas\n"
 "Collecting novas\n"
@@ -230,7 +201,6 @@ msgid ""
 "Successfully installed novas-3.1.1.3"
 msgstr ""
 
-#: ../../tutorial/venv.rst:120
 msgid ""
 "You can also install a specific version of a package by giving the package "
 "name  followed by ``==`` and the version number:"
@@ -238,7 +208,6 @@ msgstr ""
 "A csomag egy adott verzióját is telepíthetjük, ha megadjuk a csomag nevét, "
 "amelyet ``==`` követ, majd a verziószám:"
 
-#: ../../tutorial/venv.rst:123
 msgid ""
 "(tutorial-env) $ python -m pip install requests==2.6.0\n"
 "Collecting requests==2.6.0\n"
@@ -247,7 +216,6 @@ msgid ""
 "Successfully installed requests-2.6.0"
 msgstr ""
 
-#: ../../tutorial/venv.rst:131
 msgid ""
 "If you re-run this command, ``pip`` will notice that the requested version "
 "is already installed and do nothing.  You can supply a different version "
@@ -255,7 +223,6 @@ msgid ""
 "upgrade`` to upgrade the package to the latest version:"
 msgstr ""
 
-#: ../../tutorial/venv.rst:136
 msgid ""
 "(tutorial-env) $ python -m pip install --upgrade requests\n"
 "Collecting requests\n"
@@ -266,18 +233,15 @@ msgid ""
 "Successfully installed requests-2.7.0"
 msgstr ""
 
-#: ../../tutorial/venv.rst:146
 msgid ""
 "``python -m pip uninstall`` followed by one or more package names will "
 "remove the packages from the virtual environment."
 msgstr ""
 
-#: ../../tutorial/venv.rst:149
 msgid ""
 "``python -m pip show`` will display information about a particular package:"
 msgstr ""
 
-#: ../../tutorial/venv.rst:151
 msgid ""
 "(tutorial-env) $ python -m pip show requests\n"
 "---\n"
@@ -293,13 +257,11 @@ msgid ""
 "Requires:"
 msgstr ""
 
-#: ../../tutorial/venv.rst:166
 msgid ""
 "``python -m pip list`` will display all of the packages installed in the "
 "virtual environment:"
 msgstr ""
 
-#: ../../tutorial/venv.rst:169
 msgid ""
 "(tutorial-env) $ python -m pip list\n"
 "novas (3.1.1.3)\n"
@@ -309,7 +271,6 @@ msgid ""
 "setuptools (16.0)"
 msgstr ""
 
-#: ../../tutorial/venv.rst:178
 msgid ""
 "``python -m pip freeze`` will produce a similar list of the installed "
 "packages, but the output uses the format that ``python -m pip install`` "
@@ -317,7 +278,6 @@ msgid ""
 "file:"
 msgstr ""
 
-#: ../../tutorial/venv.rst:182
 msgid ""
 "(tutorial-env) $ python -m pip freeze > requirements.txt\n"
 "(tutorial-env) $ cat requirements.txt\n"
@@ -326,7 +286,6 @@ msgid ""
 "requests==2.7.0"
 msgstr ""
 
-#: ../../tutorial/venv.rst:190
 msgid ""
 "The ``requirements.txt`` can then be committed to version control and "
 "shipped as part of an application.  Users can then install all the necessary "
@@ -336,7 +295,6 @@ msgstr ""
 "alkalmazással együtt közzétehető. Ekkor a felhasználók a szükséges "
 "csomagokat az ``install -r`` paranccsal telepíthetik:"
 
-#: ../../tutorial/venv.rst:194
 msgid ""
 "(tutorial-env) $ python -m pip install -r requirements.txt\n"
 "Collecting novas==3.1.1.3 (from -r requirements.txt (line 1))\n"
@@ -350,7 +308,6 @@ msgid ""
 "Successfully installed novas-3.1.1.3 numpy-1.9.2 requests-2.7.0"
 msgstr ""
 
-#: ../../tutorial/venv.rst:207
 msgid ""
 "``pip`` has many more options.  Consult the :ref:`installing-index` guide "
 "for complete documentation for ``pip``.  When you've written a package and "

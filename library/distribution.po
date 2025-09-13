@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/distribution.rst:3
 msgid "Software Packaging and Distribution"
 msgstr ""
 
-#: ../../library/distribution.rst:5
 msgid ""
 "These libraries help you with publishing and installing Python software. "
 "While these modules are designed to work in conjunction with the `Python "

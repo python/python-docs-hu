@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,23 +18,19 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/ipc.rst:5
 msgid "Networking and Interprocess Communication"
 msgstr ""
 
-#: ../../library/ipc.rst:7
 msgid ""
 "The modules described in this chapter provide mechanisms for networking and "
 "inter-processes communication."
 msgstr ""
 
-#: ../../library/ipc.rst:10
 msgid ""
-"Some modules only work for two processes that are on the same machine, "
-"e.g. :mod:`signal` and :mod:`mmap`.  Other modules support networking "
-"protocols that two or more processes can use to communicate across machines."
+"Some modules only work for two processes that are on the same machine, e.g. :"
+"mod:`signal` and :mod:`mmap`.  Other modules support networking protocols "
+"that two or more processes can use to communicate across machines."
 msgstr ""
 
-#: ../../library/ipc.rst:14
 msgid "The list of modules described in this chapter is:"
 msgstr ""

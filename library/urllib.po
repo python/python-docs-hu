@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,32 +18,25 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/urllib.rst:2
 msgid ":mod:`!urllib` --- URL handling modules"
 msgstr ""
 
-#: ../../library/urllib.rst:6
 msgid "**Source code:** :source:`Lib/urllib/`"
 msgstr ""
 
-#: ../../library/urllib.rst:10
 msgid ""
 "``urllib`` is a package that collects several modules for working with URLs:"
 msgstr ""
 
-#: ../../library/urllib.rst:12
 msgid ":mod:`urllib.request` for opening and reading URLs"
 msgstr ""
 
-#: ../../library/urllib.rst:13
 msgid ""
 ":mod:`urllib.error` containing the exceptions raised by :mod:`urllib.request`"
 msgstr ""
 
-#: ../../library/urllib.rst:14
 msgid ":mod:`urllib.parse` for parsing URLs"
 msgstr ""
 
-#: ../../library/urllib.rst:15
 msgid ":mod:`urllib.robotparser` for parsing ``robots.txt`` files"
 msgstr ""

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-25 14:21+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,12 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/pyclbr.rst:2
 msgid ":mod:`!pyclbr` --- Python module browser support"
 msgstr ""
 
-#: ../../library/pyclbr.rst:9
 msgid "**Source code:** :source:`Lib/pyclbr.py`"
 msgstr ""
 
-#: ../../library/pyclbr.rst:13
 msgid ""
 "The :mod:`pyclbr` module provides limited information about the functions, "
 "classes, and methods defined in a Python-coded module.  The information is "
@@ -41,7 +38,6 @@ msgid ""
 "standard and optional extension modules."
 msgstr ""
 
-#: ../../library/pyclbr.rst:25
 msgid ""
 "Return a dictionary mapping module-level class names to class descriptors.  "
 "If possible, descriptors for imported base classes are included.  Parameter "
@@ -51,13 +47,11 @@ msgid ""
 "code."
 msgstr ""
 
-#: ../../library/pyclbr.rst:32
 msgid ""
 "This function is the original interface and is only kept for back "
 "compatibility.  It returns a filtered version of the following."
 msgstr ""
 
-#: ../../library/pyclbr.rst:38
 msgid ""
 "Return a dictionary-based tree containing a function or class descriptors "
 "for each function and class defined in the module with a ``def`` or "
@@ -69,93 +63,74 @@ msgid ""
 "value is a list containing the package search path."
 msgstr ""
 
-#: ../../library/pyclbr.rst:48
 msgid ""
 "Descriptors for nested definitions.  They are accessed through the new "
 "children attribute.  Each has a new parent attribute."
 msgstr ""
 
-#: ../../library/pyclbr.rst:52
 msgid ""
 "The descriptors returned by these functions are instances of Function and "
 "Class classes.  Users are not expected to create instances of these classes."
 msgstr ""
 
-#: ../../library/pyclbr.rst:60
 msgid "Function Objects"
 msgstr ""
 
-#: ../../library/pyclbr.rst:64
 msgid ""
 "Class :class:`!Function` instances describe functions defined by def "
 "statements.  They have the following attributes:"
 msgstr ""
 
-#: ../../library/pyclbr.rst:70
 msgid "Name of the file in which the function is defined."
 msgstr ""
 
-#: ../../library/pyclbr.rst:75
 msgid "The name of the module defining the function described."
 msgstr ""
 
-#: ../../library/pyclbr.rst:80
 msgid "The name of the function."
 msgstr ""
 
-#: ../../library/pyclbr.rst:85 ../../library/pyclbr.rst:140
 msgid "The line number in the file where the definition starts."
 msgstr ""
 
-#: ../../library/pyclbr.rst:90
 msgid "For top-level functions, ``None``.  For nested functions, the parent."
 msgstr ""
 
-#: ../../library/pyclbr.rst:97
 msgid ""
 "A :class:`dictionary <dict>` mapping names to descriptors for nested "
 "functions and classes."
 msgstr ""
 
-#: ../../library/pyclbr.rst:105
 msgid ""
 "``True`` for functions that are defined with the :keyword:`async <async "
 "def>` prefix, ``False`` otherwise."
 msgstr ""
 
-#: ../../library/pyclbr.rst:114
 msgid "Class Objects"
 msgstr "Osztályobjektumok"
 
-#: ../../library/pyclbr.rst:118
 msgid ""
 "Class :class:`!Class` instances describe classes defined by class "
 "statements.  They have the same attributes as :class:`Functions <Function>` "
 "and two more."
 msgstr ""
 
-#: ../../library/pyclbr.rst:125
 msgid "Name of the file in which the class is defined."
 msgstr ""
 
-#: ../../library/pyclbr.rst:130
 msgid "The name of the module defining the class described."
 msgstr ""
 
-#: ../../library/pyclbr.rst:135
 msgid "The name of the class."
 msgstr ""
 
-#: ../../library/pyclbr.rst:145
 msgid "For top-level classes, ``None``.  For nested classes, the parent."
 msgstr ""
 
-#: ../../library/pyclbr.rst:152
 msgid ""
 "A dictionary mapping names to descriptors for nested functions and classes."
 msgstr ""
 
-#: ../../library/pyclbr.rst:160
 msgid ""
 "A list of :class:`!Class` objects which describe the immediate base classes "
 "of the class being described.  Classes which are named as superclasses but "
@@ -163,7 +138,6 @@ msgid ""
 "with the class name instead of as :class:`!Class` objects."
 msgstr ""
 
-#: ../../library/pyclbr.rst:169
 msgid ""
 "A :class:`dictionary <dict>` mapping method names to line numbers. This can "
 "be derived from the newer :attr:`children` dictionary, but remains for back-"

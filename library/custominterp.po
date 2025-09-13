@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/custominterp.rst:5
 msgid "Custom Python Interpreters"
 msgstr ""
 
-#: ../../library/custominterp.rst:7
 msgid ""
 "The modules described in this chapter allow writing interfaces similar to "
 "Python's interactive interpreter.  If you want a Python interpreter that "
@@ -31,6 +29,5 @@ msgid ""
 "used to support compiling a possibly incomplete chunk of Python code.)"
 msgstr ""
 
-#: ../../library/custominterp.rst:13
 msgid "The full list of modules described in this chapter is:"
 msgstr ""

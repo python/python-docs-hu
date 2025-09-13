@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/compression.rst:2
 msgid "The :mod:`!compression` package"
 msgstr ""
 
-#: ../../library/compression.rst:6
 msgid ""
 "The :mod:`!compression` package contains the canonical compression modules "
 "containing interfaces to several different compression algorithms. Some of "
@@ -32,23 +30,18 @@ msgid ""
 "modules in :mod:`!compression` is encouraged where practical."
 msgstr ""
 
-#: ../../library/compression.rst:13
 msgid ":mod:`!compression.bz2` -- Re-exports :mod:`bz2`"
 msgstr ""
 
-#: ../../library/compression.rst:14
 msgid ":mod:`!compression.gzip` -- Re-exports :mod:`gzip`"
 msgstr ""
 
-#: ../../library/compression.rst:15
 msgid ":mod:`!compression.lzma` -- Re-exports :mod:`lzma`"
 msgstr ""
 
-#: ../../library/compression.rst:16
 msgid ":mod:`!compression.zlib` -- Re-exports :mod:`zlib`"
 msgstr ""
 
-#: ../../library/compression.rst:17
 msgid ""
 ":mod:`compression.zstd` -- Wrapper for the Zstandard compression library"
 msgstr ""

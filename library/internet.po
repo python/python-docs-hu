@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,35 +18,28 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/internet.rst:5
 msgid "Internet Protocols and Support"
 msgstr ""
 
-#: ../../library/internet.rst:14
 msgid ""
 "The modules described in this chapter implement internet protocols and  "
 "support for related technology.  They are all implemented in Python. Most of "
-"these modules require the presence of the system-dependent "
-"module :mod:`socket`, which is currently supported on most popular "
-"platforms.  Here is an overview:"
+"these modules require the presence of the system-dependent module :mod:"
+"`socket`, which is currently supported on most popular platforms.  Here is "
+"an overview:"
 msgstr ""
 
-#: ../../library/internet.rst:7
 msgid "WWW"
 msgstr ""
 
-#: ../../library/internet.rst:7
 msgid "Internet"
 msgstr ""
 
-#: ../../library/internet.rst:7
 msgid "World Wide Web"
 msgstr ""
 
-#: ../../library/internet.rst:12
 msgid "module"
 msgstr ""
 
-#: ../../library/internet.rst:12
 msgid "socket"
 msgstr ""

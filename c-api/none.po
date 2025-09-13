@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 18:59+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../c-api/none.rst:6
 msgid "The ``None`` Object"
 msgstr ""
 
-#: ../../c-api/none.rst:10
 msgid ""
 "Note that the :c:type:`PyTypeObject` for ``None`` is not directly exposed in "
 "the Python/C API.  Since ``None`` is a singleton, testing for object "
@@ -30,24 +28,19 @@ msgid ""
 "PyNone_Check` function for the same reason."
 msgstr ""
 
-#: ../../c-api/none.rst:18
 msgid ""
 "The Python ``None`` object, denoting lack of value.  This object has no "
 "methods and is :term:`immortal`."
 msgstr ""
 
-#: ../../c-api/none.rst:21
 msgid ":c:data:`Py_None` is :term:`immortal`."
 msgstr ""
 
-#: ../../c-api/none.rst:26
 msgid "Return :c:data:`Py_None` from a function."
 msgstr ""
 
-#: ../../c-api/none.rst:8
 msgid "object"
 msgstr ""
 
-#: ../../c-api/none.rst:8
 msgid "None"
 msgstr ""

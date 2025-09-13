@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,15 +18,12 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/modulefinder.rst:2
 msgid ":mod:`!modulefinder` --- Find modules used by a script"
 msgstr ""
 
-#: ../../library/modulefinder.rst:9
 msgid "**Source code:** :source:`Lib/modulefinder.py`"
 msgstr ""
 
-#: ../../library/modulefinder.rst:13
 msgid ""
 "This module provides a :class:`ModuleFinder` class that can be used to "
 "determine the set of modules imported by a script. ``modulefinder.py`` can "
@@ -34,19 +31,16 @@ msgid ""
 "argument, after which a report of the imported modules will be printed."
 msgstr ""
 
-#: ../../library/modulefinder.rst:21
 msgid ""
 "Record that the package named *pkg_name* can be found in the specified "
 "*path*."
 msgstr ""
 
-#: ../../library/modulefinder.rst:26
 msgid ""
 "Allows specifying that the module named *oldname* is in fact the package "
 "named *newname*."
 msgstr ""
 
-#: ../../library/modulefinder.rst:32
 msgid ""
 "This class provides :meth:`run_script` and :meth:`report` methods to "
 "determine the set of modules imported by a script. *path* can be a list of "
@@ -57,33 +51,27 @@ msgid ""
 "newpath)`` tuples that will be replaced in module paths."
 msgstr ""
 
-#: ../../library/modulefinder.rst:43
 msgid ""
 "Print a report to standard output that lists the modules imported by the "
 "script and their paths, as well as modules that are missing or seem to be "
 "missing."
 msgstr ""
 
-#: ../../library/modulefinder.rst:49
 msgid ""
 "Analyze the contents of the *pathname* file, which must contain Python code."
 msgstr ""
 
-#: ../../library/modulefinder.rst:54
 msgid ""
 "A dictionary mapping module names to modules. See :ref:`modulefinder-"
 "example`."
 msgstr ""
 
-#: ../../library/modulefinder.rst:61
 msgid "Example usage of :class:`ModuleFinder`"
 msgstr ""
 
-#: ../../library/modulefinder.rst:63
 msgid "The script that is going to get analyzed later on (bacon.py)::"
 msgstr ""
 
-#: ../../library/modulefinder.rst:65
 msgid ""
 "import re, itertools\n"
 "\n"
@@ -98,11 +86,9 @@ msgid ""
 "    pass"
 msgstr ""
 
-#: ../../library/modulefinder.rst:78
 msgid "The script that will output the report of bacon.py::"
 msgstr ""
 
-#: ../../library/modulefinder.rst:80
 msgid ""
 "from modulefinder import ModuleFinder\n"
 "\n"
@@ -119,11 +105,9 @@ msgid ""
 "print('\\n'.join(finder.badmodules.keys()))"
 msgstr ""
 
-#: ../../library/modulefinder.rst:94
 msgid "Sample output (may vary depending on the architecture)::"
 msgstr ""
 
-#: ../../library/modulefinder.rst:96
 msgid ""
 "Loaded modules:\n"
 "_types:\n"

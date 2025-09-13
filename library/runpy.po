@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,15 +18,12 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/runpy.rst:2
 msgid ":mod:`!runpy` --- Locating and executing Python modules"
 msgstr ""
 
-#: ../../library/runpy.rst:9
 msgid "**Source code:** :source:`Lib/runpy.py`"
 msgstr ""
 
-#: ../../library/runpy.rst:13
 msgid ""
 "The :mod:`runpy` module is used to locate and run Python modules without "
 "importing them first. Its main use is to implement the :option:`-m` command "
@@ -34,14 +31,12 @@ msgid ""
 "namespace rather than the filesystem."
 msgstr ""
 
-#: ../../library/runpy.rst:18
 msgid ""
 "Note that this is *not* a sandbox module - all code is executed in the "
 "current process, and any side effects (such as cached imports of other "
 "modules) will remain in place after the functions have returned."
 msgstr ""
 
-#: ../../library/runpy.rst:22
 msgid ""
 "Furthermore, any functions and classes defined by the executed code are not "
 "guaranteed to work correctly after a :mod:`runpy` function has returned. If "
@@ -49,11 +44,9 @@ msgid ""
 "likely to be a more suitable choice than this module."
 msgstr ""
 
-#: ../../library/runpy.rst:27
 msgid "The :mod:`runpy` module provides two functions:"
 msgstr ""
 
-#: ../../library/runpy.rst:35
 msgid ""
 "Execute the code of the specified module and return the resulting module's "
 "globals dictionary. The module's code is first located using the standard "
@@ -61,7 +54,6 @@ msgid ""
 "fresh module namespace."
 msgstr ""
 
-#: ../../library/runpy.rst:40
 msgid ""
 "The *mod_name* argument should be an absolute module name. If the module "
 "name refers to a package rather than a normal module, then that package is "
@@ -69,16 +61,14 @@ msgid ""
 "executed and the resulting module globals dictionary returned."
 msgstr ""
 
-#: ../../library/runpy.rst:46
 msgid ""
 "The optional dictionary argument *init_globals* may be used to pre-populate "
 "the module's globals dictionary before the code is executed. *init_globals* "
 "will not be modified. If any of the special global variables below are "
-"defined in *init_globals*, those definitions are overridden "
-"by :func:`run_module`."
+"defined in *init_globals*, those definitions are overridden by :func:"
+"`run_module`."
 msgstr ""
 
-#: ../../library/runpy.rst:52 ../../library/runpy.rst:127
 msgid ""
 "The special global variables ``__name__``, ``__spec__``, ``__file__``, "
 "``__cached__``, ``__loader__`` and ``__package__`` are set in the globals "
@@ -87,36 +77,31 @@ msgid ""
 "implementation detail.)"
 msgstr ""
 
-#: ../../library/runpy.rst:58
 msgid ""
-"``__name__`` is set to *run_name* if this optional argument is "
-"not :const:`None`, to ``mod_name + '.__main__'`` if the named module is a "
-"package and to the *mod_name* argument otherwise."
+"``__name__`` is set to *run_name* if this optional argument is not :const:"
+"`None`, to ``mod_name + '.__main__'`` if the named module is a package and "
+"to the *mod_name* argument otherwise."
 msgstr ""
 
-#: ../../library/runpy.rst:62
 msgid ""
 "``__spec__`` will be set appropriately for the *actually* imported module "
-"(that is, ``__spec__.name`` will always be *mod_name* or ``mod_name + "
-"'.__main__'``, never *run_name*)."
+"(that is, ``__spec__.name`` will always be *mod_name* or ``mod_name + '."
+"__main__'``, never *run_name*)."
 msgstr ""
 
-#: ../../library/runpy.rst:66
 msgid ""
-"``__file__``, ``__cached__``, ``__loader__`` and ``__package__`` "
-"are :ref:`set as normal <import-mod-attrs>` based on the module spec."
+"``__file__``, ``__cached__``, ``__loader__`` and ``__package__`` are :ref:"
+"`set as normal <import-mod-attrs>` based on the module spec."
 msgstr ""
 
-#: ../../library/runpy.rst:69
 msgid ""
 "If the argument *alter_sys* is supplied and evaluates to :const:`True`, then "
-"``sys.argv[0]`` is updated with the value of ``__file__`` and "
-"``sys.modules[__name__]`` is updated with a temporary module object for the "
-"module being executed. Both ``sys.argv[0]`` and ``sys.modules[__name__]`` "
-"are restored to their original values before the function returns."
+"``sys.argv[0]`` is updated with the value of ``__file__`` and ``sys."
+"modules[__name__]`` is updated with a temporary module object for the module "
+"being executed. Both ``sys.argv[0]`` and ``sys.modules[__name__]`` are "
+"restored to their original values before the function returns."
 msgstr ""
 
-#: ../../library/runpy.rst:75
 msgid ""
 "Note that this manipulation of :mod:`sys` is not thread-safe. Other threads "
 "may see the partially initialised module, as well as the altered list of "
@@ -124,36 +109,30 @@ msgid ""
 "invoking this function from threaded code."
 msgstr ""
 
-#: ../../library/runpy.rst:81
 msgid ""
 "The :option:`-m` option offering equivalent functionality from the command "
 "line."
 msgstr ""
 
-#: ../../library/runpy.rst:84
 msgid ""
 "Added ability to execute packages by looking for a :mod:`__main__` submodule."
 msgstr ""
 
-#: ../../library/runpy.rst:87
 msgid "Added ``__cached__`` global variable (see :pep:`3147`)."
 msgstr ""
 
-#: ../../library/runpy.rst:90
 msgid ""
 "Updated to take advantage of the module spec feature added by :pep:`451`. "
 "This allows ``__cached__`` to be set correctly for modules run this way, as "
-"well as ensuring the real module name is always accessible as "
-"``__spec__.name``."
+"well as ensuring the real module name is always accessible as ``__spec__."
+"name``."
 msgstr ""
 
-#: ../../library/runpy.rst:96
 msgid ""
 "The setting of ``__cached__``, ``__loader__``, and ``__package__`` are "
 "deprecated. See :class:`~importlib.machinery.ModuleSpec` for alternatives."
 msgstr ""
 
-#: ../../library/runpy.rst:106
 msgid ""
 "Execute the code at the named filesystem location and return the resulting "
 "module's globals dictionary. As with a script name supplied to the CPython "
@@ -162,7 +141,6 @@ msgid ""
 "module (e.g. a zipfile containing a top-level :file:`__main__.py` file)."
 msgstr ""
 
-#: ../../library/runpy.rst:113
 msgid ""
 "For a simple script, the specified code is simply executed in a fresh module "
 "namespace. For a valid :data:`sys.path` entry (typically a zipfile or "
@@ -173,22 +151,19 @@ msgid ""
 "such module at the specified location."
 msgstr ""
 
-#: ../../library/runpy.rst:121
 msgid ""
 "The optional dictionary argument *init_globals* may be used to pre-populate "
 "the module's globals dictionary before the code is executed. *init_globals* "
 "will not be modified. If any of the special global variables below are "
-"defined in *init_globals*, those definitions are overridden "
-"by :func:`run_path`."
+"defined in *init_globals*, those definitions are overridden by :func:"
+"`run_path`."
 msgstr ""
 
-#: ../../library/runpy.rst:133
 msgid ""
-"``__name__`` is set to *run_name* if this optional argument is "
-"not :const:`None` and to ``'<run_path>'`` otherwise."
+"``__name__`` is set to *run_name* if this optional argument is not :const:"
+"`None` and to ``'<run_path>'`` otherwise."
 msgstr ""
 
-#: ../../library/runpy.rst:136
 msgid ""
 "If *file_path* directly references a script file (whether as source or as "
 "precompiled byte code), then ``__file__`` will be set to *file_path*, and "
@@ -196,26 +171,23 @@ msgid ""
 "set to :const:`None`."
 msgstr ""
 
-#: ../../library/runpy.rst:141
 msgid ""
 "If *file_path* is a reference to a valid :data:`sys.path` entry, then "
 "``__spec__`` will be set appropriately for the imported :mod:`__main__` "
 "module (that is, ``__spec__.name`` will always be ``__main__``). "
-"``__file__``, ``__cached__``, ``__loader__`` and ``__package__`` will "
-"be :ref:`set as normal <import-mod-attrs>` based on the module spec."
+"``__file__``, ``__cached__``, ``__loader__`` and ``__package__`` will be :"
+"ref:`set as normal <import-mod-attrs>` based on the module spec."
 msgstr ""
 
-#: ../../library/runpy.rst:147
 msgid ""
-"A number of alterations are also made to the :mod:`sys` module. "
-"Firstly, :data:`sys.path` may be altered as described above. ``sys.argv[0]`` "
-"is updated with the value of *file_path* and ``sys.modules[__name__]`` is "
+"A number of alterations are also made to the :mod:`sys` module. Firstly, :"
+"data:`sys.path` may be altered as described above. ``sys.argv[0]`` is "
+"updated with the value of *file_path* and ``sys.modules[__name__]`` is "
 "updated with a temporary module object for the module being executed. All "
 "modifications to items in :mod:`sys` are reverted before the function "
 "returns."
 msgstr ""
 
-#: ../../library/runpy.rst:154
 msgid ""
 "Note that, unlike :func:`run_module`, the alterations made to :mod:`sys` are "
 "not optional in this function as these adjustments are essential to allowing "
@@ -224,13 +196,11 @@ msgid ""
 "serialised with the import lock or delegated to a separate process."
 msgstr ""
 
-#: ../../library/runpy.rst:161
 msgid ""
 ":ref:`using-on-interface-options` for equivalent functionality on the "
 "command line (``python path/to/script``)."
 msgstr ""
 
-#: ../../library/runpy.rst:166
 msgid ""
 "Updated to take advantage of the module spec feature added by :pep:`451`. "
 "This allows ``__cached__`` to be set correctly in the case where "
@@ -238,44 +208,34 @@ msgid ""
 "being executed directly."
 msgstr ""
 
-#: ../../library/runpy.rst:172
 msgid ""
 "The setting of ``__cached__``, ``__loader__``, and ``__package__`` are "
 "deprecated."
 msgstr ""
 
-#: ../../library/runpy.rst:178
 msgid ":pep:`338` -- Executing modules as scripts"
 msgstr ""
 
-#: ../../library/runpy.rst:179 ../../library/runpy.rst:182
 msgid "PEP written and implemented by Nick Coghlan."
 msgstr ""
 
-#: ../../library/runpy.rst:181
 msgid ":pep:`366` -- Main module explicit relative imports"
 msgstr ""
 
-#: ../../library/runpy.rst:184
 msgid ":pep:`451` -- A ModuleSpec Type for the Import System"
 msgstr ""
 
-#: ../../library/runpy.rst:185
 msgid "PEP written and implemented by Eric Snow"
 msgstr ""
 
-#: ../../library/runpy.rst:187
 msgid ":ref:`using-on-general` - CPython command line details"
 msgstr ""
 
-#: ../../library/runpy.rst:189
 msgid "The :func:`importlib.import_module` function"
 msgstr ""
 
-#: ../../library/runpy.rst:32 ../../library/runpy.rst:103
 msgid "module"
 msgstr ""
 
-#: ../../library/runpy.rst:32 ../../library/runpy.rst:103
 msgid "__main__"
 msgstr ""

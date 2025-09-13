@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-25 14:21+0000\n"
-"PO-Revision-Date: 2025-07-18 18:50+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2025\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -22,17 +22,14 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../tutorial/index.rst:5
 msgid "The Python Tutorial"
 msgstr "Python-oktató"
 
-#: ../../tutorial/index.rst:7
 msgid ""
 "This tutorial is designed for *programmers* that are new to the Python "
 "language, **not** *beginners* who are new to programming."
 msgstr ""
 
-#: ../../tutorial/index.rst:11
 msgid ""
 "Python is an easy to learn, powerful programming language. It has efficient "
 "high-level data structures and a simple but effective approach to object-"
@@ -47,7 +44,6 @@ msgstr ""
 "parancsértelmező jellege ideális szkriptek készítésére és gyors "
 "alkalmazásfejlesztésre több platformon, szerteágazó területeken."
 
-#: ../../tutorial/index.rst:17
 msgid ""
 "The Python interpreter and the extensive standard library are freely "
 "available in source or binary form for all major platforms from the Python "
@@ -56,7 +52,6 @@ msgid ""
 "Python modules, programs and tools, and additional documentation."
 msgstr ""
 
-#: ../../tutorial/index.rst:23
 msgid ""
 "The Python interpreter is easily extended with new functions and data types "
 "implemented in C or C++ (or other languages callable from C). Python is also "
@@ -67,7 +62,6 @@ msgstr ""
 "Python maga is alkalmas kiegészítő nyelv már elkészült alkalmazások "
 "bővítéséhez."
 
-#: ../../tutorial/index.rst:27
 msgid ""
 "This tutorial introduces the reader informally to the basic concepts and "
 "features of the Python language and system. Be aware that it expects you to "
@@ -76,20 +70,17 @@ msgid ""
 "contained, so the tutorial can be read off-line as well."
 msgstr ""
 
-#: ../../tutorial/index.rst:33
 msgid ""
 "For a description of standard objects and modules, see :ref:`library-"
 "index`. :ref:`reference-index` gives a more formal definition of the "
-"language.  To write extensions in C or C++, read :ref:`extending-index` "
-"and :ref:`c-api-index`. There are also several books covering Python in "
-"depth."
+"language.  To write extensions in C or C++, read :ref:`extending-index` and :"
+"ref:`c-api-index`. There are also several books covering Python in depth."
 msgstr ""
 "A Python Reference Manual  a nyelv részletes definícióját tartalmazza. C "
 "vagy C++ nyelven írt kiegészítések létrehozásához hasznos olvasnivaló az "
 "Extending and Embedding the Python Interpreter és a Python/C API Reference.  "
 "Ezenkívül van néhány könyv, amely a Pythonnal komolyan foglalkozik."
 
-#: ../../tutorial/index.rst:38
 msgid ""
 "This tutorial does not attempt to be comprehensive and cover every single "
 "feature, or even every commonly used feature. Instead, it introduces many of "
@@ -104,6 +95,5 @@ msgstr ""
 "írására, és ami a legfontosabb: a további tanulásra.  Az oktató után érdemes "
 "a  :ref:`library-index` fejezetben leírt modulokkal megismerkedni."
 
-#: ../../tutorial/index.rst:45
 msgid "The :ref:`glossary` is also worth going through."
 msgstr "A :ref:`glossary` fejezetet is érdemes átolvasni."

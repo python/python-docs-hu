@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,34 +18,27 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../howto/timerfd.rst:5
 msgid "timer file descriptor HOWTO"
 msgstr ""
 
-#: ../../howto/timerfd.rst:0
 msgid "Release"
 msgstr ""
 
-#: ../../howto/timerfd.rst:7
 msgid "1.13"
 msgstr ""
 
-#: ../../howto/timerfd.rst:9
 msgid ""
 "This HOWTO discusses Python's support for the linux timer file descriptor."
 msgstr ""
 
-#: ../../howto/timerfd.rst:13
 msgid "Examples"
 msgstr ""
 
-#: ../../howto/timerfd.rst:15
 msgid ""
 "The following example shows how to use a timer file descriptor to execute a "
 "function twice a second:"
 msgstr ""
 
-#: ../../howto/timerfd.rst:18
 msgid ""
 "# Practical scripts should use really use a non-blocking timer,\n"
 "# we use a blocking timer here for simplicity.\n"
@@ -68,20 +61,17 @@ msgid ""
 "    os.close(fd)"
 msgstr ""
 
-#: ../../howto/timerfd.rst:40
 msgid ""
 "To avoid the precision loss caused by the :class:`float` type, timer file "
 "descriptors allow specifying initial expiration and interval in integer "
 "nanoseconds with ``_ns`` variants of the functions."
 msgstr ""
 
-#: ../../howto/timerfd.rst:44
 msgid ""
 "This example shows how :func:`~select.epoll` can be used with timer file "
 "descriptors to wait until the file descriptor is ready for reading:"
 msgstr ""
 
-#: ../../howto/timerfd.rst:47
 msgid ""
 "import os, time, select, socket, sys\n"
 "\n"
@@ -186,8 +176,8 @@ msgid ""
 "                        conn = None\n"
 "                elif fd in fds:\n"
 "                    print(f\"Reading timer {fd}\")\n"
-"                    count = int.from_bytes(os.read(fd, 8), "
-"byteorder=sys.byteorder)\n"
+"                    count = int.from_bytes(os.read(fd, 8), byteorder=sys."
+"byteorder)\n"
 "                    print(f\"Timer {fds.index(fd) + 1} expired {count} "
 "times\")\n"
 "                else:\n"
@@ -199,13 +189,11 @@ msgid ""
 "    ep.close()"
 msgstr ""
 
-#: ../../howto/timerfd.rst:153
 msgid ""
 "This example shows how :func:`~select.select` can be used with timer file "
 "descriptors to wait until the file descriptor is ready for reading:"
 msgstr ""
 
-#: ../../howto/timerfd.rst:156
 msgid ""
 "import os, time, select, socket, sys\n"
 "\n"
@@ -273,8 +261,8 @@ msgid ""
 "                   conn = None\n"
 "           elif fd in fds:\n"
 "               print(f\"Reading timer {fd}\")\n"
-"               count = int.from_bytes(os.read(fd, 8), "
-"byteorder=sys.byteorder)\n"
+"               count = int.from_bytes(os.read(fd, 8), byteorder=sys."
+"byteorder)\n"
 "               print(f\"Timer {fds.index(fd) + 1} expired {count} times\")\n"
 "           else:\n"
 "               print(f\"Unknown file descriptor {fd}\")\n"

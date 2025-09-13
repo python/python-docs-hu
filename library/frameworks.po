@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,17 +18,19 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/frameworks.rst:5
-msgid "Program Frameworks"
+msgid "Program frameworks"
 msgstr ""
 
-#: ../../library/frameworks.rst:7
 msgid ""
-"The modules described in this chapter are frameworks that will largely "
-"dictate the structure of your program.  Currently the modules described  "
-"here are all oriented toward writing command-line interfaces."
+"This chapter is no longer maintained, and the modules it contained have been "
+"moved to their respective topical documentation."
 msgstr ""
 
-#: ../../library/frameworks.rst:11
-msgid "The full list of modules described in this chapter is:"
+msgid ":mod:`cmd` — :doc:`Command Line Interface Libraries <./cmdlinelibs>`"
+msgstr ""
+
+msgid ":mod:`shlex` — :doc:`Unix Specific Services <./unix>`"
+msgstr ""
+
+msgid ":mod:`turtle` — :doc:`Graphical User Interfaces with Tk <./tk>`"
 msgstr ""

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../extending/index.rst:5
 msgid "Extending and Embedding the Python Interpreter"
 msgstr ""
 
-#: ../../extending/index.rst:7
 msgid ""
 "This document describes how to write modules in C or C++ to extend the "
 "Python interpreter with new modules.  Those modules can not only define new "
@@ -33,7 +31,6 @@ msgid ""
 "the interpreter, if the underlying operating system supports this feature."
 msgstr ""
 
-#: ../../extending/index.rst:15
 msgid ""
 "This document assumes basic knowledge about Python.  For an informal "
 "introduction to the language, see :ref:`tutorial-index`.  :ref:`reference-"
@@ -42,17 +39,14 @@ msgid ""
 "and written in Python) that give the language its wide application range."
 msgstr ""
 
-#: ../../extending/index.rst:21
 msgid ""
-"For a detailed description of the whole Python/C API, see the "
-"separate :ref:`c-api-index`."
+"For a detailed description of the whole Python/C API, see the separate :ref:"
+"`c-api-index`."
 msgstr ""
 
-#: ../../extending/index.rst:26
 msgid "Recommended third party tools"
 msgstr ""
 
-#: ../../extending/index.rst:28
 msgid ""
 "This guide only covers the basic tools for creating extensions provided as "
 "part of this version of CPython. Some :ref:`third party tools <c-api-tools>` "
@@ -60,11 +54,9 @@ msgid ""
 "extensions for Python."
 msgstr ""
 
-#: ../../extending/index.rst:35
 msgid "Creating extensions without third party tools"
 msgstr ""
 
-#: ../../extending/index.rst:37
 msgid ""
 "This section of the guide covers creating C and C++ extensions without "
 "assistance from third party tools. It is intended primarily for creators of "
@@ -72,15 +64,12 @@ msgid ""
 "extensions."
 msgstr ""
 
-#: ../../extending/index.rst:44
 msgid ":pep:`489` -- Multi-phase extension module initialization"
 msgstr ""
 
-#: ../../extending/index.rst:57
 msgid "Embedding the CPython runtime in a larger application"
 msgstr ""
 
-#: ../../extending/index.rst:59
 msgid ""
 "Sometimes, rather than creating an extension that runs inside the Python "
 "interpreter as the main application, it is desirable to instead embed the "

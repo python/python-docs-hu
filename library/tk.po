@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,28 +18,24 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/tk.rst:5
-msgid "Graphical User Interfaces with Tk"
+msgid "Graphical user interfaces with Tk"
 msgstr ""
 
-#: ../../library/tk.rst:13
 msgid ""
 "Tk/Tcl has long been an integral part of Python.  It provides a robust and "
 "platform independent windowing toolkit, that is available to Python "
-"programmers using the :mod:`tkinter` package, and its extension, "
-"the :mod:`tkinter.ttk` module."
+"programmers using the :mod:`tkinter` package, and its extension, the :mod:"
+"`tkinter.ttk` module."
 msgstr ""
 
-#: ../../library/tk.rst:17
 msgid ""
 "The :mod:`tkinter` package is a thin object-oriented layer on top of Tcl/Tk. "
 "To use :mod:`tkinter`, you don't need to write Tcl code, but you will need "
-"to consult the Tk documentation, and occasionally the Tcl "
-"documentation. :mod:`tkinter` is a set of wrappers that implement the Tk "
-"widgets as Python classes."
+"to consult the Tk documentation, and occasionally the Tcl documentation. :"
+"mod:`tkinter` is a set of wrappers that implement the Tk widgets as Python "
+"classes."
 msgstr ""
 
-#: ../../library/tk.rst:23
 msgid ""
 ":mod:`tkinter`'s chief virtues are that it is fast, and that it usually "
 "comes bundled with Python. Although its standard documentation is weak, good "
@@ -51,18 +47,14 @@ msgid ""
 "GuiProgramming>`_."
 msgstr ""
 
-#: ../../library/tk.rst:7
 msgid "GUI"
 msgstr ""
 
-#: ../../library/tk.rst:7
 msgid "Graphical User Interface"
 msgstr ""
 
-#: ../../library/tk.rst:7
 msgid "Tkinter"
 msgstr ""
 
-#: ../../library/tk.rst:7
 msgid "Tk"
 msgstr ""

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:48+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 18:59+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,11 +18,9 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../c-api/bool.rst:6
 msgid "Boolean Objects"
 msgstr ""
 
-#: ../../c-api/bool.rst:8
 msgid ""
 "Booleans in Python are implemented as a subclass of integers.  There are "
 "only two booleans, :c:data:`Py_False` and :c:data:`Py_True`.  As such, the "
@@ -30,47 +28,38 @@ msgid ""
 "following macros are available, however."
 msgstr ""
 
-#: ../../c-api/bool.rst:16
 msgid ""
 "This instance of :c:type:`PyTypeObject` represents the Python boolean type; "
 "it is the same object as :class:`bool` in the Python layer."
 msgstr ""
 
-#: ../../c-api/bool.rst:22
 msgid ""
 "Return true if *o* is of type :c:data:`PyBool_Type`.  This function always "
 "succeeds."
 msgstr ""
 
-#: ../../c-api/bool.rst:28
 msgid ""
-"The Python ``False`` object.  This object has no methods and "
-"is :term:`immortal`."
+"The Python ``False`` object.  This object has no methods and is :term:"
+"`immortal`."
 msgstr ""
 
-#: ../../c-api/bool.rst:31
 msgid ":c:data:`Py_False` is :term:`immortal`."
 msgstr ""
 
-#: ../../c-api/bool.rst:37
 msgid ""
-"The Python ``True`` object.  This object has no methods and "
-"is :term:`immortal`."
+"The Python ``True`` object.  This object has no methods and is :term:"
+"`immortal`."
 msgstr ""
 
-#: ../../c-api/bool.rst:40
 msgid ":c:data:`Py_True` is :term:`immortal`."
 msgstr ""
 
-#: ../../c-api/bool.rst:46
 msgid "Return :c:data:`Py_False` from a function."
 msgstr ""
 
-#: ../../c-api/bool.rst:51
 msgid "Return :c:data:`Py_True` from a function."
 msgstr ""
 
-#: ../../c-api/bool.rst:56
 msgid ""
 "Return :c:data:`Py_True` or :c:data:`Py_False`, depending on the truth value "
 "of *v*."

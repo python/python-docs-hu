@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,37 +18,30 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/pty.rst:2
 msgid ":mod:`!pty` --- Pseudo-terminal utilities"
 msgstr ""
 
-#: ../../library/pty.rst:11
 msgid "**Source code:** :source:`Lib/pty.py`"
 msgstr ""
 
-#: ../../library/pty.rst:15
 msgid ""
 "The :mod:`pty` module defines operations for handling the pseudo-terminal "
 "concept: starting another process and being able to write to and read from "
 "its controlling terminal programmatically."
 msgstr ""
 
-#: ../../library/pty.rst:19
 msgid "Availability"
 msgstr ""
 
-#: ../../library/pty.rst:21
 msgid ""
 "Pseudo-terminal handling is highly platform dependent. This code is mainly "
 "tested on Linux, FreeBSD, and macOS (it is supposed to work on other POSIX "
 "platforms but it's not been thoroughly tested)."
 msgstr ""
 
-#: ../../library/pty.rst:25
 msgid "The :mod:`pty` module defines the following functions:"
 msgstr ""
 
-#: ../../library/pty.rst:30
 msgid ""
 "Fork. Connect the child's controlling terminal to a pseudo-terminal. Return "
 "value is ``(pid, fd)``. Note that the child  gets *pid* 0, and the *fd* is "
@@ -57,20 +50,17 @@ msgid ""
 "the child's standard input and output)."
 msgstr ""
 
-#: ../../library/pty.rst:36
 msgid ""
 "On macOS the use of this function is unsafe when mixed with using higher-"
 "level system APIs, and that includes using :mod:`urllib.request`."
 msgstr ""
 
-#: ../../library/pty.rst:42
 msgid ""
 "Open a new pseudo-terminal pair, using :func:`os.openpty` if possible, or "
 "emulation code for generic Unix systems. Return a pair of file descriptors "
 "``(master, slave)``, for the master and the slave end, respectively."
 msgstr ""
 
-#: ../../library/pty.rst:49
 msgid ""
 "Spawn a process, and connect its controlling terminal with the current "
 "process's standard io. This is often used to baffle programs which insist on "
@@ -79,14 +69,12 @@ msgid ""
 "will return."
 msgstr ""
 
-#: ../../library/pty.rst:55
 msgid ""
 "A loop copies STDIN of the current process to the child and data received "
 "from the child to STDOUT of the current process. It is not signaled to the "
 "child if STDIN of the current process closes down."
 msgstr ""
 
-#: ../../library/pty.rst:59
 msgid ""
 "The functions *master_read* and *stdin_read* are passed a file descriptor "
 "which they should read from, and they should always return a byte string. In "
@@ -94,7 +82,6 @@ msgid ""
 "array should be returned to signal end of file."
 msgstr ""
 
-#: ../../library/pty.rst:64
 msgid ""
 "The default implementation for both functions will read and return up to "
 "1024 bytes each time the function is called. The *master_read* callback is "
@@ -103,7 +90,6 @@ msgid ""
 "the parent process's standard input."
 msgstr ""
 
-#: ../../library/pty.rst:70
 msgid ""
 "Returning an empty byte string from either callback is interpreted as an end-"
 "of-file (EOF) condition, and that callback will not be called after that. If "
@@ -113,41 +99,34 @@ msgid ""
 "signals EOF the same behavior results (on linux at least)."
 msgstr ""
 
-#: ../../library/pty.rst:77
 msgid ""
 "Return the exit status value from :func:`os.waitpid` on the child process."
 msgstr ""
 
-#: ../../library/pty.rst:79
 msgid ""
 ":func:`os.waitstatus_to_exitcode` can be used to convert the exit status "
 "into an exit code."
 msgstr ""
 
-#: ../../library/pty.rst:82
 msgid ""
 "Raises an :ref:`auditing event <auditing>` ``pty.spawn`` with argument "
 "``argv``."
 msgstr ""
 
-#: ../../library/pty.rst:84
 msgid ""
 ":func:`spawn` now returns the status value from :func:`os.waitpid` on the "
 "child process."
 msgstr ""
 
-#: ../../library/pty.rst:89
 msgid "Example"
 msgstr ""
 
-#: ../../library/pty.rst:93
 msgid ""
 "The following program acts like the Unix command :manpage:`script(1)`, using "
 "a pseudo-terminal to record all input and output of a terminal session in a "
 "\"typescript\". ::"
 msgstr ""
 
-#: ../../library/pty.rst:97
 msgid ""
 "import argparse\n"
 "import os\n"

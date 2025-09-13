@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,18 +18,15 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/superseded.rst:5
 msgid "Superseded Modules"
 msgstr ""
 
-#: ../../library/superseded.rst:7
 msgid ""
 "The modules described in this chapter have been superseded by other modules "
 "for most use cases, and are retained primarily to preserve backwards "
 "compatibility."
 msgstr ""
 
-#: ../../library/superseded.rst:10
 msgid ""
 "Modules may appear in this chapter because they only cover a limited subset "
 "of a problem space, and a more generally applicable solution is available "
@@ -39,11 +36,10 @@ msgid ""
 "capabilities offered by :mod:`optparse` and :mod:`argparse`)."
 msgstr ""
 
-#: ../../library/superseded.rst:17
 msgid ""
 "Alternatively, modules may appear in this chapter because they are "
-"deprecated outright, and awaiting removal in a future release, or they "
-"are :term:`soft deprecated` and their use is actively discouraged in new "
+"deprecated outright, and awaiting removal in a future release, or they are :"
+"term:`soft deprecated` and their use is actively discouraged in new "
 "projects. With the removal of various obsolete modules through :pep:`594`, "
 "there are currently no modules in this latter category."
 msgstr ""

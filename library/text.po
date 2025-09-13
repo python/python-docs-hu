@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:49+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,17 +18,14 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../library/text.rst:6
 msgid "Text Processing Services"
 msgstr ""
 
-#: ../../library/text.rst:8
 msgid ""
 "The modules described in this chapter provide a wide range of string "
 "manipulation operations and other text processing services."
 msgstr ""
 
-#: ../../library/text.rst:11
 msgid ""
 "The :mod:`codecs` module described under :ref:`binaryservices` is also "
 "highly relevant to text processing. In addition, see the documentation for "

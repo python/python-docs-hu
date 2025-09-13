@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-07 14:23+0000\n"
-"PO-Revision-Date: 2025-07-18 18:50+0000\n"
+"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +18,18 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../using/editors.rst:7
 msgid "Editors and IDEs"
 msgstr ""
 
-#: ../../using/editors.rst:9
 msgid ""
 "There are a number of IDEs that support Python programming language. Many "
 "editors and IDEs provide syntax highlighting, debugging tools, and :pep:`8` "
 "checks."
 msgstr ""
 
-#: ../../using/editors.rst:14
 msgid "IDLE --- Python editor and shell"
 msgstr ""
 
-#: ../../using/editors.rst:16
 msgid ""
 "IDLE is Python’s Integrated Development and Learning Environment and is "
 "generally bundled with Python installs. If you are on Linux and do not have "
@@ -42,15 +38,13 @@ msgid ""
 "<idle>`."
 msgstr ""
 
-#: ../../using/editors.rst:22
 msgid "Other Editors and IDEs"
 msgstr ""
 
-#: ../../using/editors.rst:24
 msgid ""
 "Python's community wiki has information submitted by the community on "
 "Editors and IDEs. Please go to `Python Editors <https://wiki.python.org/moin/"
-"PythonEditors>`_ and `Integrated Development Environments <https://"
-"wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_ for a "
-"comprehensive list."
+"PythonEditors>`_ and `Integrated Development Environments <https://wiki."
+"python.org/moin/IntegratedDevelopmentEnvironments>`_ for a comprehensive "
+"list."
 msgstr ""
