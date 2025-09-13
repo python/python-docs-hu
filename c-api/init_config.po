@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Stan Ulbrych, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -276,205 +280,205 @@ msgid "Visibility"
 msgstr ""
 
 msgid "``\"allocator\"``"
-msgstr ""
+msgstr "``\"allocator\"``"
 
 msgid ":c:member:`allocator <PyPreConfig.allocator>`"
 msgstr ""
 
 msgid "``int``"
-msgstr ""
+msgstr "``int``"
 
 msgid "Read-only"
 msgstr ""
 
 msgid "``\"argv\"``"
-msgstr ""
+msgstr "``\"argv\"``"
 
 msgid ":c:member:`argv <PyConfig.argv>`"
 msgstr ""
 
 msgid "``list[str]``"
-msgstr ""
+msgstr "``list[str]``"
 
 msgid "Public"
 msgstr ""
 
 msgid "``\"base_exec_prefix\"``"
-msgstr ""
+msgstr "``\"base_exec_prefix\"``"
 
 msgid ":c:member:`base_exec_prefix <PyConfig.base_exec_prefix>`"
 msgstr ""
 
 msgid "``str``"
-msgstr ""
+msgstr "``str``"
 
 msgid "``\"base_executable\"``"
-msgstr ""
+msgstr "``\"base_executable\"``"
 
 msgid ":c:member:`base_executable <PyConfig.base_executable>`"
 msgstr ""
 
 msgid "``\"base_prefix\"``"
-msgstr ""
+msgstr "``\"base_prefix\"``"
 
 msgid ":c:member:`base_prefix <PyConfig.base_prefix>`"
 msgstr ""
 
 msgid "``\"buffered_stdio\"``"
-msgstr ""
+msgstr "``\"buffered_stdio\"``"
 
 msgid ":c:member:`buffered_stdio <PyConfig.buffered_stdio>`"
 msgstr ""
 
 msgid "``bool``"
-msgstr ""
+msgstr "``bool``"
 
 msgid "``\"bytes_warning\"``"
-msgstr ""
+msgstr "``\"bytes_warning\"``"
 
 msgid ":c:member:`bytes_warning <PyConfig.bytes_warning>`"
 msgstr ""
 
 msgid "``\"check_hash_pycs_mode\"``"
-msgstr ""
+msgstr "``\"check_hash_pycs_mode\"``"
 
 msgid ":c:member:`check_hash_pycs_mode <PyConfig.check_hash_pycs_mode>`"
 msgstr ""
 
 msgid "``\"code_debug_ranges\"``"
-msgstr ""
+msgstr "``\"code_debug_ranges\"``"
 
 msgid ":c:member:`code_debug_ranges <PyConfig.code_debug_ranges>`"
 msgstr ""
 
 msgid "``\"coerce_c_locale\"``"
-msgstr ""
+msgstr "``\"coerce_c_locale\"``"
 
 msgid ":c:member:`coerce_c_locale <PyPreConfig.coerce_c_locale>`"
 msgstr ""
 
 msgid "``\"coerce_c_locale_warn\"``"
-msgstr ""
+msgstr "``\"coerce_c_locale_warn\"``"
 
 msgid ":c:member:`coerce_c_locale_warn <PyPreConfig.coerce_c_locale_warn>`"
 msgstr ""
 
 msgid "``\"configure_c_stdio\"``"
-msgstr ""
+msgstr "``\"configure_c_stdio\"``"
 
 msgid ":c:member:`configure_c_stdio <PyConfig.configure_c_stdio>`"
 msgstr ""
 
 msgid "``\"configure_locale\"``"
-msgstr ""
+msgstr "``\"configure_locale\"``"
 
 msgid ":c:member:`configure_locale <PyPreConfig.configure_locale>`"
 msgstr ""
 
 msgid "``\"cpu_count\"``"
-msgstr ""
+msgstr "``\"cpu_count\"``"
 
 msgid ":c:member:`cpu_count <PyConfig.cpu_count>`"
 msgstr ""
 
 msgid "``\"dev_mode\"``"
-msgstr ""
+msgstr "``\"dev_mode\"``"
 
 msgid ":c:member:`dev_mode <PyConfig.dev_mode>`"
 msgstr ""
 
 msgid "``\"dump_refs\"``"
-msgstr ""
+msgstr "``\"dump_refs\"``"
 
 msgid ":c:member:`dump_refs <PyConfig.dump_refs>`"
 msgstr ""
 
 msgid "``\"dump_refs_file\"``"
-msgstr ""
+msgstr "``\"dump_refs_file\"``"
 
 msgid ":c:member:`dump_refs_file <PyConfig.dump_refs_file>`"
 msgstr ""
 
 msgid "``\"exec_prefix\"``"
-msgstr ""
+msgstr "``\"exec_prefix\"``"
 
 msgid ":c:member:`exec_prefix <PyConfig.exec_prefix>`"
 msgstr ""
 
 msgid "``\"executable\"``"
-msgstr ""
+msgstr "``\"executable\"``"
 
 msgid ":c:member:`executable <PyConfig.executable>`"
 msgstr ""
 
 msgid "``\"faulthandler\"``"
-msgstr ""
+msgstr "``\"faulthandler\"``"
 
 msgid ":c:member:`faulthandler <PyConfig.faulthandler>`"
 msgstr ""
 
 msgid "``\"filesystem_encoding\"``"
-msgstr ""
+msgstr "``\"filesystem_encoding\"``"
 
 msgid ":c:member:`filesystem_encoding <PyConfig.filesystem_encoding>`"
 msgstr ""
 
 msgid "``\"filesystem_errors\"``"
-msgstr ""
+msgstr "``\"filesystem_errors\"``"
 
 msgid ":c:member:`filesystem_errors <PyConfig.filesystem_errors>`"
 msgstr ""
 
 msgid "``\"hash_seed\"``"
-msgstr ""
+msgstr "``\"hash_seed\"``"
 
 msgid ":c:member:`hash_seed <PyConfig.hash_seed>`"
 msgstr ""
 
 msgid "``\"home\"``"
-msgstr ""
+msgstr "``\"home\"``"
 
 msgid ":c:member:`home <PyConfig.home>`"
 msgstr ""
 
 msgid "``\"import_time\"``"
-msgstr ""
+msgstr "``\"import_time\"``"
 
 msgid ":c:member:`import_time <PyConfig.import_time>`"
 msgstr ""
 
 msgid "``\"inspect\"``"
-msgstr ""
+msgstr "``\"inspect\"``"
 
 msgid ":c:member:`inspect <PyConfig.inspect>`"
 msgstr ""
 
 msgid "``\"install_signal_handlers\"``"
-msgstr ""
+msgstr "``\"install_signal_handlers\"``"
 
 msgid ":c:member:`install_signal_handlers <PyConfig.install_signal_handlers>`"
 msgstr ""
 
 msgid "``\"int_max_str_digits\"``"
-msgstr ""
+msgstr "``\"int_max_str_digits\"``"
 
 msgid ":c:member:`int_max_str_digits <PyConfig.int_max_str_digits>`"
 msgstr ""
 
 msgid "``\"interactive\"``"
-msgstr ""
+msgstr "``\"interactive\"``"
 
 msgid ":c:member:`interactive <PyConfig.interactive>`"
 msgstr ""
 
 msgid "``\"isolated\"``"
-msgstr ""
+msgstr "``\"isolated\"``"
 
 msgid ":c:member:`isolated <PyConfig.isolated>`"
 msgstr ""
 
 msgid "``\"legacy_windows_fs_encoding\"``"
-msgstr ""
+msgstr "``\"legacy_windows_fs_encoding\"``"
 
 msgid ""
 ":c:member:`legacy_windows_fs_encoding <PyPreConfig."
@@ -482,223 +486,223 @@ msgid ""
 msgstr ""
 
 msgid "``\"legacy_windows_stdio\"``"
-msgstr ""
+msgstr "``\"legacy_windows_stdio\"``"
 
 msgid ":c:member:`legacy_windows_stdio <PyConfig.legacy_windows_stdio>`"
 msgstr ""
 
 msgid "``\"malloc_stats\"``"
-msgstr ""
+msgstr "``\"malloc_stats\"``"
 
 msgid ":c:member:`malloc_stats <PyConfig.malloc_stats>`"
 msgstr ""
 
 msgid "``\"module_search_paths\"``"
-msgstr ""
+msgstr "``\"module_search_paths\"``"
 
 msgid ":c:member:`module_search_paths <PyConfig.module_search_paths>`"
 msgstr ""
 
 msgid "``\"optimization_level\"``"
-msgstr ""
+msgstr "``\"optimization_level\"``"
 
 msgid ":c:member:`optimization_level <PyConfig.optimization_level>`"
 msgstr ""
 
 msgid "``\"orig_argv\"``"
-msgstr ""
+msgstr "``\"orig_argv\"``"
 
 msgid ":c:member:`orig_argv <PyConfig.orig_argv>`"
 msgstr ""
 
 msgid "``\"parse_argv\"``"
-msgstr ""
+msgstr "``\"parse_argv\"``"
 
 msgid ":c:member:`parse_argv <PyConfig.parse_argv>`"
 msgstr ""
 
 msgid "``\"parser_debug\"``"
-msgstr ""
+msgstr "``\"parser_debug\"``"
 
 msgid ":c:member:`parser_debug <PyConfig.parser_debug>`"
 msgstr ""
 
 msgid "``\"pathconfig_warnings\"``"
-msgstr ""
+msgstr "``\"pathconfig_warnings\"``"
 
 msgid ":c:member:`pathconfig_warnings <PyConfig.pathconfig_warnings>`"
 msgstr ""
 
 msgid "``\"perf_profiling\"``"
-msgstr ""
+msgstr "``\"perf_profiling\"``"
 
 msgid ":c:member:`perf_profiling <PyConfig.perf_profiling>`"
 msgstr ""
 
 msgid "``\"platlibdir\"``"
-msgstr ""
+msgstr "``\"platlibdir\"``"
 
 msgid ":c:member:`platlibdir <PyConfig.platlibdir>`"
 msgstr ""
 
 msgid "``\"prefix\"``"
-msgstr ""
+msgstr "``\"prefix\"``"
 
 msgid ":c:member:`prefix <PyConfig.prefix>`"
 msgstr ""
 
 msgid "``\"program_name\"``"
-msgstr ""
+msgstr "``\"program_name\"``"
 
 msgid ":c:member:`program_name <PyConfig.program_name>`"
 msgstr ""
 
 msgid "``\"pycache_prefix\"``"
-msgstr ""
+msgstr "``\"pycache_prefix\"``"
 
 msgid ":c:member:`pycache_prefix <PyConfig.pycache_prefix>`"
 msgstr ""
 
 msgid "``\"quiet\"``"
-msgstr ""
+msgstr "``\"quiet\"``"
 
 msgid ":c:member:`quiet <PyConfig.quiet>`"
 msgstr ""
 
 msgid "``\"run_command\"``"
-msgstr ""
+msgstr "``\"run_command\"``"
 
 msgid ":c:member:`run_command <PyConfig.run_command>`"
 msgstr ""
 
 msgid "``\"run_filename\"``"
-msgstr ""
+msgstr "``\"run_filename\"``"
 
 msgid ":c:member:`run_filename <PyConfig.run_filename>`"
 msgstr ""
 
 msgid "``\"run_module\"``"
-msgstr ""
+msgstr "``\"run_module\"``"
 
 msgid ":c:member:`run_module <PyConfig.run_module>`"
 msgstr ""
 
 msgid "``\"run_presite\"``"
-msgstr ""
+msgstr "``\"run_presite\"``"
 
 msgid ":c:member:`run_presite <PyConfig.run_presite>`"
 msgstr ""
 
 msgid "``\"safe_path\"``"
-msgstr ""
+msgstr "``\"safe_path\"``"
 
 msgid ":c:member:`safe_path <PyConfig.safe_path>`"
 msgstr ""
 
 msgid "``\"show_ref_count\"``"
-msgstr ""
+msgstr "``\"show_ref_count\"``"
 
 msgid ":c:member:`show_ref_count <PyConfig.show_ref_count>`"
 msgstr ""
 
 msgid "``\"site_import\"``"
-msgstr ""
+msgstr "``\"site_import\"``"
 
 msgid ":c:member:`site_import <PyConfig.site_import>`"
 msgstr ""
 
 msgid "``\"skip_source_first_line\"``"
-msgstr ""
+msgstr "``\"skip_source_first_line\"``"
 
 msgid ":c:member:`skip_source_first_line <PyConfig.skip_source_first_line>`"
 msgstr ""
 
 msgid "``\"stdio_encoding\"``"
-msgstr ""
+msgstr "``\"stdio_encoding\"``"
 
 msgid ":c:member:`stdio_encoding <PyConfig.stdio_encoding>`"
 msgstr ""
 
 msgid "``\"stdio_errors\"``"
-msgstr ""
+msgstr "``\"stdio_errors\"``"
 
 msgid ":c:member:`stdio_errors <PyConfig.stdio_errors>`"
 msgstr ""
 
 msgid "``\"stdlib_dir\"``"
-msgstr ""
+msgstr "``\"stdlib_dir\"``"
 
 msgid ":c:member:`stdlib_dir <PyConfig.stdlib_dir>`"
 msgstr ""
 
 msgid "``\"tracemalloc\"``"
-msgstr ""
+msgstr "``\"tracemalloc\"``"
 
 msgid ":c:member:`tracemalloc <PyConfig.tracemalloc>`"
 msgstr ""
 
 msgid "``\"use_environment\"``"
-msgstr ""
+msgstr "``\"use_environment\"``"
 
 msgid ":c:member:`use_environment <PyConfig.use_environment>`"
 msgstr ""
 
 msgid "``\"use_frozen_modules\"``"
-msgstr ""
+msgstr "``\"use_frozen_modules\"``"
 
 msgid ":c:member:`use_frozen_modules <PyConfig.use_frozen_modules>`"
 msgstr ""
 
 msgid "``\"use_hash_seed\"``"
-msgstr ""
+msgstr "``\"use_hash_seed\"``"
 
 msgid ":c:member:`use_hash_seed <PyConfig.use_hash_seed>`"
 msgstr ""
 
 msgid "``\"use_system_logger\"``"
-msgstr ""
+msgstr "``\"use_system_logger\"``"
 
 msgid ":c:member:`use_system_logger <PyConfig.use_system_logger>`"
 msgstr ""
 
 msgid "``\"user_site_directory\"``"
-msgstr ""
+msgstr "``\"user_site_directory\"``"
 
 msgid ":c:member:`user_site_directory <PyConfig.user_site_directory>`"
 msgstr ""
 
 msgid "``\"utf8_mode\"``"
-msgstr ""
+msgstr "``\"utf8_mode\"``"
 
 msgid ":c:member:`utf8_mode <PyPreConfig.utf8_mode>`"
 msgstr ""
 
 msgid "``\"verbose\"``"
-msgstr ""
+msgstr "``\"verbose\"``"
 
 msgid ":c:member:`verbose <PyConfig.verbose>`"
 msgstr ""
 
 msgid "``\"warn_default_encoding\"``"
-msgstr ""
+msgstr "``\"warn_default_encoding\"``"
 
 msgid ":c:member:`warn_default_encoding <PyConfig.warn_default_encoding>`"
 msgstr ""
 
 msgid "``\"warnoptions\"``"
-msgstr ""
+msgstr "``\"warnoptions\"``"
 
 msgid ":c:member:`warnoptions <PyConfig.warnoptions>`"
 msgstr ""
 
 msgid "``\"write_bytecode\"``"
-msgstr ""
+msgstr "``\"write_bytecode\"``"
 
 msgid ":c:member:`write_bytecode <PyConfig.write_bytecode>`"
 msgstr ""
 
 msgid "``\"xoptions\"``"
-msgstr ""
+msgstr "``\"xoptions\"``"
 
 msgid ":c:member:`xoptions <PyConfig.xoptions>`"
 msgstr ""
@@ -707,7 +711,7 @@ msgid "``dict[str, str]``"
 msgstr ""
 
 msgid "``\"_pystats\"``"
-msgstr ""
+msgstr "``\"_pystats\"``"
 
 msgid ":c:member:`_pystats <PyConfig._pystats>`"
 msgstr ""
@@ -853,7 +857,7 @@ msgid ""
 msgstr ""
 
 msgid "PyWideStringList"
-msgstr ""
+msgstr "PyWideStringList"
 
 msgid "List of ``wchar_t*`` strings."
 msgstr ""
@@ -980,7 +984,7 @@ msgid ""
 msgstr ""
 
 msgid "PyPreConfig"
-msgstr ""
+msgstr "PyPreConfig"
 
 msgid "Structure used to preinitialize Python."
 msgstr ""
@@ -1251,7 +1255,7 @@ msgid ""
 msgstr ""
 
 msgid "PyConfig"
-msgstr ""
+msgstr "PyConfig"
 
 msgid "Structure containing most parameters to configure Python."
 msgstr ""
@@ -1342,16 +1346,16 @@ msgid ""
 msgstr ""
 
 msgid ":c:member:`PyConfig.dev_mode`"
-msgstr ""
+msgstr ":c:member:`PyConfig.dev_mode`"
 
 msgid ":c:member:`PyConfig.isolated`"
-msgstr ""
+msgstr ":c:member:`PyConfig.isolated`"
 
 msgid ":c:member:`PyConfig.parse_argv`"
-msgstr ""
+msgstr ":c:member:`PyConfig.parse_argv`"
 
 msgid ":c:member:`PyConfig.use_environment`"
-msgstr ""
+msgstr ":c:member:`PyConfig.use_environment`"
 
 msgid ""
 "Moreover, if :c:func:`PyConfig_SetArgv` or :c:func:`PyConfig_SetBytesArgv` "
@@ -1420,7 +1424,7 @@ msgid "Default: ``0`` in Python config, ``1`` in isolated config."
 msgstr ""
 
 msgid ":data:`sys.base_exec_prefix`."
-msgstr ""
+msgstr ":data:`sys.base_exec_prefix`."
 
 msgid "Part of the :ref:`Python Path Configuration <init-path-config>` output."
 msgstr ""
@@ -1441,7 +1445,7 @@ msgid "See also :c:member:`PyConfig.executable`."
 msgstr ""
 
 msgid ":data:`sys.base_prefix`."
-msgstr ""
+msgstr ":data:`sys.base_prefix`."
 
 msgid "See also :c:member:`PyConfig.prefix`."
 msgstr ""
@@ -1650,10 +1654,10 @@ msgid "Supported error handlers:"
 msgstr ""
 
 msgid "``\"strict\"``"
-msgstr ""
+msgstr "``\"strict\"``"
 
 msgid "``\"surrogateescape\"``"
-msgstr ""
+msgstr "``\"surrogateescape\"``"
 
 msgid "``\"surrogatepass\"`` (only supported with the UTF-8 encoding)"
 msgstr ""
@@ -2431,19 +2435,19 @@ msgid "Path configuration inputs:"
 msgstr ""
 
 msgid ":c:member:`PyConfig.home`"
-msgstr ""
+msgstr ":c:member:`PyConfig.home`"
 
 msgid ":c:member:`PyConfig.platlibdir`"
-msgstr ""
+msgstr ":c:member:`PyConfig.platlibdir`"
 
 msgid ":c:member:`PyConfig.pathconfig_warnings`"
-msgstr ""
+msgstr ":c:member:`PyConfig.pathconfig_warnings`"
 
 msgid ":c:member:`PyConfig.program_name`"
-msgstr ""
+msgstr ":c:member:`PyConfig.program_name`"
 
 msgid ":c:member:`PyConfig.pythonpath_env`"
-msgstr ""
+msgstr ":c:member:`PyConfig.pythonpath_env`"
 
 msgid "current working directory: to get absolute paths"
 msgstr ""
@@ -2466,19 +2470,19 @@ msgid "Path configuration output fields:"
 msgstr ""
 
 msgid ":c:member:`PyConfig.base_exec_prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.base_exec_prefix`"
 
 msgid ":c:member:`PyConfig.base_executable`"
-msgstr ""
+msgstr ":c:member:`PyConfig.base_executable`"
 
 msgid ":c:member:`PyConfig.base_prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.base_prefix`"
 
 msgid ":c:member:`PyConfig.exec_prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.exec_prefix`"
 
 msgid ":c:member:`PyConfig.executable`"
-msgstr ""
+msgstr ":c:member:`PyConfig.executable`"
 
 msgid ""
 ":c:member:`PyConfig.module_search_paths_set`, :c:member:`PyConfig."
@@ -2486,7 +2490,7 @@ msgid ""
 msgstr ""
 
 msgid ":c:member:`PyConfig.prefix`"
-msgstr ""
+msgstr ":c:member:`PyConfig.prefix`"
 
 msgid ""
 "If at least one \"output field\" is not set, Python calculates the path "
@@ -2554,7 +2558,7 @@ msgid "The following configuration files are used by the path configuration:"
 msgstr ""
 
 msgid "``pyvenv.cfg``"
-msgstr ""
+msgstr "``pyvenv.cfg``"
 
 msgid "``._pth`` file (ex: ``python._pth``)"
 msgstr ""
@@ -2599,7 +2603,7 @@ msgid ""
 msgstr ""
 
 msgid "Py_GetArgcArgv()"
-msgstr ""
+msgstr "Py_GetArgcArgv()"
 
 msgid "Get the original command line arguments, before Python modified them."
 msgstr ""
@@ -2623,7 +2627,7 @@ msgid ""
 msgstr ""
 
 msgid "main()"
-msgstr ""
+msgstr "main()"
 
 msgid "argv (in module sys)"
 msgstr ""

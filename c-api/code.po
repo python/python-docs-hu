@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -249,37 +250,37 @@ msgid "Meaning"
 msgstr "Jelentés"
 
 msgid ":py:data:`inspect.CO_OPTIMIZED`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_OPTIMIZED`"
 
 msgid ":py:data:`inspect.CO_NEWLOCALS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_NEWLOCALS`"
 
 msgid ":py:data:`inspect.CO_VARARGS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_VARARGS`"
 
 msgid ":py:data:`inspect.CO_VARKEYWORDS`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_VARKEYWORDS`"
 
 msgid ":py:data:`inspect.CO_NESTED`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_NESTED`"
 
 msgid ":py:data:`inspect.CO_GENERATOR`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_GENERATOR`"
 
 msgid ":py:data:`inspect.CO_COROUTINE`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_COROUTINE`"
 
 msgid ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
 
 msgid ":py:data:`inspect.CO_ASYNC_GENERATOR`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_ASYNC_GENERATOR`"
 
 msgid ":py:data:`inspect.CO_HAS_DOCSTRING`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_HAS_DOCSTRING`"
 
 msgid ":py:data:`inspect.CO_METHOD`"
-msgstr ""
+msgstr ":py:data:`inspect.CO_METHOD`"
 
 msgid "no effect (:py:data:`__future__.division`)"
 msgstr ""
@@ -300,7 +301,7 @@ msgid "no effect (:py:data:`__future__.generator_stop`)"
 msgstr ""
 
 msgid ":py:data:`__future__.annotations`"
-msgstr ""
+msgstr ":py:data:`__future__.annotations`"
 
 msgid "Extra information"
 msgstr ""

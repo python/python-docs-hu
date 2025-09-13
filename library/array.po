@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +51,7 @@ msgid "Notes"
 msgstr ""
 
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 msgid "signed char"
 msgstr ""
@@ -62,13 +63,13 @@ msgid "1"
 msgstr "1"
 
 msgid "``'B'``"
-msgstr ""
+msgstr "``'B'``"
 
 msgid "unsigned char"
 msgstr ""
 
 msgid "``'u'``"
-msgstr ""
+msgstr "``'u'``"
 
 msgid "wchar_t"
 msgstr ""
@@ -83,7 +84,7 @@ msgid "\\(1)"
 msgstr ""
 
 msgid "``'w'``"
-msgstr ""
+msgstr "``'w'``"
 
 msgid "Py_UCS4"
 msgstr ""
@@ -95,43 +96,43 @@ msgid "\\(2)"
 msgstr ""
 
 msgid "``'h'``"
-msgstr ""
+msgstr "``'h'``"
 
 msgid "signed short"
 msgstr ""
 
 msgid "``'H'``"
-msgstr ""
+msgstr "``'H'``"
 
 msgid "unsigned short"
 msgstr ""
 
 msgid "``'i'``"
-msgstr ""
+msgstr "``'i'``"
 
 msgid "signed int"
 msgstr ""
 
 msgid "``'I'``"
-msgstr ""
+msgstr "``'I'``"
 
 msgid "unsigned int"
 msgstr ""
 
 msgid "``'l'``"
-msgstr ""
+msgstr "``'l'``"
 
 msgid "signed long"
 msgstr ""
 
 msgid "``'L'``"
-msgstr ""
+msgstr "``'L'``"
 
 msgid "unsigned long"
 msgstr ""
 
 msgid "``'q'``"
-msgstr ""
+msgstr "``'q'``"
 
 msgid "signed long long"
 msgstr ""
@@ -140,19 +141,19 @@ msgid "8"
 msgstr ""
 
 msgid "``'Q'``"
-msgstr ""
+msgstr "``'Q'``"
 
 msgid "unsigned long long"
 msgstr ""
 
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 msgid "float"
 msgstr ""
 
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 msgid "double"
 msgstr ""

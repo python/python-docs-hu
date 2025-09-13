@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Stan Ulbrych, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -787,7 +791,7 @@ msgid ""
 msgstr ""
 
 msgid ":attr:`UnicodeError.start`"
-msgstr ""
+msgstr ":attr:`UnicodeError.start`"
 
 msgid ""
 "Set the *start* attribute of the given exception object to *start*. Return "
@@ -816,7 +820,7 @@ msgid ""
 msgstr ""
 
 msgid ":attr:`UnicodeError.end`"
-msgstr ""
+msgstr ":attr:`UnicodeError.end`"
 
 msgid "Return the *reason* attribute of the given exception object."
 msgstr ""
@@ -921,169 +925,169 @@ msgid "Python name"
 msgstr ""
 
 msgid ":exc:`BaseException`"
-msgstr ""
+msgstr ":exc:`BaseException`"
 
 msgid ":exc:`BaseExceptionGroup`"
-msgstr ""
+msgstr ":exc:`BaseExceptionGroup`"
 
 msgid ":exc:`Exception`"
-msgstr ""
+msgstr ":exc:`Exception`"
 
 msgid ":exc:`ArithmeticError`"
-msgstr ""
+msgstr ":exc:`ArithmeticError`"
 
 msgid ":exc:`AssertionError`"
-msgstr ""
+msgstr ":exc:`AssertionError`"
 
 msgid ":exc:`AttributeError`"
-msgstr ""
+msgstr ":exc:`AttributeError`"
 
 msgid ":exc:`BlockingIOError`"
-msgstr ""
+msgstr ":exc:`BlockingIOError`"
 
 msgid ":exc:`BrokenPipeError`"
-msgstr ""
+msgstr ":exc:`BrokenPipeError`"
 
 msgid ":exc:`BufferError`"
-msgstr ""
+msgstr ":exc:`BufferError`"
 
 msgid ":exc:`ChildProcessError`"
-msgstr ""
+msgstr ":exc:`ChildProcessError`"
 
 msgid ":exc:`ConnectionAbortedError`"
-msgstr ""
+msgstr ":exc:`ConnectionAbortedError`"
 
 msgid ":exc:`ConnectionError`"
-msgstr ""
+msgstr ":exc:`ConnectionError`"
 
 msgid ":exc:`ConnectionRefusedError`"
-msgstr ""
+msgstr ":exc:`ConnectionRefusedError`"
 
 msgid ":exc:`ConnectionResetError`"
-msgstr ""
+msgstr ":exc:`ConnectionResetError`"
 
 msgid ":exc:`EOFError`"
-msgstr ""
+msgstr ":exc:`EOFError`"
 
 msgid ":exc:`FileExistsError`"
-msgstr ""
+msgstr ":exc:`FileExistsError`"
 
 msgid ":exc:`FileNotFoundError`"
-msgstr ""
+msgstr ":exc:`FileNotFoundError`"
 
 msgid ":exc:`FloatingPointError`"
-msgstr ""
+msgstr ":exc:`FloatingPointError`"
 
 msgid ":exc:`GeneratorExit`"
-msgstr ""
+msgstr ":exc:`GeneratorExit`"
 
 msgid ":exc:`ImportError`"
-msgstr ""
+msgstr ":exc:`ImportError`"
 
 msgid ":exc:`IndentationError`"
-msgstr ""
+msgstr ":exc:`IndentationError`"
 
 msgid ":exc:`IndexError`"
-msgstr ""
+msgstr ":exc:`IndexError`"
 
 msgid ":exc:`InterruptedError`"
-msgstr ""
+msgstr ":exc:`InterruptedError`"
 
 msgid ":exc:`IsADirectoryError`"
-msgstr ""
+msgstr ":exc:`IsADirectoryError`"
 
 msgid ":exc:`KeyError`"
-msgstr ""
+msgstr ":exc:`KeyError`"
 
 msgid ":exc:`KeyboardInterrupt`"
-msgstr ""
+msgstr ":exc:`KeyboardInterrupt`"
 
 msgid ":exc:`LookupError`"
-msgstr ""
+msgstr ":exc:`LookupError`"
 
 msgid ":exc:`MemoryError`"
-msgstr ""
+msgstr ":exc:`MemoryError`"
 
 msgid ":exc:`ModuleNotFoundError`"
-msgstr ""
+msgstr ":exc:`ModuleNotFoundError`"
 
 msgid ":exc:`NameError`"
-msgstr ""
+msgstr ":exc:`NameError`"
 
 msgid ":exc:`NotADirectoryError`"
-msgstr ""
+msgstr ":exc:`NotADirectoryError`"
 
 msgid ":exc:`NotImplementedError`"
-msgstr ""
+msgstr ":exc:`NotImplementedError`"
 
 msgid ":exc:`OSError`"
-msgstr ""
+msgstr ":exc:`OSError`"
 
 msgid ":exc:`OverflowError`"
-msgstr ""
+msgstr ":exc:`OverflowError`"
 
 msgid ":exc:`PermissionError`"
-msgstr ""
+msgstr ":exc:`PermissionError`"
 
 msgid ":exc:`ProcessLookupError`"
-msgstr ""
+msgstr ":exc:`ProcessLookupError`"
 
 msgid ":exc:`PythonFinalizationError`"
-msgstr ""
+msgstr ":exc:`PythonFinalizationError`"
 
 msgid ":exc:`RecursionError`"
-msgstr ""
+msgstr ":exc:`RecursionError`"
 
 msgid ":exc:`ReferenceError`"
-msgstr ""
+msgstr ":exc:`ReferenceError`"
 
 msgid ":exc:`RuntimeError`"
-msgstr ""
+msgstr ":exc:`RuntimeError`"
 
 msgid ":exc:`StopAsyncIteration`"
-msgstr ""
+msgstr ":exc:`StopAsyncIteration`"
 
 msgid ":exc:`StopIteration`"
-msgstr ""
+msgstr ":exc:`StopIteration`"
 
 msgid ":exc:`SyntaxError`"
-msgstr ""
+msgstr ":exc:`SyntaxError`"
 
 msgid ":exc:`SystemError`"
-msgstr ""
+msgstr ":exc:`SystemError`"
 
 msgid ":exc:`SystemExit`"
-msgstr ""
+msgstr ":exc:`SystemExit`"
 
 msgid ":exc:`TabError`"
-msgstr ""
+msgstr ":exc:`TabError`"
 
 msgid ":exc:`TimeoutError`"
-msgstr ""
+msgstr ":exc:`TimeoutError`"
 
 msgid ":exc:`TypeError`"
-msgstr ""
+msgstr ":exc:`TypeError`"
 
 msgid ":exc:`UnboundLocalError`"
-msgstr ""
+msgstr ":exc:`UnboundLocalError`"
 
 msgid ":exc:`UnicodeDecodeError`"
-msgstr ""
+msgstr ":exc:`UnicodeDecodeError`"
 
 msgid ":exc:`UnicodeEncodeError`"
-msgstr ""
+msgstr ":exc:`UnicodeEncodeError`"
 
 msgid ":exc:`UnicodeError`"
-msgstr ""
+msgstr ":exc:`UnicodeError`"
 
 msgid ":exc:`UnicodeTranslateError`"
-msgstr ""
+msgstr ":exc:`UnicodeTranslateError`"
 
 msgid ":exc:`ValueError`"
-msgstr ""
+msgstr ":exc:`ValueError`"
 
 msgid ":exc:`ZeroDivisionError`"
-msgstr ""
+msgstr ":exc:`ZeroDivisionError`"
 
 msgid ""
 ":c:data:`PyExc_BlockingIOError`, :c:data:`PyExc_BrokenPipeError`, :c:data:"
@@ -1100,10 +1104,10 @@ msgid ":c:data:`PyExc_StopAsyncIteration` and :c:data:`PyExc_RecursionError`."
 msgstr ""
 
 msgid ":c:data:`PyExc_ModuleNotFoundError`."
-msgstr ""
+msgstr ":c:data:`PyExc_ModuleNotFoundError`."
 
 msgid ":c:data:`PyExc_BaseExceptionGroup`."
-msgstr ""
+msgstr ":c:data:`PyExc_BaseExceptionGroup`."
 
 msgid "OSError aliases"
 msgstr ""
@@ -1118,7 +1122,7 @@ msgid "Notes"
 msgstr ""
 
 msgid "[win]_"
-msgstr ""
+msgstr "[win]_"
 
 msgid "Notes:"
 msgstr ""
@@ -1132,46 +1136,46 @@ msgid "Warning types"
 msgstr ""
 
 msgid ":exc:`Warning`"
-msgstr ""
+msgstr ":exc:`Warning`"
 
 msgid ":exc:`BytesWarning`"
-msgstr ""
+msgstr ":exc:`BytesWarning`"
 
 msgid ":exc:`DeprecationWarning`"
-msgstr ""
+msgstr ":exc:`DeprecationWarning`"
 
 msgid ":exc:`EncodingWarning`"
-msgstr ""
+msgstr ":exc:`EncodingWarning`"
 
 msgid ":exc:`FutureWarning`"
-msgstr ""
+msgstr ":exc:`FutureWarning`"
 
 msgid ":exc:`ImportWarning`"
-msgstr ""
+msgstr ":exc:`ImportWarning`"
 
 msgid ":exc:`PendingDeprecationWarning`"
-msgstr ""
+msgstr ":exc:`PendingDeprecationWarning`"
 
 msgid ":exc:`ResourceWarning`"
-msgstr ""
+msgstr ":exc:`ResourceWarning`"
 
 msgid ":exc:`RuntimeWarning`"
-msgstr ""
+msgstr ":exc:`RuntimeWarning`"
 
 msgid ":exc:`SyntaxWarning`"
-msgstr ""
+msgstr ":exc:`SyntaxWarning`"
 
 msgid ":exc:`UnicodeWarning`"
-msgstr ""
+msgstr ":exc:`UnicodeWarning`"
 
 msgid ":exc:`UserWarning`"
-msgstr ""
+msgstr ":exc:`UserWarning`"
 
 msgid ":c:data:`PyExc_ResourceWarning`."
-msgstr ""
+msgstr ":c:data:`PyExc_ResourceWarning`."
 
 msgid ":c:data:`PyExc_EncodingWarning`."
-msgstr ""
+msgstr ":c:data:`PyExc_EncodingWarning`."
 
 msgid "strerror (C function)"
 msgstr ""

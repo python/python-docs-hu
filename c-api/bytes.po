@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Stan Ulbrych, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +79,7 @@ msgid "Comment"
 msgstr ""
 
 msgid "``%%``"
-msgstr ""
+msgstr "``%%``"
 
 msgid "*n/a*"
 msgstr ""
@@ -84,7 +88,7 @@ msgid "The literal % character."
 msgstr ""
 
 msgid "``%c``"
-msgstr ""
+msgstr "``%c``"
 
 msgid "int"
 msgstr ""
@@ -93,13 +97,13 @@ msgid "A single byte, represented as a C int."
 msgstr ""
 
 msgid "``%d``"
-msgstr ""
+msgstr "``%d``"
 
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
 msgstr ""
 
 msgid "``%u``"
-msgstr ""
+msgstr "``%u``"
 
 msgid "unsigned int"
 msgstr ""
@@ -108,7 +112,7 @@ msgid "Equivalent to ``printf(\"%u\")``. [1]_"
 msgstr ""
 
 msgid "``%ld``"
-msgstr ""
+msgstr "``%ld``"
 
 msgid "long"
 msgstr ""
@@ -117,7 +121,7 @@ msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
 msgstr ""
 
 msgid "``%lu``"
-msgstr ""
+msgstr "``%lu``"
 
 msgid "unsigned long"
 msgstr ""
@@ -126,7 +130,7 @@ msgid "Equivalent to ``printf(\"%lu\")``. [1]_"
 msgstr ""
 
 msgid "``%zd``"
-msgstr ""
+msgstr "``%zd``"
 
 msgid ":c:type:`\\ Py_ssize_t`"
 msgstr ""
@@ -135,28 +139,28 @@ msgid "Equivalent to ``printf(\"%zd\")``. [1]_"
 msgstr ""
 
 msgid "``%zu``"
-msgstr ""
+msgstr "``%zu``"
 
 msgid "size_t"
-msgstr ""
+msgstr "size_t"
 
 msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
 msgstr ""
 
 msgid "``%i``"
-msgstr ""
+msgstr "``%i``"
 
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
 msgstr ""
 
 msgid "``%x``"
-msgstr ""
+msgstr "``%x``"
 
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
 msgstr ""
 
 msgid "``%s``"
-msgstr ""
+msgstr "``%s``"
 
 msgid "const char\\*"
 msgstr ""
@@ -165,7 +169,7 @@ msgid "A null-terminated C character array."
 msgstr ""
 
 msgid "``%p``"
-msgstr ""
+msgstr "``%p``"
 
 msgid "const void\\*"
 msgstr ""

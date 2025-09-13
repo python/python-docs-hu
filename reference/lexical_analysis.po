@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -502,13 +503,13 @@ msgid ""
 msgstr ""
 
 msgid "``_*``"
-msgstr ""
+msgstr "``_*``"
 
 msgid "Not imported by ``from module import *``."
 msgstr ""
 
 msgid "``_``"
-msgstr ""
+msgstr "``_``"
 
 msgid ""
 "In a ``case`` pattern within a :keyword:`match` statement, ``_`` is a :ref:"
@@ -537,7 +538,7 @@ msgid "It is also commonly used for unused variables."
 msgstr ""
 
 msgid "``__*__``"
-msgstr ""
+msgstr "``__*__``"
 
 msgid ""
 "System-defined names, informally known as \"dunder\" names. These names are "
@@ -549,7 +550,7 @@ msgid ""
 msgstr ""
 
 msgid "``__*``"
-msgstr ""
+msgstr "``__*``"
 
 msgid ""
 "Class-private names.  Names in this category, when used within the context "
@@ -742,61 +743,61 @@ msgid ":ref:`string-escape-ignore`"
 msgstr ""
 
 msgid "``\\\\``"
-msgstr ""
+msgstr "``\\\\``"
 
 msgid ":ref:`Backslash <string-escape-escaped-char>`"
 msgstr ""
 
 msgid "``\\'``"
-msgstr ""
+msgstr "``\\'``"
 
 msgid ":ref:`Single quote <string-escape-escaped-char>`"
 msgstr ""
 
 msgid "``\\\"``"
-msgstr ""
+msgstr "``\\\"``"
 
 msgid ":ref:`Double quote <string-escape-escaped-char>`"
 msgstr ""
 
 msgid "``\\a``"
-msgstr ""
+msgstr "``\\a``"
 
 msgid "ASCII Bell (BEL)"
 msgstr ""
 
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 msgid "ASCII Backspace (BS)"
 msgstr ""
 
 msgid "``\\f``"
-msgstr ""
+msgstr "``\\f``"
 
 msgid "ASCII Formfeed (FF)"
 msgstr ""
 
 msgid "``\\n``"
-msgstr ""
+msgstr "``\\n``"
 
 msgid "ASCII Linefeed (LF)"
 msgstr ""
 
 msgid "``\\r``"
-msgstr ""
+msgstr "``\\r``"
 
 msgid "ASCII Carriage Return (CR)"
 msgstr ""
 
 msgid "``\\t``"
-msgstr ""
+msgstr "``\\t``"
 
 msgid "ASCII Horizontal Tab (TAB)"
 msgstr ""
 
 msgid "``\\v``"
-msgstr ""
+msgstr "``\\v``"
 
 msgid "ASCII Vertical Tab (VT)"
 msgstr ""

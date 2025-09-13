@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -1584,61 +1585,61 @@ msgid "AIX"
 msgstr ""
 
 msgid "``'aix'``"
-msgstr ""
+msgstr "``'aix'``"
 
 msgid "Android"
 msgstr ""
 
 msgid "``'android'``"
-msgstr ""
+msgstr "``'android'``"
 
 msgid "Emscripten"
 msgstr ""
 
 msgid "``'emscripten'``"
-msgstr ""
+msgstr "``'emscripten'``"
 
 msgid "FreeBSD"
 msgstr ""
 
 msgid "``'freebsd'``"
-msgstr ""
+msgstr "``'freebsd'``"
 
 msgid "iOS"
 msgstr ""
 
 msgid "``'ios'``"
-msgstr ""
+msgstr "``'ios'``"
 
 msgid "Linux"
 msgstr ""
 
 msgid "``'linux'``"
-msgstr ""
+msgstr "``'linux'``"
 
 msgid "macOS"
 msgstr ""
 
 msgid "``'darwin'``"
-msgstr ""
+msgstr "``'darwin'``"
 
 msgid "Windows"
 msgstr ""
 
 msgid "``'win32'``"
-msgstr ""
+msgstr "``'win32'``"
 
 msgid "Windows/Cygwin"
 msgstr ""
 
 msgid "``'cygwin'``"
-msgstr ""
+msgstr "``'cygwin'``"
 
 msgid "WASI"
 msgstr ""
 
 msgid "``'wasi'``"
-msgstr ""
+msgstr "``'wasi'``"
 
 msgid ""
 "On Unix systems not listed in the table, the value is the lowercased OS name "
@@ -1786,7 +1787,7 @@ msgid "The events have the following meaning:"
 msgstr ""
 
 msgid "``'call'``"
-msgstr ""
+msgstr "``'call'``"
 
 msgid ""
 "A function is called (or some other code block entered).  The profile "
@@ -1794,7 +1795,7 @@ msgid ""
 msgstr ""
 
 msgid "``'return'``"
-msgstr ""
+msgstr "``'return'``"
 
 msgid ""
 "A function (or other code block) is about to return.  The profile function "
@@ -1803,7 +1804,7 @@ msgid ""
 msgstr ""
 
 msgid "``'c_call'``"
-msgstr ""
+msgstr "``'c_call'``"
 
 msgid ""
 "A C function is about to be called.  This may be an extension function or a "
@@ -1811,13 +1812,13 @@ msgid ""
 msgstr ""
 
 msgid "``'c_return'``"
-msgstr ""
+msgstr "``'c_return'``"
 
 msgid "A C function has returned. *arg* is the C function object."
 msgstr ""
 
 msgid "``'c_exception'``"
-msgstr ""
+msgstr "``'c_exception'``"
 
 msgid "A C function has raised an exception.  *arg* is the C function object."
 msgstr ""
@@ -1904,7 +1905,7 @@ msgid ""
 msgstr ""
 
 msgid "``'line'``"
-msgstr ""
+msgstr "``'line'``"
 
 msgid ""
 "The interpreter is about to execute a new line of code or re-execute the "
@@ -1923,7 +1924,7 @@ msgid ""
 msgstr ""
 
 msgid "``'exception'``"
-msgstr ""
+msgstr "``'exception'``"
 
 msgid ""
 "An exception has occurred.  The local trace function is called; *arg* is a "
@@ -1932,7 +1933,7 @@ msgid ""
 msgstr ""
 
 msgid "``'opcode'``"
-msgstr ""
+msgstr "``'opcode'``"
 
 msgid ""
 "The interpreter is about to execute a new opcode (see :mod:`dis` for opcode "

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Stan Ulbrych, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -44,19 +48,19 @@ msgid "Functions that initialize the interpreter:"
 msgstr ""
 
 msgid ":c:func:`Py_Initialize`"
-msgstr ""
+msgstr ":c:func:`Py_Initialize`"
 
 msgid ":c:func:`Py_InitializeEx`"
-msgstr ""
+msgstr ":c:func:`Py_InitializeEx`"
 
 msgid ":c:func:`Py_InitializeFromConfig`"
-msgstr ""
+msgstr ":c:func:`Py_InitializeFromConfig`"
 
 msgid ":c:func:`Py_BytesMain`"
-msgstr ""
+msgstr ":c:func:`Py_BytesMain`"
 
 msgid ":c:func:`Py_Main`"
-msgstr ""
+msgstr ":c:func:`Py_Main`"
 
 msgid "the runtime pre-initialization functions covered in :ref:`init-config`"
 msgstr ""
@@ -65,31 +69,31 @@ msgid "Configuration functions:"
 msgstr ""
 
 msgid ":c:func:`PyImport_AppendInittab`"
-msgstr ""
+msgstr ":c:func:`PyImport_AppendInittab`"
 
 msgid ":c:func:`PyImport_ExtendInittab`"
-msgstr ""
+msgstr ":c:func:`PyImport_ExtendInittab`"
 
 msgid ":c:func:`!PyInitFrozenExtensions`"
-msgstr ""
+msgstr ":c:func:`!PyInitFrozenExtensions`"
 
 msgid ":c:func:`PyMem_SetAllocator`"
-msgstr ""
+msgstr ":c:func:`PyMem_SetAllocator`"
 
 msgid ":c:func:`PyMem_SetupDebugHooks`"
-msgstr ""
+msgstr ":c:func:`PyMem_SetupDebugHooks`"
 
 msgid ":c:func:`PyObject_SetArenaAllocator`"
-msgstr ""
+msgstr ":c:func:`PyObject_SetArenaAllocator`"
 
 msgid ":c:func:`Py_SetProgramName`"
-msgstr ""
+msgstr ":c:func:`Py_SetProgramName`"
 
 msgid ":c:func:`Py_SetPythonHome`"
-msgstr ""
+msgstr ":c:func:`Py_SetPythonHome`"
 
 msgid ":c:func:`PySys_ResetWarnOptions`"
-msgstr ""
+msgstr ":c:func:`PySys_ResetWarnOptions`"
 
 msgid "the configuration functions covered in :ref:`init-config`"
 msgstr ""
@@ -98,34 +102,34 @@ msgid "Informative functions:"
 msgstr ""
 
 msgid ":c:func:`Py_IsInitialized`"
-msgstr ""
+msgstr ":c:func:`Py_IsInitialized`"
 
 msgid ":c:func:`PyMem_GetAllocator`"
-msgstr ""
+msgstr ":c:func:`PyMem_GetAllocator`"
 
 msgid ":c:func:`PyObject_GetArenaAllocator`"
-msgstr ""
+msgstr ":c:func:`PyObject_GetArenaAllocator`"
 
 msgid ":c:func:`Py_GetBuildInfo`"
-msgstr ""
+msgstr ":c:func:`Py_GetBuildInfo`"
 
 msgid ":c:func:`Py_GetCompiler`"
-msgstr ""
+msgstr ":c:func:`Py_GetCompiler`"
 
 msgid ":c:func:`Py_GetCopyright`"
-msgstr ""
+msgstr ":c:func:`Py_GetCopyright`"
 
 msgid ":c:func:`Py_GetPlatform`"
-msgstr ""
+msgstr ":c:func:`Py_GetPlatform`"
 
 msgid ":c:func:`Py_GetVersion`"
-msgstr ""
+msgstr ":c:func:`Py_GetVersion`"
 
 msgid "Utilities:"
 msgstr ""
 
 msgid ":c:func:`Py_DecodeLocale`"
-msgstr ""
+msgstr ":c:func:`Py_DecodeLocale`"
 
 msgid ""
 "the status reporting and utility functions covered in :ref:`init-config`"
@@ -135,25 +139,25 @@ msgid "Memory allocators:"
 msgstr ""
 
 msgid ":c:func:`PyMem_RawMalloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawMalloc`"
 
 msgid ":c:func:`PyMem_RawRealloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawRealloc`"
 
 msgid ":c:func:`PyMem_RawCalloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawCalloc`"
 
 msgid ":c:func:`PyMem_RawFree`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawFree`"
 
 msgid "Synchronization:"
 msgstr ""
 
 msgid ":c:func:`PyMutex_Lock`"
-msgstr ""
+msgstr ":c:func:`PyMutex_Lock`"
 
 msgid ":c:func:`PyMutex_Unlock`"
-msgstr ""
+msgstr ":c:func:`PyMutex_Unlock`"
 
 msgid ""
 "Despite their apparent similarity to some of the functions listed above, the "
@@ -2106,41 +2110,41 @@ msgid "Meaning of *arg*"
 msgstr ""
 
 msgid ":c:data:`PyTrace_CALL`"
-msgstr ""
+msgstr ":c:data:`PyTrace_CALL`"
 
 msgid "Always :c:data:`Py_None`."
 msgstr ""
 
 msgid ":c:data:`PyTrace_EXCEPTION`"
-msgstr ""
+msgstr ":c:data:`PyTrace_EXCEPTION`"
 
 msgid "Exception information as returned by :func:`sys.exc_info`."
 msgstr ""
 
 msgid ":c:data:`PyTrace_LINE`"
-msgstr ""
+msgstr ":c:data:`PyTrace_LINE`"
 
 msgid ":c:data:`PyTrace_RETURN`"
-msgstr ""
+msgstr ":c:data:`PyTrace_RETURN`"
 
 msgid ""
 "Value being returned to the caller, or ``NULL`` if caused by an exception."
 msgstr ""
 
 msgid ":c:data:`PyTrace_C_CALL`"
-msgstr ""
+msgstr ":c:data:`PyTrace_C_CALL`"
 
 msgid "Function object being called."
 msgstr ""
 
 msgid ":c:data:`PyTrace_C_EXCEPTION`"
-msgstr ""
+msgstr ":c:data:`PyTrace_C_EXCEPTION`"
 
 msgid ":c:data:`PyTrace_C_RETURN`"
-msgstr ""
+msgstr ":c:data:`PyTrace_C_RETURN`"
 
 msgid ":c:data:`PyTrace_OPCODE`"
-msgstr ""
+msgstr ":c:data:`PyTrace_OPCODE`"
 
 msgid ""
 "The value of the *what* parameter to a :c:type:`Py_tracefunc` function when "
@@ -2667,7 +2671,7 @@ msgid ""
 msgstr ""
 
 msgid "PyEval_InitThreads()"
-msgstr ""
+msgstr "PyEval_InitThreads()"
 
 msgid "modules (in module sys)"
 msgstr ""
@@ -2682,7 +2686,7 @@ msgid "builtins"
 msgstr ""
 
 msgid "__main__"
-msgstr ""
+msgstr "__main__"
 
 msgid "sys"
 msgstr ""
@@ -2697,13 +2701,13 @@ msgid "Py_FinalizeEx (C function)"
 msgstr ""
 
 msgid "Py_Initialize()"
-msgstr ""
+msgstr "Py_Initialize()"
 
 msgid "main()"
-msgstr ""
+msgstr "main()"
 
 msgid "Py_GetPath()"
-msgstr ""
+msgstr "Py_GetPath()"
 
 msgid "executable (in module sys)"
 msgstr ""
@@ -2718,7 +2722,7 @@ msgid "copyright (in module sys)"
 msgstr ""
 
 msgid "Py_FatalError()"
-msgstr ""
+msgstr "Py_FatalError()"
 
 msgid "argv (in module sys)"
 msgstr ""
@@ -2751,16 +2755,16 @@ msgid "PyEval_SaveThread (C function)"
 msgstr ""
 
 msgid "PyEval_AcquireThread()"
-msgstr ""
+msgstr "PyEval_AcquireThread()"
 
 msgid "PyEval_ReleaseThread()"
-msgstr ""
+msgstr "PyEval_ReleaseThread()"
 
 msgid "PyEval_SaveThread()"
-msgstr ""
+msgstr "PyEval_SaveThread()"
 
 msgid "PyEval_RestoreThread()"
-msgstr ""
+msgstr "PyEval_RestoreThread()"
 
 msgid "_thread"
 msgstr ""

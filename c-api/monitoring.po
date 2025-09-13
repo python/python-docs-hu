@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Stan Ulbrych, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -182,58 +186,58 @@ msgid "Event"
 msgstr ""
 
 msgid ":monitoring-event:`BRANCH_LEFT`"
-msgstr ""
+msgstr ":monitoring-event:`BRANCH_LEFT`"
 
 msgid ":monitoring-event:`BRANCH_RIGHT`"
-msgstr ""
+msgstr ":monitoring-event:`BRANCH_RIGHT`"
 
 msgid ":monitoring-event:`CALL`"
-msgstr ""
+msgstr ":monitoring-event:`CALL`"
 
 msgid ":monitoring-event:`C_RAISE`"
-msgstr ""
+msgstr ":monitoring-event:`C_RAISE`"
 
 msgid ":monitoring-event:`C_RETURN`"
-msgstr ""
+msgstr ":monitoring-event:`C_RETURN`"
 
 msgid ":monitoring-event:`EXCEPTION_HANDLED`"
-msgstr ""
+msgstr ":monitoring-event:`EXCEPTION_HANDLED`"
 
 msgid ":monitoring-event:`INSTRUCTION`"
-msgstr ""
+msgstr ":monitoring-event:`INSTRUCTION`"
 
 msgid ":monitoring-event:`JUMP`"
-msgstr ""
+msgstr ":monitoring-event:`JUMP`"
 
 msgid ":monitoring-event:`LINE`"
-msgstr ""
+msgstr ":monitoring-event:`LINE`"
 
 msgid ":monitoring-event:`PY_RESUME`"
-msgstr ""
+msgstr ":monitoring-event:`PY_RESUME`"
 
 msgid ":monitoring-event:`PY_RETURN`"
-msgstr ""
+msgstr ":monitoring-event:`PY_RETURN`"
 
 msgid ":monitoring-event:`PY_START`"
-msgstr ""
+msgstr ":monitoring-event:`PY_START`"
 
 msgid ":monitoring-event:`PY_THROW`"
-msgstr ""
+msgstr ":monitoring-event:`PY_THROW`"
 
 msgid ":monitoring-event:`PY_UNWIND`"
-msgstr ""
+msgstr ":monitoring-event:`PY_UNWIND`"
 
 msgid ":monitoring-event:`PY_YIELD`"
-msgstr ""
+msgstr ":monitoring-event:`PY_YIELD`"
 
 msgid ":monitoring-event:`RAISE`"
-msgstr ""
+msgstr ":monitoring-event:`RAISE`"
 
 msgid ":monitoring-event:`RERAISE`"
-msgstr ""
+msgstr ":monitoring-event:`RERAISE`"
 
 msgid ":monitoring-event:`STOP_ITERATION`"
-msgstr ""
+msgstr ":monitoring-event:`STOP_ITERATION`"
 
 msgid ""
 "Exit the last scope that was entered with :c:func:`!PyMonitoring_EnterScope`."

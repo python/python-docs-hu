@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -498,19 +499,19 @@ msgid "Value"
 msgstr ""
 
 msgid "``'replace'``"
-msgstr ""
+msgstr "``'replace'``"
 
 msgid "``a[i1:i2]`` should be replaced by ``b[j1:j2]``."
 msgstr ""
 
 msgid "``'delete'``"
-msgstr ""
+msgstr "``'delete'``"
 
 msgid "``a[i1:i2]`` should be deleted.  Note that ``j1 == j2`` in this case."
 msgstr ""
 
 msgid "``'insert'``"
-msgstr ""
+msgstr "``'insert'``"
 
 msgid ""
 "``b[j1:j2]`` should be inserted at ``a[i1:i1]``. Note that ``i1 == i2`` in "
@@ -518,7 +519,7 @@ msgid ""
 msgstr ""
 
 msgid "``'equal'``"
-msgstr ""
+msgstr "``'equal'``"
 
 msgid "``a[i1:i2] == b[j1:j2]`` (the sub-sequences are equal)."
 msgstr ""

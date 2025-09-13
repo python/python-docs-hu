@@ -5,15 +5,16 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -158,19 +159,19 @@ msgid ":class:`Container` [1]_"
 msgstr ""
 
 msgid "``__contains__``"
-msgstr ""
+msgstr "``__contains__``"
 
 msgid ":class:`Hashable` [1]_"
 msgstr ""
 
 msgid "``__hash__``"
-msgstr ""
+msgstr "``__hash__``"
 
 msgid ":class:`Iterable` [1]_ [2]_"
 msgstr ""
 
 msgid "``__iter__``"
-msgstr ""
+msgstr "``__iter__``"
 
 msgid ":class:`Iterator` [1]_"
 msgstr ""
@@ -179,13 +180,13 @@ msgid ":class:`Iterable`"
 msgstr ""
 
 msgid "``__next__``"
-msgstr ""
+msgstr "``__next__``"
 
 msgid ":class:`Reversible` [1]_"
 msgstr ""
 
 msgid "``__reversed__``"
-msgstr ""
+msgstr "``__reversed__``"
 
 msgid ":class:`Generator`  [1]_"
 msgstr ""
@@ -203,13 +204,13 @@ msgid ":class:`Sized`  [1]_"
 msgstr ""
 
 msgid "``__len__``"
-msgstr ""
+msgstr "``__len__``"
 
 msgid ":class:`Callable`  [1]_"
 msgstr ""
 
 msgid "``__call__``"
-msgstr ""
+msgstr "``__call__``"
 
 msgid ":class:`Collection`  [1]_"
 msgstr ""
@@ -322,7 +323,7 @@ msgid ":class:`Awaitable` [1]_"
 msgstr ""
 
 msgid "``__await__``"
-msgstr ""
+msgstr "``__await__``"
 
 msgid ":class:`Coroutine` [1]_"
 msgstr ""
@@ -331,13 +332,13 @@ msgid ":class:`Awaitable`"
 msgstr ""
 
 msgid "``close``"
-msgstr ""
+msgstr "``close``"
 
 msgid ":class:`AsyncIterable` [1]_"
 msgstr ""
 
 msgid "``__aiter__``"
-msgstr ""
+msgstr "``__aiter__``"
 
 msgid ":class:`AsyncIterator` [1]_"
 msgstr ""
@@ -346,7 +347,7 @@ msgid ":class:`AsyncIterable`"
 msgstr ""
 
 msgid "``__anext__``"
-msgstr ""
+msgstr "``__anext__``"
 
 msgid ":class:`AsyncGenerator` [1]_"
 msgstr ""
@@ -364,7 +365,7 @@ msgid ":class:`Buffer` [1]_"
 msgstr ""
 
 msgid "``__buffer__``"
-msgstr ""
+msgstr "``__buffer__``"
 
 msgid "Footnotes"
 msgstr "Lábjegyzet"
