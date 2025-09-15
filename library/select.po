@@ -871,22 +871,22 @@ msgid "link is up"
 msgstr "посилання працює"
 
 msgid ":const:`KQ_NOTE_LINKDOWN`"
-msgstr ""
+msgstr ":const:`KQ_NOTE_LINKDOWN`"
 
 msgid "link is down"
-msgstr ""
+msgstr "посилання не працює"
 
 msgid ":const:`KQ_NOTE_LINKINV`"
-msgstr ""
+msgstr ":const:`KQ_NOTE_LINKINV`"
 
 msgid "link state is invalid"
-msgstr ""
+msgstr "стан посилання недійсний"
 
 msgid "Filter specific data."
-msgstr ""
+msgstr "Фільтр конкретних даних."
 
 msgid "User defined value."
-msgstr ""
+msgstr "Визначене користувачем значення."
 
 msgid "socket() (in module socket)"
 msgstr ""

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -281,7 +285,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr ""
+msgstr "Na przykład::"
 
 msgid ""
 "from collections.abc import Callable, Awaitable\n"
@@ -1053,7 +1057,7 @@ msgid ""
 msgstr ""
 
 msgid "Module contents"
-msgstr ""
+msgstr "Зміст модуля"
 
 msgid ""
 "The ``typing`` module defines the following classes, functions and "
@@ -1101,7 +1105,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr ""
+msgstr "Na przykład::"
 
 msgid ""
 "def concat(a: AnyStr, b: AnyStr) -> AnyStr:\n"
@@ -1154,7 +1158,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 "def run_query(sql: LiteralString) -> None:\n"
