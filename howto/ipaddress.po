@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +35,7 @@ msgid "Nick Coghlan"
 msgstr ""
 
 msgid "Overview"
-msgstr ""
+msgstr "Skorowidz"
 
 msgid ""
 "This document aims to provide a gentle introduction to the :mod:`ipaddress` "
@@ -326,7 +330,7 @@ msgid ""
 msgstr ""
 
 msgid "Comparisons"
-msgstr ""
+msgstr "Perbandingan"
 
 msgid ""
 ":mod:`ipaddress` provides some simple, hopefully intuitive ways to compare "

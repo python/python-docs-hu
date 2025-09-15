@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 20:40+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -33,9 +37,13 @@ msgid ""
 "look at the :ref:`reporting-bugs` page for information on how to do so.  New "
 "volunteers are always welcome!"
 msgstr ""
+"A dokumentáció és annak eszköztárának fejlesztése teljes mértékben önkéntes "
+"alapú, akárcsak a Python nyelv maga. Ha szeretnél közreműködni, kérünk "
+"pillants rá a :ref:`reporting-bugs` oldara, hogy ezt hogyan teheted. Új "
+"önkénteseket mindig szeretettel várunk!"
 
 msgid "Many thanks go to:"
-msgstr ""
+msgstr "Rengeteg hála a következőknek:"
 
 msgid ""
 "Fred L. Drake, Jr., the creator of the original Python documentation toolset "
@@ -51,6 +59,8 @@ msgid ""
 "Fredrik Lundh for his Alternative Python Reference project from which Sphinx "
 "got many good ideas."
 msgstr ""
+"Fredrika Lundha za jego projekt Alternative Python Reference, z którego "
+"Sphinx wziął wiele dobrych pomysłów."
 
 msgid "Contributors to the Python documentation"
 msgstr ""
@@ -60,8 +70,13 @@ msgid ""
 "library, and the Python documentation.  See :source:`Misc/ACKS` in the "
 "Python source distribution for a partial list of contributors."
 msgstr ""
+"Sok ember járult/járult hozzá a Python nyelvhez, standard library-hez és a "
+"Python dokumentációhoz. Lásd :source:`Misc/ACKS` részt a Python forrás "
+"distribúcióban egy részleges listáért a hozzájárulókról."
 
 msgid ""
 "It is only with the input and contributions of the Python community that "
 "Python has such wonderful documentation -- Thank You!"
 msgstr ""
+"A nagyszerű Python dokumentáció mind a rengeteg ráfordított időnek és "
+"hozzájárulásnak köszönhető -- Köszönjük!"

@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# python-doc bot, 2025
 # Stan Ulbrych, 2025
 #
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-13 14:14+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
 "Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
@@ -556,7 +557,7 @@ msgid "What it means / When to use it"
 msgstr ""
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid ""
 "When set on a logger, indicates that ancestor loggers are to be consulted to "
@@ -740,7 +741,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid ""
 "A format string in the given *style* for the logged output as a whole. The "
@@ -1088,13 +1089,13 @@ msgid "Attribute name"
 msgstr ""
 
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 msgid "args"
-msgstr ""
+msgstr "args"
 
 msgid "You shouldn't need to format this yourself."
 msgstr ""
@@ -1197,7 +1198,7 @@ msgid ""
 msgstr ""
 
 msgid "module"
-msgstr ""
+msgstr "moduł"
 
 msgid "``%(module)s``"
 msgstr "``%(module)s``"
@@ -1225,7 +1226,7 @@ msgid ""
 msgstr ""
 
 msgid "name"
-msgstr ""
+msgstr "nazwa"
 
 msgid "``%(name)s``"
 msgstr "``%(name)s``"
@@ -1391,7 +1392,7 @@ msgid ""
 msgstr ""
 
 msgid "Module-Level Functions"
-msgstr ""
+msgstr "Функції рівня модуля"
 
 msgid ""
 "In addition to the classes described above, there are a number of module-"
@@ -1804,7 +1805,7 @@ msgid "An exception tuple, or ``None``."
 msgstr ""
 
 msgid "func"
-msgstr ""
+msgstr "func"
 
 msgid "The name of the function or method which invoked the logging call."
 msgstr ""
@@ -1818,7 +1819,7 @@ msgid ""
 msgstr ""
 
 msgid "kwargs"
-msgstr ""
+msgstr "kwargs"
 
 msgid "Additional keyword arguments."
 msgstr ""

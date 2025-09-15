@@ -5,15 +5,16 @@
 #
 # Translators:
 # Stan Ulbrych, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-13 14:14+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Bytes Objects"
-msgstr ""
+msgstr "Bayt Nesneleri"
 
 msgid ""
 "These functions raise :exc:`TypeError` when expecting a bytes parameter and "
@@ -70,10 +71,10 @@ msgid ""
 msgstr ""
 
 msgid "Format Characters"
-msgstr ""
+msgstr "Формат символів"
 
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 msgid "Comment"
 msgstr ""
@@ -91,7 +92,7 @@ msgid "``%c``"
 msgstr "``%c``"
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "A single byte, represented as a C int."
 msgstr ""
@@ -106,7 +107,7 @@ msgid "``%u``"
 msgstr "``%u``"
 
 msgid "unsigned int"
-msgstr ""
+msgstr "nieoznaczony typ int"
 
 msgid "Equivalent to ``printf(\"%u\")``. [1]_"
 msgstr ""
@@ -115,7 +116,7 @@ msgid "``%ld``"
 msgstr "``%ld``"
 
 msgid "long"
-msgstr ""
+msgstr "long"
 
 msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
 msgstr ""
@@ -124,7 +125,7 @@ msgid "``%lu``"
 msgstr "``%lu``"
 
 msgid "unsigned long"
-msgstr ""
+msgstr "nieoznaczony typ długi"
 
 msgid "Equivalent to ``printf(\"%lu\")``. [1]_"
 msgstr ""
@@ -289,7 +290,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr ""
+msgstr "obiekt"
 
 msgid "bytes"
-msgstr ""
+msgstr "байтів"

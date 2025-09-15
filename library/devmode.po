@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Stan Ulbrych, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -57,16 +61,16 @@ msgid ""
 msgstr ""
 
 msgid ":exc:`DeprecationWarning`"
-msgstr ""
+msgstr ":exc:`DeprecationWarning`"
 
 msgid ":exc:`ImportWarning`"
-msgstr ""
+msgstr ":exc:`ImportWarning`"
 
 msgid ":exc:`PendingDeprecationWarning`"
-msgstr ""
+msgstr ":exc:`PendingDeprecationWarning`"
 
 msgid ":exc:`ResourceWarning`"
-msgstr ""
+msgstr ":exc:`ResourceWarning`"
 
 msgid ""
 "Normally, the above warnings are filtered by the default :ref:`warning "

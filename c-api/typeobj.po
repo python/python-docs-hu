@@ -5,15 +5,16 @@
 #
 # Translators:
 # Stan Ulbrych, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-13 14:14+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -216,7 +217,7 @@ msgid ":c:member:`~PyTypeObject.tp_flags`"
 msgstr ":c:member:`~PyTypeObject.tp_flags`"
 
 msgid "unsigned long"
-msgstr ""
+msgstr "nieoznaczony typ długi"
 
 msgid "?"
 msgstr "?"
@@ -396,7 +397,7 @@ msgid "[:c:member:`~PyTypeObject.tp_version_tag`]"
 msgstr "[:c:member:`~PyTypeObject.tp_version_tag`]"
 
 msgid "unsigned int"
-msgstr ""
+msgstr "nieoznaczony typ int"
 
 msgid ":c:member:`~PyTypeObject.tp_finalize`"
 msgstr ":c:member:`~PyTypeObject.tp_finalize`"
@@ -414,7 +415,7 @@ msgid "[:c:member:`~PyTypeObject.tp_watched`]"
 msgstr "[:c:member:`~PyTypeObject.tp_watched`]"
 
 msgid "unsigned char"
-msgstr ""
+msgstr "nieoznaczony typ znakowy"
 
 msgid ""
 "**()**: A slot name in parentheses indicates it is (effectively) deprecated."
@@ -827,7 +828,7 @@ msgid ":c:type:`visitproc`"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "Py_hash_t"
 msgstr ""
@@ -1282,7 +1283,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 "static void\n"
@@ -2288,7 +2289,7 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid "Comparison"
 msgstr ""
@@ -2542,7 +2543,7 @@ msgid "An optional pointer to a \"descriptor get\" function."
 msgstr ""
 
 msgid "The function signature is::"
-msgstr ""
+msgstr "Сигнатура функції:"
 
 msgid "PyObject * tp_descr_get(PyObject *self, PyObject *obj, PyObject *type);"
 msgstr ""
@@ -3553,7 +3554,7 @@ msgid "See :c:member:`~PyAsyncMethods.am_send`."
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Przykłady"
 
 msgid ""
 "The following are simple examples of Python type definitions.  They include "

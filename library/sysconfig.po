@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -200,7 +204,7 @@ msgid "Path"
 msgstr ""
 
 msgid "Installation directory"
-msgstr ""
+msgstr "Direktori instalasi"
 
 msgid "*stdlib*"
 msgstr ""
@@ -215,7 +219,7 @@ msgid "*platlib*"
 msgstr ""
 
 msgid ":file:`{userbase}/lib/python{X.Y}/site-packages`"
-msgstr ""
+msgstr ":file:`{userbase}/lib/python{X.Y}/site-packages`"
 
 msgid "*purelib*"
 msgstr ""
@@ -230,13 +234,13 @@ msgid "*scripts*"
 msgstr ""
 
 msgid ":file:`{userbase}/bin`"
-msgstr ""
+msgstr ":file:`{userbase}/bin`"
 
 msgid "*data*"
-msgstr ""
+msgstr "*дані*"
 
 msgid ":file:`{userbase}`"
-msgstr ""
+msgstr ":file:`{userbase}`"
 
 msgid "``nt_user``"
 msgstr ""
@@ -245,19 +249,19 @@ msgid ":file:`{userbase}\\\\Python{XY}`"
 msgstr ""
 
 msgid ":file:`{userbase}\\\\Python{XY}\\\\site-packages`"
-msgstr ""
+msgstr ":file:`{userbase}\\\\Python{XY}\\\\site-packages`"
 
 msgid ":file:`{userbase}\\\\Python{XY}\\\\Include`"
 msgstr ""
 
 msgid ":file:`{userbase}\\\\Python{XY}\\\\Scripts`"
-msgstr ""
+msgstr ":file:`{userbase}\\\\Python{XY}\\\\Scripts`"
 
 msgid "``osx_framework_user``"
 msgstr ""
 
 msgid ":file:`{userbase}/lib/python`"
-msgstr ""
+msgstr ":file:`{userbase}/lib/python`"
 
 msgid ":file:`{userbase}/lib/python/site-packages`"
 msgstr ""
@@ -273,12 +277,18 @@ msgid ""
 "`/usr/local/`. This scheme can be used by anyone, regardless of the "
 "operating system they are installing for."
 msgstr ""
+"Ide di balik \"skema home\" adalah Anda membangun dan memelihara simpanan "
+"pribadi modul Python. Nama skema ini berasal dari ide direktori \"home\" di "
+"Unix, karena bukan hal yang aneh bagi pengguna Unix untuk membuat direktori "
+"home mereka memiliki layout yang mirip dengan :file:`/usr/` atau :file:`/usr/"
+"local/`. Skema ini dapat digunakan oleh siapa saja, terlepas dari sistem "
+"operasi yang mereka instal."
 
 msgid "``posix_home``"
 msgstr ""
 
 msgid ":file:`{home}/lib/python`"
-msgstr ""
+msgstr ":file:`{home}/lib/python`"
 
 msgid ":file:`{home}/include/python`"
 msgstr ""
@@ -287,10 +297,10 @@ msgid "*platinclude*"
 msgstr ""
 
 msgid ":file:`{home}/bin`"
-msgstr ""
+msgstr ":file:`{home}/bin`"
 
 msgid ":file:`{home}`"
-msgstr ""
+msgstr ":file:`{home}`"
 
 msgid "Prefix scheme"
 msgstr ""
@@ -304,6 +314,13 @@ msgid ""
 "and home schemes come before.  However, there are at least two known cases "
 "where the prefix scheme will be useful."
 msgstr ""
+"\"Skema prefiks\" berguna ketika Anda ingin menggunakan satu instalasi "
+"Python untuk melakukan build/install (yaitu, untuk menjalankan skrip "
+"pengaturan), tetapi menginstal modul ke direktori modul pihak ketiga dari "
+"instalasi Python yang berbeda (atau sesuatu yang terlihat seperti instalasi "
+"Python yang berbeda). Jika ini terdengar agak tidak biasa, itulah mengapa "
+"skema pengguna dan home datang sebelumnya. Namun, setidaknya ada dua kasus "
+"yang diketahui di mana skema prefiks akan berguna."
 
 msgid ""
 "First, consider that many Linux distributions put Python in :file:`/usr`, "
@@ -330,16 +347,16 @@ msgid ":file:`{prefix}/lib/python{X.Y}`"
 msgstr ""
 
 msgid ":file:`{prefix}/lib/python{X.Y}/site-packages`"
-msgstr ""
+msgstr ":file:`{prefix}/lib/python{X.Y}/site-packages`"
 
 msgid ":file:`{prefix}/include/python{X.Y}`"
 msgstr ""
 
 msgid ":file:`{prefix}/bin`"
-msgstr ""
+msgstr ":file:`{prefix}/bin`"
 
 msgid ":file:`{prefix}`"
-msgstr ""
+msgstr ":file:`{prefix}`"
 
 msgid "``nt``"
 msgstr ""
@@ -348,13 +365,13 @@ msgid ":file:`{prefix}\\\\Lib`"
 msgstr ""
 
 msgid ":file:`{prefix}\\\\Lib\\\\site-packages`"
-msgstr ""
+msgstr ":file:`{prefix}\\\\Lib\\\\site-packages`"
 
 msgid ":file:`{prefix}\\\\Include`"
 msgstr ""
 
 msgid ":file:`{prefix}\\\\Scripts`"
-msgstr ""
+msgstr ":file:`{prefix}\\\\Scripts`"
 
 msgid "Installation path functions"
 msgstr ""
@@ -482,7 +499,7 @@ msgid ""
 msgstr ""
 
 msgid "Other functions"
-msgstr ""
+msgstr "Інші функції"
 
 msgid ""
 "Return the ``MAJOR.MINOR`` Python version number as a string.  Similar to "

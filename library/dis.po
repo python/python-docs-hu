@@ -5,15 +5,16 @@
 #
 # Translators:
 # Stan Ulbrych, 2025
+# python-doc bot, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-13 14:14+0000\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -234,7 +235,7 @@ msgid "Added the *show_positions* parameter."
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Przykład:"
 
 msgid ""
 ">>> bytecode = dis.Bytecode(myfunc)\n"
@@ -1635,7 +1636,7 @@ msgid "Operand"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 msgid "``INTRINSIC_1_INVALID``"
 msgstr "``INTRINSIC_1_INVALID``"
@@ -1893,4 +1894,4 @@ msgid "built-in function"
 msgstr ""
 
 msgid "slice"
-msgstr ""
+msgstr "шматочок"

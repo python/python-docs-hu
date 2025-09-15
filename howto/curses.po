@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -22,19 +26,19 @@ msgid "Curses Programming with Python"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "A.M. Kuchling, Eric S. Raymond"
 msgstr ""
 
 msgid "Release"
-msgstr ""
+msgstr "wydanie"
 
 msgid "2.04"
 msgstr ""
 
 msgid "Abstract"
-msgstr ""
+msgstr "Streszczenie"
 
 msgid ""
 "This document describes how to use the :mod:`curses` extension module to "
@@ -365,7 +369,7 @@ msgid "Form"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 msgid "*str* or *ch*"
 msgstr ""
@@ -460,7 +464,7 @@ msgid ""
 msgstr ""
 
 msgid "Attribute"
-msgstr ""
+msgstr "atrybut"
 
 msgid ":const:`A_BLINK`"
 msgstr ""

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +53,7 @@ msgid "Added support for pretty-printing :class:`dataclasses.dataclass`."
 msgstr ""
 
 msgid "Functions"
-msgstr ""
+msgstr "Zadania"
 
 msgid ""
 "Prints the formatted representation of *object*, followed by a newline. This "
@@ -59,7 +63,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid "The object to be printed."
 msgstr ""
@@ -214,7 +218,7 @@ msgid ""
 msgstr ""
 
 msgid "Example"
-msgstr ""
+msgstr "Przykład"
 
 msgid ""
 "To demonstrate several uses of the :func:`~pprint.pp` function and its "
