@@ -1942,7 +1942,7 @@ msgid "Pattern"
 msgstr ""
 
 msgid "Meaning"
-msgstr ""
+msgstr "Jelentés"
 
 msgid "\"``**/*``\""
 msgstr ""
@@ -2288,7 +2288,7 @@ msgid ":meth:`Path.lchmod`"
 msgstr ""
 
 msgid "Footnotes"
-msgstr ""
+msgstr "Lábjegyzet"
 
 msgid ""
 ":func:`os.path.relpath` calls :func:`~os.path.abspath` to make paths "
