@@ -2323,7 +2323,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "The :func:`~time.monotonic` function is now always available. (Contributed "
@@ -2356,7 +2356,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "New :func:`~traceback.walk_stack` and :func:`~traceback.walk_tb` functions "

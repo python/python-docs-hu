@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -165,7 +166,7 @@ msgid "*Release date: 2025-08-14*"
 msgstr ""
 
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 msgid ""
 ":gh:`137450`: macOS installer shell path management improvements: separate "
@@ -178,7 +179,7 @@ msgid ""
 msgstr ""
 
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
 msgstr ""
@@ -19353,7 +19354,7 @@ msgid ":gh:`105145`: Deprecate old Python initialization functions:"
 msgstr ""
 
 msgid ":c:func:`PySys_ResetWarnOptions`"
-msgstr ""
+msgstr ":c:func:`PySys_ResetWarnOptions`"
 
 msgid ":c:func:`Py_GetExecPrefix`"
 msgstr ""
@@ -24790,7 +24791,7 @@ msgid "``It is deprecated to return a value!=None``"
 msgstr ""
 
 msgid "to"
-msgstr ""
+msgstr "ke"
 
 msgid ""
 "``It is deprecated to return a value that is not None from a test case``"

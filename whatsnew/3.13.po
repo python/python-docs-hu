@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -1603,7 +1604,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "On Windows, :func:`~time.monotonic` now uses the "
@@ -1683,7 +1684,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "Add the :attr:`~traceback.TracebackException.exc_type_str` attribute to :"
@@ -2933,7 +2934,7 @@ msgid "The :class:`argparse.FileType` type converter is deprecated."
 msgstr ""
 
 msgid "``bool(NotImplemented)``."
-msgstr ""
+msgstr "``bool(NotImplemented)``."
 
 msgid ""
 "Generators: ``throw(type, exc, tb)`` and ``athrow(type, exc, tb)`` signature "
@@ -3080,19 +3081,19 @@ msgid "``ssl.OP_NO_TLS*`` options"
 msgstr ""
 
 msgid "``ssl.PROTOCOL_SSLv3``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_SSLv3``"
 
 msgid "``ssl.PROTOCOL_TLS``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLS``"
 
 msgid "``ssl.PROTOCOL_TLSv1``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLSv1``"
 
 msgid "``ssl.PROTOCOL_TLSv1_1``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLSv1_1``"
 
 msgid "``ssl.PROTOCOL_TLSv1_2``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLSv1_2``"
 
 msgid "``ssl.TLSVersion.SSLv3``"
 msgstr ""

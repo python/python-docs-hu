@@ -1345,7 +1345,7 @@ msgid "my_tarfile.extractall(filter=tarfile.data_filter)"
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid ""
 "my_tarfile.extraction_filter = tarfile.data_filter\n"
@@ -1398,7 +1398,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-Line Interface"
-msgstr ""
+msgstr "Інтерфейс командного рядка"
 
 msgid ""
 "The :mod:`tarfile` module provides a simple command-line interface to "
@@ -1414,7 +1414,7 @@ msgid "$ python -m tarfile -c monty.tar  spam.txt eggs.txt"
 msgstr ""
 
 msgid "Passing a directory is also acceptable:"
-msgstr ""
+msgstr "Передача каталогу також прийнятна:"
 
 msgid "$ python -m tarfile -c monty.tar life-of-brian_1979/"
 msgstr ""
@@ -1442,7 +1442,7 @@ msgid "$ python -m tarfile -l monty.tar"
 msgstr ""
 
 msgid "Command-line options"
-msgstr ""
+msgstr "Параметри командного рядка"
 
 msgid "List files in a tarfile."
 msgstr ""
@@ -1467,7 +1467,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr ""
+msgstr "Przykłady"
 
 msgid "Reading examples"
 msgstr ""

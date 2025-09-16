@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
@@ -1199,7 +1199,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr ""
+msgstr "time"
 
 msgid ""
 "On Unix, :func:`time.sleep` now uses the ``clock_nanosleep()`` or "
@@ -1229,7 +1229,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid ""
 "Add :func:`traceback.StackSummary.format_frame_summary` to allow users to "
@@ -1621,7 +1621,7 @@ msgid ""
 msgstr ""
 
 msgid "Operation"
-msgstr ""
+msgstr "Operasi"
 
 msgid "Form"
 msgstr ""
@@ -1694,7 +1694,7 @@ msgid "Dennis Sweeney"
 msgstr ""
 
 msgid "Calls"
-msgstr ""
+msgstr "Дзвінки"
 
 msgid "``f(arg)``"
 msgstr ""
@@ -1946,7 +1946,7 @@ msgid "New Opcode(s)"
 msgstr ""
 
 msgid "Notes"
-msgstr ""
+msgstr "Notatki"
 
 msgid ":opcode:`!BINARY_*`"
 msgstr ""

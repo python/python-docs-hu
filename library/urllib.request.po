@@ -436,6 +436,8 @@ msgid ""
 "``HTTP_PROXY`` will be ignored if a variable ``REQUEST_METHOD`` is set; see "
 "the documentation on :func:`~urllib.request.getproxies`."
 msgstr ""
+"``HTTP_PROXY`` ігноруватиметься, якщо встановлено змінну ``REQUEST_METHOD``; "
+"перегляньте документацію на :func:`~urllib.request.getproxies`."
 
 msgid "Keep a database of  ``(realm, uri) -> (user, password)`` mappings."
 msgstr ""

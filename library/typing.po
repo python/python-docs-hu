@@ -2817,7 +2817,7 @@ msgid ""
 msgstr ""
 
 msgid "This is equivalent to::"
-msgstr ""
+msgstr "Ini setara dengan::"
 
 msgid "Employee = collections.namedtuple('Employee', ['name', 'id'])"
 msgstr ""
@@ -3368,7 +3368,7 @@ msgid ""
 msgstr ""
 
 msgid "Protocols"
-msgstr ""
+msgstr "Протоколи"
 
 msgid ""
 "The following protocols are provided by the :mod:`!typing` module. All are "
@@ -3485,7 +3485,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 "def int_or_str(arg: int | str) -> None:\n"
@@ -3640,7 +3640,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr ""
+msgstr "parametry"
 
 msgid ""
 "Indicates whether the ``eq`` parameter is assumed to be ``True`` or "
@@ -3690,7 +3690,7 @@ msgid "Parameter name"
 msgstr ""
 
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 msgid "``init``"
 msgstr ""
@@ -4033,7 +4033,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr ""
+msgstr "Przykłady:"
 
 msgid ""
 "assert get_origin(str) is None\n"
@@ -4158,7 +4158,7 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Stała"
 
 msgid ""
 "A special constant that is assumed to be ``True`` by 3rd party static type "

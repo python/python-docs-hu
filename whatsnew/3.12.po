@@ -5,6 +5,7 @@
 #
 # Translators:
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -1778,25 +1779,25 @@ msgid ":mod:`importlib.resources` deprecated methods:"
 msgstr ""
 
 msgid "``contents()``"
-msgstr ""
+msgstr "``contents()``"
 
 msgid "``is_resource()``"
-msgstr ""
+msgstr "``is_resource()``"
 
 msgid "``open_binary()``"
-msgstr ""
+msgstr "``open_binary()``"
 
 msgid "``open_text()``"
-msgstr ""
+msgstr "``open_text()``"
 
 msgid "``path()``"
-msgstr ""
+msgstr "``path()``"
 
 msgid "``read_binary()``"
-msgstr ""
+msgstr "``read_binary()``"
 
 msgid "``read_text()``"
-msgstr ""
+msgstr "``read_text()``"
 
 msgid ""
 "Use :func:`importlib.resources.files` instead.  Refer to `importlib-"
@@ -3305,7 +3306,7 @@ msgid ":c:func:`PyVectorcall_Call`"
 msgstr ""
 
 msgid ":c:type:`vectorcallfunc`"
-msgstr ""
+msgstr ":c:type:`vectorcallfunc`"
 
 msgid ""
 "The :c:macro:`Py_TPFLAGS_HAVE_VECTORCALL` flag is now removed from a class "
@@ -3330,10 +3331,10 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`PyObject_Vectorcall`"
-msgstr ""
+msgstr ":c:func:`PyObject_Vectorcall`"
 
 msgid ":c:func:`PyObject_VectorcallMethod`"
-msgstr ""
+msgstr ":c:func:`PyObject_VectorcallMethod`"
 
 msgid ":c:macro:`PY_VECTORCALL_ARGUMENTS_OFFSET`"
 msgstr ""

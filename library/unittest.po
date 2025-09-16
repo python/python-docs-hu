@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# python-doc bot, 2025
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 14:49-0300\n"
+"POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -234,7 +238,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-Line Interface"
-msgstr ""
+msgstr "Інтерфейс командного рядка"
 
 msgid ""
 "The unittest module can be used from the command line to run tests from "
@@ -298,7 +302,7 @@ msgid ""
 msgstr ""
 
 msgid "Command-line options"
-msgstr ""
+msgstr "Параметри командного рядка"
 
 msgid ":program:`unittest` supports these command-line options:"
 msgstr ""
@@ -904,7 +908,7 @@ msgid ""
 msgstr ""
 
 msgid "Classes and functions"
-msgstr ""
+msgstr "Класи та функції"
 
 msgid "This section describes in depth the API of :mod:`unittest`."
 msgstr ""
@@ -1320,7 +1324,7 @@ msgid ""
 msgstr ""
 
 msgid "or::"
-msgstr ""
+msgstr "lub::"
 
 msgid ""
 "with self.assertRaisesRegex(ValueError, 'literal'):\n"
@@ -1433,7 +1437,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr ""
+msgstr "Przykład::"
 
 msgid ""
 "with self.assertLogs('foo', level='INFO') as cm:\n"
