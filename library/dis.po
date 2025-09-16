@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -235,7 +230,7 @@ msgid "Added the *show_positions* parameter."
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid ""
 ">>> bytecode = dis.Bytecode(myfunc)\n"
@@ -1636,76 +1631,76 @@ msgid "Operand"
 msgstr ""
 
 msgid "Description"
-msgstr "Opis"
+msgstr ""
 
 msgid "``INTRINSIC_1_INVALID``"
-msgstr "``INTRINSIC_1_INVALID``"
+msgstr ""
 
 msgid "Not valid"
 msgstr ""
 
 msgid "``INTRINSIC_PRINT``"
-msgstr "``INTRINSIC_PRINT``"
+msgstr ""
 
 msgid "Prints the argument to standard out. Used in the REPL."
 msgstr ""
 
 msgid "``INTRINSIC_IMPORT_STAR``"
-msgstr "``INTRINSIC_IMPORT_STAR``"
+msgstr ""
 
 msgid "Performs ``import *`` for the named module."
 msgstr ""
 
 msgid "``INTRINSIC_STOPITERATION_ERROR``"
-msgstr "``INTRINSIC_STOPITERATION_ERROR``"
+msgstr ""
 
 msgid "Extracts the return value from a ``StopIteration`` exception."
 msgstr ""
 
 msgid "``INTRINSIC_ASYNC_GEN_WRAP``"
-msgstr "``INTRINSIC_ASYNC_GEN_WRAP``"
+msgstr ""
 
 msgid "Wraps an async generator value"
 msgstr ""
 
 msgid "``INTRINSIC_UNARY_POSITIVE``"
-msgstr "``INTRINSIC_UNARY_POSITIVE``"
+msgstr ""
 
 msgid "Performs the unary ``+`` operation"
 msgstr ""
 
 msgid "``INTRINSIC_LIST_TO_TUPLE``"
-msgstr "``INTRINSIC_LIST_TO_TUPLE``"
+msgstr ""
 
 msgid "Converts a list to a tuple"
 msgstr ""
 
 msgid "``INTRINSIC_TYPEVAR``"
-msgstr "``INTRINSIC_TYPEVAR``"
+msgstr ""
 
 msgid "Creates a :class:`typing.TypeVar`"
 msgstr ""
 
 msgid "``INTRINSIC_PARAMSPEC``"
-msgstr "``INTRINSIC_PARAMSPEC``"
+msgstr ""
 
 msgid "Creates a :class:`typing.ParamSpec`"
 msgstr ""
 
 msgid "``INTRINSIC_TYPEVARTUPLE``"
-msgstr "``INTRINSIC_TYPEVARTUPLE``"
+msgstr ""
 
 msgid "Creates a :class:`typing.TypeVarTuple`"
 msgstr ""
 
 msgid "``INTRINSIC_SUBSCRIPT_GENERIC``"
-msgstr "``INTRINSIC_SUBSCRIPT_GENERIC``"
+msgstr ""
 
 msgid "Returns :class:`typing.Generic` subscripted with the argument"
 msgstr ""
 
 msgid "``INTRINSIC_TYPEALIAS``"
-msgstr "``INTRINSIC_TYPEALIAS``"
+msgstr ""
 
 msgid ""
 "Creates a :class:`typing.TypeAliasType`; used in the :keyword:`type` "
@@ -1726,28 +1721,28 @@ msgid ""
 msgstr ""
 
 msgid "``INTRINSIC_2_INVALID``"
-msgstr "``INTRINSIC_2_INVALID``"
+msgstr ""
 
 msgid "``INTRINSIC_PREP_RERAISE_STAR``"
-msgstr "``INTRINSIC_PREP_RERAISE_STAR``"
+msgstr ""
 
 msgid "Calculates the :exc:`ExceptionGroup` to raise from a ``try-except*``."
 msgstr ""
 
 msgid "``INTRINSIC_TYPEVAR_WITH_BOUND``"
-msgstr "``INTRINSIC_TYPEVAR_WITH_BOUND``"
+msgstr ""
 
 msgid "Creates a :class:`typing.TypeVar` with a bound."
 msgstr ""
 
 msgid "``INTRINSIC_TYPEVAR_WITH_CONSTRAINTS``"
-msgstr "``INTRINSIC_TYPEVAR_WITH_CONSTRAINTS``"
+msgstr ""
 
 msgid "Creates a :class:`typing.TypeVar` with constraints."
 msgstr ""
 
 msgid "``INTRINSIC_SET_FUNCTION_TYPE_PARAMS``"
-msgstr "``INTRINSIC_SET_FUNCTION_TYPE_PARAMS``"
+msgstr ""
 
 msgid "Sets the ``__type_params__`` attribute of a function."
 msgstr ""
@@ -1894,4 +1889,4 @@ msgid "built-in function"
 msgstr ""
 
 msgid "slice"
-msgstr "шматочок"
+msgstr ""

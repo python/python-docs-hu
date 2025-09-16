@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-# Stan Ulbrych, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"POT-Creation-Date: 2025-07-04 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -587,7 +582,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "from typing import override\n"
@@ -732,7 +727,7 @@ msgid "Improved Modules"
 msgstr ""
 
 msgid "array"
-msgstr "array"
+msgstr ""
 
 msgid ""
 "The :class:`array.array` class now supports subscripting, making it a :term:"
@@ -1779,25 +1774,25 @@ msgid ":mod:`importlib.resources` deprecated methods:"
 msgstr ""
 
 msgid "``contents()``"
-msgstr "``contents()``"
+msgstr ""
 
 msgid "``is_resource()``"
-msgstr "``is_resource()``"
+msgstr ""
 
 msgid "``open_binary()``"
-msgstr "``open_binary()``"
+msgstr ""
 
 msgid "``open_text()``"
-msgstr "``open_text()``"
+msgstr ""
 
 msgid "``path()``"
-msgstr "``path()``"
+msgstr ""
 
 msgid "``read_binary()``"
-msgstr "``read_binary()``"
+msgstr ""
 
 msgid "``read_text()``"
-msgstr "``read_text()``"
+msgstr ""
 
 msgid ""
 "Use :func:`importlib.resources.files` instead.  Refer to `importlib-"
@@ -2212,7 +2207,7 @@ msgid "The :class:`argparse.FileType` type converter is deprecated."
 msgstr ""
 
 msgid "``bool(NotImplemented)``."
-msgstr "``bool(NotImplemented)``."
+msgstr ""
 
 msgid ""
 "Generators: ``throw(type, exc, tb)`` and ``athrow(type, exc, tb)`` signature "
@@ -2353,28 +2348,28 @@ msgid "``ssl.OP_NO_TLS*`` options"
 msgstr ""
 
 msgid "``ssl.PROTOCOL_SSLv3``"
-msgstr "``ssl.PROTOCOL_SSLv3``"
+msgstr ""
 
 msgid "``ssl.PROTOCOL_TLS``"
-msgstr "``ssl.PROTOCOL_TLS``"
+msgstr ""
 
 msgid "``ssl.PROTOCOL_TLSv1``"
-msgstr "``ssl.PROTOCOL_TLSv1``"
+msgstr ""
 
 msgid "``ssl.PROTOCOL_TLSv1_1``"
-msgstr "``ssl.PROTOCOL_TLSv1_1``"
+msgstr ""
 
 msgid "``ssl.PROTOCOL_TLSv1_2``"
-msgstr "``ssl.PROTOCOL_TLSv1_2``"
+msgstr ""
 
 msgid "``ssl.TLSVersion.SSLv3``"
-msgstr "``ssl.TLSVersion.SSLv3``"
+msgstr ""
 
 msgid "``ssl.TLSVersion.TLSv1``"
-msgstr "``ssl.TLSVersion.TLSv1``"
+msgstr ""
 
 msgid "``ssl.TLSVersion.TLSv1_1``"
-msgstr "``ssl.TLSVersion.TLSv1_1``"
+msgstr ""
 
 msgid ":mod:`threading` methods:"
 msgstr ""
@@ -2424,37 +2419,37 @@ msgid ""
 msgstr ""
 
 msgid "``splitattr()``"
-msgstr "``splitattr()``"
+msgstr ""
 
 msgid "``splithost()``"
-msgstr "``splithost()``"
+msgstr ""
 
 msgid "``splitnport()``"
-msgstr "``splitnport()``"
+msgstr ""
 
 msgid "``splitpasswd()``"
-msgstr "``splitpasswd()``"
+msgstr ""
 
 msgid "``splitport()``"
-msgstr "``splitport()``"
+msgstr ""
 
 msgid "``splitquery()``"
-msgstr "``splitquery()``"
+msgstr ""
 
 msgid "``splittag()``"
-msgstr "``splittag()``"
+msgstr ""
 
 msgid "``splittype()``"
-msgstr "``splittype()``"
+msgstr ""
 
 msgid "``splituser()``"
-msgstr "``splituser()``"
+msgstr ""
 
 msgid "``splitvalue()``"
-msgstr "``splitvalue()``"
+msgstr ""
 
 msgid "``to_bytes()``"
-msgstr "``to_bytes()``"
+msgstr ""
 
 msgid ""
 ":mod:`wsgiref`: ``SimpleHandler.stdout.write()`` should not do partial "
@@ -3306,7 +3301,7 @@ msgid ":c:func:`PyVectorcall_Call`"
 msgstr ""
 
 msgid ":c:type:`vectorcallfunc`"
-msgstr ":c:type:`vectorcallfunc`"
+msgstr ""
 
 msgid ""
 "The :c:macro:`Py_TPFLAGS_HAVE_VECTORCALL` flag is now removed from a class "
@@ -3331,10 +3326,10 @@ msgid ""
 msgstr ""
 
 msgid ":c:func:`PyObject_Vectorcall`"
-msgstr ":c:func:`PyObject_Vectorcall`"
+msgstr ""
 
 msgid ":c:func:`PyObject_VectorcallMethod`"
-msgstr ":c:func:`PyObject_VectorcallMethod`"
+msgstr ""
 
 msgid ":c:macro:`PY_VECTORCALL_ARGUMENTS_OFFSET`"
 msgstr ""

@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -136,7 +135,7 @@ msgid "The special characters are:"
 msgstr ""
 
 msgid "``.``"
-msgstr "``.``"
+msgstr ""
 
 msgid ""
 "(Dot.)  In the default mode, this matches any character except a newline.  "
@@ -145,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "``^``"
-msgstr "``^``"
+msgstr ""
 
 msgid ""
 "(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode "
@@ -153,7 +152,7 @@ msgid ""
 msgstr ""
 
 msgid "``$``"
-msgstr "``$``"
+msgstr ""
 
 msgid ""
 "Matches the end of the string or just before the newline at the end of the "
@@ -167,7 +166,7 @@ msgid ""
 msgstr ""
 
 msgid "``*``"
-msgstr "``*``"
+msgstr ""
 
 msgid ""
 "Causes the resulting RE to match 0 or more repetitions of the preceding RE, "
@@ -176,7 +175,7 @@ msgid ""
 msgstr ""
 
 msgid "``+``"
-msgstr "``+``"
+msgstr ""
 
 msgid ""
 "Causes the resulting RE to match 1 or more repetitions of the preceding RE. "
@@ -185,7 +184,7 @@ msgid ""
 msgstr ""
 
 msgid "``?``"
-msgstr "``?``"
+msgstr ""
 
 msgid ""
 "Causes the resulting RE to match 0 or 1 repetitions of the preceding RE. "
@@ -225,7 +224,7 @@ msgid ""
 msgstr ""
 
 msgid "``{m}``"
-msgstr "``{m}``"
+msgstr ""
 
 msgid ""
 "Specifies that exactly *m* copies of the previous RE should be matched; "
@@ -234,7 +233,7 @@ msgid ""
 msgstr ""
 
 msgid "``{m,n}``"
-msgstr "``{m,n}``"
+msgstr ""
 
 msgid ""
 "Causes the resulting RE to match from *m* to *n* repetitions of the "
@@ -248,7 +247,7 @@ msgid ""
 msgstr ""
 
 msgid "``{m,n}?``"
-msgstr "``{m,n}?``"
+msgstr ""
 
 msgid ""
 "Causes the resulting RE to match from *m* to *n* repetitions of the "
@@ -259,7 +258,7 @@ msgid ""
 msgstr ""
 
 msgid "``{m,n}+``"
-msgstr "``{m,n}+``"
+msgstr ""
 
 msgid ""
 "Causes the resulting RE to match from *m* to *n* repetitions of the "
@@ -274,7 +273,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\``"
-msgstr "``\\``"
+msgstr ""
 
 msgid ""
 "Either escapes special characters (permitting you to match characters like "
@@ -293,7 +292,7 @@ msgid ""
 msgstr ""
 
 msgid "``[]``"
-msgstr "``[]``"
+msgstr ""
 
 msgid "Used to indicate a set of characters.  In a set:"
 msgstr ""
@@ -360,7 +359,7 @@ msgid ""
 msgstr ""
 
 msgid "``|``"
-msgstr "``|``"
+msgstr ""
 
 msgid ""
 "``A|B``, where *A* and *B* can be arbitrary REs, creates a regular "
@@ -375,7 +374,7 @@ msgid ""
 msgstr ""
 
 msgid "``(...)``"
-msgstr "``(...)``"
+msgstr ""
 
 msgid ""
 "Matches whatever regular expression is inside the parentheses, and indicates "
@@ -387,7 +386,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?...)``"
-msgstr "``(?...)``"
+msgstr ""
 
 msgid ""
 "This is an extension notation (a ``'?'`` following a ``'('`` is not "
@@ -398,7 +397,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?aiLmsux)``"
-msgstr "``(?aiLmsux)``"
+msgstr ""
 
 msgid ""
 "(One or more letters from the set ``'a'``, ``'i'``, ``'L'``, ``'m'``, "
@@ -438,7 +437,7 @@ msgid "This construction can only be used at the start of the expression."
 msgstr ""
 
 msgid "``(?:...)``"
-msgstr "``(?:...)``"
+msgstr ""
 
 msgid ""
 "A non-capturing version of regular parentheses.  Matches whatever regular "
@@ -448,7 +447,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?aiLmsux-imsx:...)``"
-msgstr "``(?aiLmsux-imsx:...)``"
+msgstr ""
 
 msgid ""
 "(Zero or more letters from the set ``'a'``, ``'i'``, ``'L'``, ``'m'``, "
@@ -476,7 +475,7 @@ msgid "The letters ``'a'``, ``'L'`` and ``'u'`` also can be used in a group."
 msgstr ""
 
 msgid "``(?>...)``"
-msgstr "``(?>...)``"
+msgstr ""
 
 msgid ""
 "Attempts to match ``...`` as if it was a separate regular expression, and if "
@@ -492,7 +491,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?P<name>...)``"
-msgstr "``(?P<name>...)``"
+msgstr ""
 
 msgid ""
 "Similar to regular parentheses, but the substring matched by the group is "
@@ -522,13 +521,13 @@ msgid "``(?P=quote)`` (as shown)"
 msgstr ""
 
 msgid "``\\1``"
-msgstr "``\\1``"
+msgstr ""
 
 msgid "when processing match object *m*"
 msgstr ""
 
 msgid "``m.group('quote')``"
-msgstr "``m.group('quote')``"
+msgstr ""
 
 msgid "``m.end('quote')`` (etc.)"
 msgstr ""
@@ -537,10 +536,10 @@ msgid "in a string passed to the *repl* argument of ``re.sub()``"
 msgstr ""
 
 msgid "``\\g<quote>``"
-msgstr "``\\g<quote>``"
+msgstr ""
 
 msgid "``\\g<1>``"
-msgstr "``\\g<1>``"
+msgstr ""
 
 msgid ""
 "In :class:`bytes` patterns, group *name* can only contain bytes in the ASCII "
@@ -548,7 +547,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?P=name)``"
-msgstr "``(?P=name)``"
+msgstr ""
 
 msgid ""
 "A backreference to a named group; it matches whatever text was matched by "
@@ -556,13 +555,13 @@ msgid ""
 msgstr ""
 
 msgid "``(?#...)``"
-msgstr "``(?#...)``"
+msgstr ""
 
 msgid "A comment; the contents of the parentheses are simply ignored."
 msgstr ""
 
 msgid "``(?=...)``"
-msgstr "``(?=...)``"
+msgstr ""
 
 msgid ""
 "Matches if ``...`` matches next, but doesn't consume any of the string.  "
@@ -571,7 +570,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?!...)``"
-msgstr "``(?!...)``"
+msgstr ""
 
 msgid ""
 "Matches if ``...`` doesn't match next.  This is a :dfn:`negative lookahead "
@@ -580,7 +579,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?<=...)``"
-msgstr "``(?<=...)``"
+msgstr ""
 
 msgid ""
 "Matches if the current position in the string is preceded by a match for "
@@ -602,7 +601,7 @@ msgid "Added support for group references of fixed length."
 msgstr ""
 
 msgid "``(?<!...)``"
-msgstr "``(?<!...)``"
+msgstr ""
 
 msgid ""
 "Matches if the current position in the string is not preceded by a match for "
@@ -613,7 +612,7 @@ msgid ""
 msgstr ""
 
 msgid "``(?(id/name)yes-pattern|no-pattern)``"
-msgstr "``(?(id/name)yes-pattern|no-pattern)``"
+msgstr ""
 
 msgid ""
 "Will try to match with ``yes-pattern`` if the group with given *id* or "
@@ -637,7 +636,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\number``"
-msgstr "``\\number``"
+msgstr ""
 
 msgid ""
 "Matches the contents of the group of the same number.  Groups are numbered "
@@ -651,13 +650,13 @@ msgid ""
 msgstr ""
 
 msgid "``\\A``"
-msgstr "``\\A``"
+msgstr ""
 
 msgid "Matches only at the start of the string."
 msgstr ""
 
 msgid "``\\b``"
-msgstr "``\\b``"
+msgstr ""
 
 msgid ""
 "Matches the empty string, but only at the beginning or end of a word. A word "
@@ -681,7 +680,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\B``"
-msgstr "``\\B``"
+msgstr ""
 
 msgid ""
 "Matches the empty string, but only when it is *not* at the beginning or end "
@@ -697,7 +696,7 @@ msgid "``\\B`` now matches empty input string."
 msgstr ""
 
 msgid "``\\d``"
-msgstr "``\\d``"
+msgstr ""
 
 msgid "For Unicode (str) patterns:"
 msgstr ""
@@ -720,7 +719,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\D``"
-msgstr "``\\D``"
+msgstr ""
 
 msgid ""
 "Matches any character which is not a decimal digit. This is the opposite of "
@@ -731,7 +730,7 @@ msgid "Matches ``[^0-9]`` if the :py:const:`~re.ASCII` flag is used."
 msgstr ""
 
 msgid "``\\s``"
-msgstr "``\\s``"
+msgstr ""
 
 msgid ""
 "Matches Unicode whitespace characters (as defined by :py:meth:`str."
@@ -750,7 +749,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\S``"
-msgstr "``\\S``"
+msgstr ""
 
 msgid ""
 "Matches any character which is not a whitespace character. This is the "
@@ -762,7 +761,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\w``"
-msgstr "``\\w``"
+msgstr ""
 
 msgid ""
 "Matches Unicode word characters; this includes all Unicode alphanumeric "
@@ -781,7 +780,7 @@ msgid ""
 msgstr ""
 
 msgid "``\\W``"
-msgstr "``\\W``"
+msgstr ""
 
 msgid ""
 "Matches any character which is not a word character. This is the opposite of "
@@ -798,13 +797,13 @@ msgid ""
 msgstr ""
 
 msgid "``\\z``"
-msgstr "``\\z``"
+msgstr ""
 
 msgid "Matches only at the end of the string."
-msgstr "Збігається лише в кінці рядка."
+msgstr ""
 
 msgid "``\\Z``"
-msgstr "``\\Z``"
+msgstr ""
 
 msgid "The same as ``\\z``.  For compatibility with old Python versions."
 msgstr ""
@@ -852,7 +851,7 @@ msgid ""
 msgstr ""
 
 msgid "Module Contents"
-msgstr "Modul-Modul"
+msgstr ""
 
 msgid ""
 "The module defines several functions, constants, and an exception. Some of "
@@ -1019,7 +1018,7 @@ msgid "Corresponds to the inline flag ``(?x)``."
 msgstr ""
 
 msgid "Functions"
-msgstr "Zadania"
+msgstr ""
 
 msgid ""
 "Compile a regular expression pattern into a :ref:`regular expression object "
@@ -1042,7 +1041,7 @@ msgid ""
 msgstr ""
 
 msgid "is equivalent to ::"
-msgstr "setara dengan::"
+msgstr ""
 
 msgid "result = re.match(pattern, string)"
 msgstr ""
@@ -1332,7 +1331,7 @@ msgid ""
 msgstr ""
 
 msgid "The unformatted error message."
-msgstr "Неформатне повідомлення про помилку."
+msgstr ""
 
 msgid "The regular expression pattern."
 msgstr ""
@@ -1613,7 +1612,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid ""
 ">>> m = re.match(r\"(\\d+)\\.(\\d+)\", \"24.1632\")\n"
@@ -1813,55 +1812,55 @@ msgid "Regular Expression"
 msgstr ""
 
 msgid "``%c``"
-msgstr "``%c``"
+msgstr ""
 
 msgid "``%5c``"
-msgstr "``%5c``"
+msgstr ""
 
 msgid "``.{5}``"
-msgstr "``.{5}``"
+msgstr ""
 
 msgid "``%d``"
-msgstr "``%d``"
+msgstr ""
 
 msgid "``[-+]?\\d+``"
-msgstr "``[-+]?\\d+``"
+msgstr ""
 
 msgid "``%e``, ``%E``, ``%f``, ``%g``"
 msgstr ""
 
 msgid "``[-+]?(\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?``"
-msgstr "``[-+]?(\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?``"
+msgstr ""
 
 msgid "``%i``"
-msgstr "``%i``"
+msgstr ""
 
 msgid "``[-+]?(0[xX][\\dA-Fa-f]+|0[0-7]*|\\d+)``"
-msgstr "``[-+]?(0[xX][\\dA-Fa-f]+|0[0-7]*|\\d+)``"
+msgstr ""
 
 msgid "``%o``"
-msgstr "``%o``"
+msgstr ""
 
 msgid "``[-+]?[0-7]+``"
-msgstr "``[-+]?[0-7]+``"
+msgstr ""
 
 msgid "``%s``"
-msgstr "``%s``"
+msgstr ""
 
 msgid "``\\S+``"
-msgstr "``\\S+``"
+msgstr ""
 
 msgid "``%u``"
-msgstr "``%u``"
+msgstr ""
 
 msgid "``\\d+``"
-msgstr "``\\d+``"
+msgstr ""
 
 msgid "``%x``, ``%X``"
 msgstr ""
 
 msgid "``[-+]?(0[xX])?[\\dA-Fa-f]+``"
-msgstr "``[-+]?(0[xX])?[\\dA-Fa-f]+``"
+msgstr ""
 
 msgid "To extract the filename and numbers from a string like ::"
 msgstr ""
@@ -2327,16 +2326,16 @@ msgid "\\t"
 msgstr ""
 
 msgid "\\u"
-msgstr "\\u"
+msgstr ""
 
 msgid "\\U"
-msgstr "\\U"
+msgstr ""
 
 msgid "\\v"
 msgstr ""
 
 msgid "\\x"
-msgstr "\\x"
+msgstr ""
 
 msgid "\\\\"
 msgstr ""

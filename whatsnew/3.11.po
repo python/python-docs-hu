@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"POT-Creation-Date: 2025-09-07 14:14+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -446,7 +446,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid ""
 "# The create_model decorator is defined by a library.\n"
@@ -1128,7 +1128,7 @@ msgid ""
 msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid ""
 "Add :meth:`~string.Template.get_identifiers` and :meth:`~string.Template."
@@ -1199,7 +1199,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "On Unix, :func:`time.sleep` now uses the ``clock_nanosleep()`` or "
@@ -1229,7 +1229,7 @@ msgid ""
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "Add :func:`traceback.StackSummary.format_frame_summary` to allow users to "
@@ -1621,7 +1621,7 @@ msgid ""
 msgstr ""
 
 msgid "Operation"
-msgstr "Operasi"
+msgstr ""
 
 msgid "Form"
 msgstr ""
@@ -1694,7 +1694,7 @@ msgid "Dennis Sweeney"
 msgstr ""
 
 msgid "Calls"
-msgstr "Дзвінки"
+msgstr ""
 
 msgid "``f(arg)``"
 msgstr ""
@@ -1946,7 +1946,7 @@ msgid "New Opcode(s)"
 msgstr ""
 
 msgid "Notes"
-msgstr "Notatki"
+msgstr ""
 
 msgid ":opcode:`!BINARY_*`"
 msgstr ""

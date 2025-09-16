@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"POT-Creation-Date: 2025-05-30 14:22+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -110,16 +109,16 @@ msgid "PyObject *foo = PyObject_CallNoArgs((PyObject *)&PyFoo_Type);"
 msgstr ""
 
 msgid ":c:func:`PyObject_Free`"
-msgstr ":c:func:`PyObject_Free`"
+msgstr ""
 
 msgid ":c:macro:`PyObject_GC_New`"
-msgstr ":c:macro:`PyObject_GC_New`"
+msgstr ""
 
 msgid ":c:func:`PyType_GenericAlloc`"
-msgstr ":c:func:`PyType_GenericAlloc`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_alloc`"
-msgstr ":c:member:`~PyTypeObject.tp_alloc`"
+msgstr ""
 
 msgid "Like :c:macro:`PyObject_New` except:"
 msgstr ""
@@ -155,7 +154,7 @@ msgid ""
 msgstr ""
 
 msgid ":c:macro:`PyObject_GC_NewVar`"
-msgstr ":c:macro:`PyObject_GC_NewVar`"
+msgstr ""
 
 msgid "Same as :c:func:`PyObject_Free`."
 msgstr ""
@@ -170,7 +169,7 @@ msgstr ""
 "pointerre értékelődik ki."
 
 msgid ":ref:`moduleobjects`"
-msgstr ":ref:`moduleobjects`"
+msgstr ""
 
 msgid "To allocate and create extension modules."
 msgstr "Kiegészítő modulok allokálására és létrehozására."

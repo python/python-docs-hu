@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -182,7 +178,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 ">>> x = {\"key1\": \"value1 from x\", \"key2\": \"value2 from x\"}\n"
@@ -222,7 +218,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid ""
 "def greet_all(names: list[str]) -> None:\n"
@@ -881,7 +877,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "On AIX, :func:`~time.thread_time` is now implemented with "

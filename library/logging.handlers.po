@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-06-27 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -84,7 +79,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "parametry"
+msgstr ""
 
 msgid "The stream that the handler should use."
 msgstr ""
@@ -389,7 +384,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr "Wartość"
+msgstr ""
 
 msgid "Type of interval"
 msgstr ""
@@ -398,7 +393,7 @@ msgid "If/how *atTime* is used"
 msgstr ""
 
 msgid "``'S'``"
-msgstr "``'S'``"
+msgstr ""
 
 msgid "Seconds"
 msgstr ""
@@ -407,25 +402,25 @@ msgid "Ignored"
 msgstr ""
 
 msgid "``'M'``"
-msgstr "``'M'``"
+msgstr ""
 
 msgid "Minutes"
 msgstr ""
 
 msgid "``'H'``"
-msgstr "``'H'``"
+msgstr ""
 
 msgid "Hours"
 msgstr ""
 
 msgid "``'D'``"
-msgstr "``'D'``"
+msgstr ""
 
 msgid "Days"
 msgstr ""
 
 msgid "``'W0'-'W6'``"
-msgstr "``'W0'-'W6'``"
+msgstr ""
 
 msgid "Weekday (0=Monday)"
 msgstr ""
@@ -434,7 +429,7 @@ msgid "Used to compute initial rollover time"
 msgstr ""
 
 msgid "``'midnight'``"
-msgstr "``'midnight'``"
+msgstr ""
 
 msgid "Roll over at midnight, if *atTime* not specified, else at time *atTime*"
 msgstr ""
@@ -718,7 +713,7 @@ msgid "*socktype* was added."
 msgstr ""
 
 msgid "*timeout* was added."
-msgstr "Додано *тайм-аут*."
+msgstr ""
 
 msgid "Closes the socket to the remote host."
 msgstr ""
@@ -786,7 +781,7 @@ msgid "Symbolic value"
 msgstr ""
 
 msgid "``alert``"
-msgstr "``alert``"
+msgstr ""
 
 msgid "LOG_ALERT"
 msgstr ""
@@ -798,7 +793,7 @@ msgid "LOG_CRIT"
 msgstr ""
 
 msgid "``debug``"
-msgstr "``debug``"
+msgstr ""
 
 msgid "LOG_DEBUG"
 msgstr ""
@@ -816,13 +811,13 @@ msgid "LOG_ERR"
 msgstr ""
 
 msgid "``info``"
-msgstr "``info``"
+msgstr ""
 
 msgid "LOG_INFO"
 msgstr ""
 
 msgid "``notice``"
-msgstr "``notice``"
+msgstr ""
 
 msgid "LOG_NOTICE"
 msgstr ""
@@ -837,121 +832,121 @@ msgid "**Facilities**"
 msgstr ""
 
 msgid "``auth``"
-msgstr "``auth``"
+msgstr ""
 
 msgid "LOG_AUTH"
 msgstr ""
 
 msgid "``authpriv``"
-msgstr "``authpriv``"
+msgstr ""
 
 msgid "LOG_AUTHPRIV"
 msgstr ""
 
 msgid "``cron``"
-msgstr "``cron``"
+msgstr ""
 
 msgid "LOG_CRON"
 msgstr ""
 
 msgid "``daemon``"
-msgstr "``daemon``"
+msgstr ""
 
 msgid "LOG_DAEMON"
 msgstr ""
 
 msgid "``ftp``"
-msgstr "``ftp``"
+msgstr ""
 
 msgid "LOG_FTP"
 msgstr ""
 
 msgid "``kern``"
-msgstr "``kern``"
+msgstr ""
 
 msgid "LOG_KERN"
 msgstr ""
 
 msgid "``lpr``"
-msgstr "``lpr``"
+msgstr ""
 
 msgid "LOG_LPR"
 msgstr ""
 
 msgid "``mail``"
-msgstr "``mail``"
+msgstr ""
 
 msgid "LOG_MAIL"
 msgstr ""
 
 msgid "``news``"
-msgstr "``news``"
+msgstr ""
 
 msgid "LOG_NEWS"
 msgstr ""
 
 msgid "``syslog``"
-msgstr "``syslog``"
+msgstr ""
 
 msgid "LOG_SYSLOG"
 msgstr ""
 
 msgid "``user``"
-msgstr "``user``"
+msgstr ""
 
 msgid "LOG_USER"
 msgstr ""
 
 msgid "``uucp``"
-msgstr "``uucp``"
+msgstr ""
 
 msgid "LOG_UUCP"
 msgstr ""
 
 msgid "``local0``"
-msgstr "``local0``"
+msgstr ""
 
 msgid "LOG_LOCAL0"
 msgstr ""
 
 msgid "``local1``"
-msgstr "``local1``"
+msgstr ""
 
 msgid "LOG_LOCAL1"
 msgstr ""
 
 msgid "``local2``"
-msgstr "``local2``"
+msgstr ""
 
 msgid "LOG_LOCAL2"
 msgstr ""
 
 msgid "``local3``"
-msgstr "``local3``"
+msgstr ""
 
 msgid "LOG_LOCAL3"
 msgstr ""
 
 msgid "``local4``"
-msgstr "``local4``"
+msgstr ""
 
 msgid "LOG_LOCAL4"
 msgstr ""
 
 msgid "``local5``"
-msgstr "``local5``"
+msgstr ""
 
 msgid "LOG_LOCAL5"
 msgstr ""
 
 msgid "``local6``"
-msgstr "``local6``"
+msgstr ""
 
 msgid "LOG_LOCAL6"
 msgstr ""
 
 msgid "``local7``"
-msgstr "``local7``"
+msgstr ""
 
 msgid "LOG_LOCAL7"
 msgstr ""

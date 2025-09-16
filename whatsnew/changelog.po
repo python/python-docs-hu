@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-13 14:14+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -55,12 +50,6 @@ msgstr ""
 msgid "Library"
 msgstr ""
 
-msgid ""
-":gh:`138804`: Raise :exc:`TypeError` instead of :exc:`AttributeError` when "
-"an argument of incorrect type is passed to :func:`shlex.quote`. This "
-"restores the behavior of the function prior to 3.14."
-msgstr ""
-
 msgid ":gh:`138515`: :mod:`email` is added to Emscripten build."
 msgstr ""
 
@@ -92,11 +81,6 @@ msgid ""
 ":gh:`136134`: :meth:`IMAP4.login_cram_md5 <imaplib.IMAP4.login_cram_md5>` "
 "now raises an :exc:`IMAP4.error <imaplib.IMAP4.error>` if CRAM-MD5 "
 "authentication is not supported. Patch by Bénédikt Tran."
-msgstr ""
-
-msgid ""
-":gh:`134953`: Expand ``_colorize`` theme with ``keyword_constant`` and "
-"implement in :term:`repl`."
 msgstr ""
 
 msgid "Core and Builtins"
@@ -166,7 +150,7 @@ msgid "*Release date: 2025-08-14*"
 msgstr ""
 
 msgid "macOS"
-msgstr "macOS"
+msgstr ""
 
 msgid ""
 ":gh:`137450`: macOS installer shell path management improvements: separate "
@@ -179,7 +163,7 @@ msgid ""
 msgstr ""
 
 msgid "Windows"
-msgstr "Windows"
+msgstr ""
 
 msgid ":gh:`137134`: Update Windows installer to ship with SQLite 3.50.4."
 msgstr ""
@@ -2147,7 +2131,7 @@ msgid ""
 msgstr ""
 
 msgid "IDLE"
-msgstr "IDLE"
+msgstr ""
 
 msgid ":gh:`112936`: fix IDLE: no Shell menu item in single-process mode."
 msgstr ""
@@ -11348,10 +11332,10 @@ msgid ":gh:`117987`: Restore functions removed in Python 3.13 alpha 1:"
 msgstr ""
 
 msgid ":c:func:`Py_SetPythonHome`"
-msgstr ":c:func:`Py_SetPythonHome`"
+msgstr ""
 
 msgid ":c:func:`Py_SetProgramName`"
-msgstr ":c:func:`Py_SetProgramName`"
+msgstr ""
 
 msgid ":c:func:`PySys_SetArgvEx`"
 msgstr ""
@@ -19354,7 +19338,7 @@ msgid ":gh:`105145`: Deprecate old Python initialization functions:"
 msgstr ""
 
 msgid ":c:func:`PySys_ResetWarnOptions`"
-msgstr ":c:func:`PySys_ResetWarnOptions`"
+msgstr ""
 
 msgid ":c:func:`Py_GetExecPrefix`"
 msgstr ""
@@ -24791,7 +24775,7 @@ msgid "``It is deprecated to return a value!=None``"
 msgstr ""
 
 msgid "to"
-msgstr "ke"
+msgstr ""
 
 msgid ""
 "``It is deprecated to return a value that is not None from a test case``"
@@ -38091,7 +38075,7 @@ msgid ":meth:`dict.items`"
 msgstr ""
 
 msgid ":func:`enumerate`"
-msgstr ":func:`enumerate`"
+msgstr ""
 
 msgid ":func:`functools.reduce`"
 msgstr ""
@@ -38112,7 +38096,7 @@ msgid ":func:`itertools.zip_longest`"
 msgstr ""
 
 msgid ":func:`zip`"
-msgstr ":func:`zip`"
+msgstr ""
 
 msgid ""
 "Previously, they could have become untracked by a prior garbage collection. "

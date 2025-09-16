@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -285,7 +281,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid ""
 "from collections.abc import Callable, Awaitable\n"
@@ -1057,7 +1053,7 @@ msgid ""
 msgstr ""
 
 msgid "Module contents"
-msgstr "Зміст модуля"
+msgstr ""
 
 msgid ""
 "The ``typing`` module defines the following classes, functions and "
@@ -1105,7 +1101,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid ""
 "def concat(a: AnyStr, b: AnyStr) -> AnyStr:\n"
@@ -1158,7 +1154,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid ""
 "def run_query(sql: LiteralString) -> None:\n"
@@ -2817,7 +2813,7 @@ msgid ""
 msgstr ""
 
 msgid "This is equivalent to::"
-msgstr "Ini setara dengan::"
+msgstr ""
 
 msgid "Employee = collections.namedtuple('Employee', ['name', 'id'])"
 msgstr ""
@@ -3368,7 +3364,7 @@ msgid ""
 msgstr ""
 
 msgid "Protocols"
-msgstr "Протоколи"
+msgstr ""
 
 msgid ""
 "The following protocols are provided by the :mod:`!typing` module. All are "
@@ -3485,7 +3481,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "def int_or_str(arg: int | str) -> None:\n"
@@ -3640,7 +3636,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "parametry"
+msgstr ""
 
 msgid ""
 "Indicates whether the ``eq`` parameter is assumed to be ``True`` or "
@@ -3690,7 +3686,7 @@ msgid "Parameter name"
 msgstr ""
 
 msgid "Description"
-msgstr "Opis"
+msgstr ""
 
 msgid "``init``"
 msgstr ""
@@ -4033,7 +4029,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "Przykłady:"
+msgstr ""
 
 msgid ""
 "assert get_origin(str) is None\n"
@@ -4158,7 +4154,7 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr "Stała"
+msgstr ""
 
 msgid ""
 "A special constant that is assumed to be ``True`` by 3rd party static type "

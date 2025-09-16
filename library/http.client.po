@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +77,7 @@ msgid ""
 msgstr ""
 
 msgid "*source_address* was added."
-msgstr "*вихідна_адреса* була додана."
+msgstr ""
 
 msgid ""
 "The  *strict* parameter was removed. HTTP 0.9-style \"Simple Responses\" are "
@@ -177,7 +173,6 @@ msgid ""
 "The base class of the other exceptions in this module.  It is a subclass of :"
 "exc:`Exception`."
 msgstr ""
-"Базовий клас інших винятків у цьому модулі. Це підклас :exc:`Exception`."
 
 msgid "A subclass of :exc:`HTTPException`."
 msgstr ""
@@ -211,7 +206,7 @@ msgid "Previously, :exc:`BadStatusLine`\\ ``('')`` was raised."
 msgstr ""
 
 msgid "The constants defined in this module are:"
-msgstr "Konstanta yang didefinisikan dalam modul ini antara lain:"
+msgstr ""
 
 msgid "The default port for the HTTP protocol (always ``80``)."
 msgstr ""
@@ -550,7 +545,7 @@ msgid "Deprecated in favor of :attr:`~HTTPResponse.status`."
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid "Here is an example session that uses the ``GET`` method::"
 msgstr ""
@@ -661,7 +656,7 @@ msgid "http.client (standard module)"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "urllib.request"
 msgstr ""

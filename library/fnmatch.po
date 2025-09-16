@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"POT-Creation-Date: 2025-07-25 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -27,54 +26,48 @@ msgid ":mod:`!fnmatch` --- Unix filename pattern matching"
 msgstr ""
 
 msgid "**Source code:** :source:`Lib/fnmatch.py`"
-msgstr "**Kod źródłowy:** :source:`Lib/fnmatch.py`"
+msgstr ""
 
 msgid ""
 "This module provides support for Unix shell-style wildcards, which are *not* "
 "the same as regular expressions (which are documented in the :mod:`re` "
 "module).  The special characters used in shell-style wildcards are:"
 msgstr ""
-"Цей модуль підтримує символи підстановки у стилі оболонки Unix, які які *не* "
-"відповідають регулярним виразам (що задокументовані в модулі :mod:`re`). "
-"Спеціальні символи, які використовуються в символах підстановки у стилі "
-"оболонки:"
 
 msgid "Pattern"
-msgstr "Візерунок"
+msgstr ""
 
 msgid "Meaning"
 msgstr "Jelentés"
 
 msgid "``*``"
-msgstr "``*``"
+msgstr ""
 
 msgid "matches everything"
-msgstr "відповідає всьому"
+msgstr ""
 
 msgid "``?``"
-msgstr "``?``"
+msgstr ""
 
 msgid "matches any single character"
-msgstr "відповідає будь-якому окремому символу"
+msgstr ""
 
 msgid "``[seq]``"
-msgstr "``[seq]``"
+msgstr ""
 
 msgid "matches any character in *seq*"
-msgstr "відповідає будь-якому символу в *seq*"
+msgstr ""
 
 msgid "``[!seq]``"
-msgstr "``[!seq]``"
+msgstr ""
 
 msgid "matches any character not in *seq*"
-msgstr "відповідає будь-якому символу не в *seq*"
+msgstr ""
 
 msgid ""
 "For a literal match, wrap the meta-characters in brackets. For example, "
 "``'[?]'`` matches the character ``'?'``."
 msgstr ""
-"Untuk mencocokan literal, bungkus karakter meta dalam tanda kurung. "
-"Misalnya, ``'[?]'`` cocok dengan karakter ``'?'``."
 
 msgid ""
 "Note that the filename separator (``'/'`` on Unix) is *not* special to this "
@@ -83,11 +76,6 @@ msgid ""
 "with a period are not special for this module, and are matched by the ``*`` "
 "and ``?`` patterns."
 msgstr ""
-"Зауважте, що роздільник імен файлів (``'/'`` в Unix) *не* є особливим для "
-"цього модуля. Дивіться модуль :mod:`glob` для розширення імені шляху (:mod:"
-"`glob` використовує :func:`.filter` для відповідності сегментам імені "
-"шляху). Подібним чином назви файлів, що починаються з крапки, не є "
-"спеціальними для цього модуля та відповідають шаблонам ``*`` і ``?``."
 
 msgid ""
 "Unless stated otherwise, \"filename string\" and \"pattern string\" either "
@@ -115,8 +103,6 @@ msgid ""
 "This example will print all file names in the current directory with the "
 "extension ``.txt``::"
 msgstr ""
-"У цьому прикладі буде надруковано всі імена файлів у поточному каталозі з "
-"розширенням ``.txt``::"
 
 msgid ""
 "import fnmatch\n"
@@ -152,13 +138,13 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid "Module :mod:`glob`"
-msgstr "Модуль :mod:`glob`"
+msgstr ""
 
 msgid "Unix shell-style path expansion."
-msgstr "Розширення шляху у стилі оболонки Unix."
+msgstr ""
 
 msgid "filenames"
 msgstr ""
@@ -167,7 +153,7 @@ msgid "wildcard expansion"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "re"
 msgstr ""

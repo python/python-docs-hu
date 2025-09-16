@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"POT-Creation-Date: 2025-09-05 14:17+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -463,7 +462,7 @@ msgid ""
 msgstr ""
 
 msgid "Configuration"
-msgstr "Konfiguracja"
+msgstr ""
 
 msgid ""
 "Python install manager is configured with a hierarchy of configuration "
@@ -504,7 +503,7 @@ msgid "Environment Variable"
 msgstr ""
 
 msgid "Description"
-msgstr "Opis"
+msgstr ""
 
 msgid "``default_tag``"
 msgstr ""
@@ -1190,7 +1189,7 @@ msgid ""
 msgstr ""
 
 msgid "Embedding Python"
-msgstr "Załączanie programu interpretującego język pytonowski"
+msgstr ""
 
 msgid ""
 "Applications written in native code often require some form of scripting "
@@ -1774,7 +1773,7 @@ msgid ""
 msgstr ""
 
 msgid "Name"
-msgstr "Nazwa"
+msgstr ""
 
 msgid "/passive"
 msgstr ""
@@ -1828,7 +1827,7 @@ msgid "Perform a system-wide installation."
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "TargetDir"
 msgstr ""
@@ -2516,7 +2515,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "Przykłady:"
+msgstr ""
 
 msgid ""
 "If no relevant options are set, the commands ``python`` and ``python2`` will "
@@ -2556,7 +2555,7 @@ msgid ""
 msgstr ""
 
 msgid "For example:"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid "Setting ``PY_PYTHON=3.7`` is equivalent to the INI file containing:"
 msgstr ""
@@ -2636,7 +2635,7 @@ msgid ""
 msgstr ""
 
 msgid "Value"
-msgstr "Wartość"
+msgstr ""
 
 msgid "RC_BAD_VENV_CFG"
 msgstr ""

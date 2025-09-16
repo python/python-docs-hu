@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"POT-Creation-Date: 2025-07-31 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -240,22 +240,22 @@ msgid ""
 msgstr ""
 
 msgid ":const:`None`"
-msgstr ":const:`None`"
+msgstr ""
 
 msgid ":class:`bool` (:const:`True` and :const:`False`)"
 msgstr ""
 
 msgid ":class:`bytes`"
-msgstr ":class:`bytes`"
+msgstr ""
 
 msgid ":class:`str`"
-msgstr ":class:`str`"
+msgstr ""
 
 msgid ":class:`int`"
-msgstr ":class:`int`"
+msgstr ""
 
 msgid ":class:`float`"
-msgstr ":class:`float`"
+msgstr ""
 
 msgid ":class:`tuple` (of similarly supported objects)"
 msgstr ""
@@ -269,10 +269,10 @@ msgid ":class:`memoryview`"
 msgstr ""
 
 msgid ":class:`Queue`"
-msgstr ":class:`Queue`"
+msgstr ""
 
 msgid "Reference"
-msgstr "Referensi"
+msgstr ""
 
 msgid "This module defines the following functions:"
 msgstr ""

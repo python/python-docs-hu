@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -414,7 +409,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid ""
 "{\n"
@@ -792,7 +787,7 @@ msgid ""
 msgstr ""
 
 msgid ":attr:`UnicodeError.start`"
-msgstr ":attr:`UnicodeError.start`"
+msgstr ""
 
 msgid ""
 "Set the *start* attribute of the given exception object to *start*. Return "
@@ -821,7 +816,7 @@ msgid ""
 msgstr ""
 
 msgid ":attr:`UnicodeError.end`"
-msgstr ":attr:`UnicodeError.end`"
+msgstr ""
 
 msgid "Return the *reason* attribute of the given exception object."
 msgstr ""
@@ -926,169 +921,169 @@ msgid "Python name"
 msgstr ""
 
 msgid ":exc:`BaseException`"
-msgstr ":exc:`BaseException`"
+msgstr ""
 
 msgid ":exc:`BaseExceptionGroup`"
-msgstr ":exc:`BaseExceptionGroup`"
+msgstr ""
 
 msgid ":exc:`Exception`"
-msgstr ":exc:`Exception`"
+msgstr ""
 
 msgid ":exc:`ArithmeticError`"
-msgstr ":exc:`ArithmeticError`"
+msgstr ""
 
 msgid ":exc:`AssertionError`"
-msgstr ":exc:`AssertionError`"
+msgstr ""
 
 msgid ":exc:`AttributeError`"
-msgstr ":exc:`AttributeError`"
+msgstr ""
 
 msgid ":exc:`BlockingIOError`"
-msgstr ":exc:`BlockingIOError`"
+msgstr ""
 
 msgid ":exc:`BrokenPipeError`"
-msgstr ":exc:`BrokenPipeError`"
+msgstr ""
 
 msgid ":exc:`BufferError`"
-msgstr ":exc:`BufferError`"
+msgstr ""
 
 msgid ":exc:`ChildProcessError`"
-msgstr ":exc:`ChildProcessError`"
+msgstr ""
 
 msgid ":exc:`ConnectionAbortedError`"
-msgstr ":exc:`ConnectionAbortedError`"
+msgstr ""
 
 msgid ":exc:`ConnectionError`"
-msgstr ":exc:`ConnectionError`"
+msgstr ""
 
 msgid ":exc:`ConnectionRefusedError`"
-msgstr ":exc:`ConnectionRefusedError`"
+msgstr ""
 
 msgid ":exc:`ConnectionResetError`"
-msgstr ":exc:`ConnectionResetError`"
+msgstr ""
 
 msgid ":exc:`EOFError`"
-msgstr ":exc:`EOFError`"
+msgstr ""
 
 msgid ":exc:`FileExistsError`"
-msgstr ":exc:`FileExistsError`"
+msgstr ""
 
 msgid ":exc:`FileNotFoundError`"
-msgstr ":exc:`FileNotFoundError`"
+msgstr ""
 
 msgid ":exc:`FloatingPointError`"
-msgstr ":exc:`FloatingPointError`"
+msgstr ""
 
 msgid ":exc:`GeneratorExit`"
-msgstr ":exc:`GeneratorExit`"
+msgstr ""
 
 msgid ":exc:`ImportError`"
-msgstr ":exc:`ImportError`"
+msgstr ""
 
 msgid ":exc:`IndentationError`"
-msgstr ":exc:`IndentationError`"
+msgstr ""
 
 msgid ":exc:`IndexError`"
-msgstr ":exc:`IndexError`"
+msgstr ""
 
 msgid ":exc:`InterruptedError`"
-msgstr ":exc:`InterruptedError`"
+msgstr ""
 
 msgid ":exc:`IsADirectoryError`"
-msgstr ":exc:`IsADirectoryError`"
+msgstr ""
 
 msgid ":exc:`KeyError`"
-msgstr ":exc:`KeyError`"
+msgstr ""
 
 msgid ":exc:`KeyboardInterrupt`"
-msgstr ":exc:`KeyboardInterrupt`"
+msgstr ""
 
 msgid ":exc:`LookupError`"
-msgstr ":exc:`LookupError`"
+msgstr ""
 
 msgid ":exc:`MemoryError`"
-msgstr ":exc:`MemoryError`"
+msgstr ""
 
 msgid ":exc:`ModuleNotFoundError`"
-msgstr ":exc:`ModuleNotFoundError`"
+msgstr ""
 
 msgid ":exc:`NameError`"
-msgstr ":exc:`NameError`"
+msgstr ""
 
 msgid ":exc:`NotADirectoryError`"
-msgstr ":exc:`NotADirectoryError`"
+msgstr ""
 
 msgid ":exc:`NotImplementedError`"
-msgstr ":exc:`NotImplementedError`"
+msgstr ""
 
 msgid ":exc:`OSError`"
-msgstr ":exc:`OSError`"
+msgstr ""
 
 msgid ":exc:`OverflowError`"
-msgstr ":exc:`OverflowError`"
+msgstr ""
 
 msgid ":exc:`PermissionError`"
-msgstr ":exc:`PermissionError`"
+msgstr ""
 
 msgid ":exc:`ProcessLookupError`"
-msgstr ":exc:`ProcessLookupError`"
+msgstr ""
 
 msgid ":exc:`PythonFinalizationError`"
-msgstr ":exc:`PythonFinalizationError`"
+msgstr ""
 
 msgid ":exc:`RecursionError`"
-msgstr ":exc:`RecursionError`"
+msgstr ""
 
 msgid ":exc:`ReferenceError`"
-msgstr ":exc:`ReferenceError`"
+msgstr ""
 
 msgid ":exc:`RuntimeError`"
-msgstr ":exc:`RuntimeError`"
+msgstr ""
 
 msgid ":exc:`StopAsyncIteration`"
-msgstr ":exc:`StopAsyncIteration`"
+msgstr ""
 
 msgid ":exc:`StopIteration`"
-msgstr ":exc:`StopIteration`"
+msgstr ""
 
 msgid ":exc:`SyntaxError`"
-msgstr ":exc:`SyntaxError`"
+msgstr ""
 
 msgid ":exc:`SystemError`"
-msgstr ":exc:`SystemError`"
+msgstr ""
 
 msgid ":exc:`SystemExit`"
-msgstr ":exc:`SystemExit`"
+msgstr ""
 
 msgid ":exc:`TabError`"
-msgstr ":exc:`TabError`"
+msgstr ""
 
 msgid ":exc:`TimeoutError`"
-msgstr ":exc:`TimeoutError`"
+msgstr ""
 
 msgid ":exc:`TypeError`"
-msgstr ":exc:`TypeError`"
+msgstr ""
 
 msgid ":exc:`UnboundLocalError`"
-msgstr ":exc:`UnboundLocalError`"
+msgstr ""
 
 msgid ":exc:`UnicodeDecodeError`"
-msgstr ":exc:`UnicodeDecodeError`"
+msgstr ""
 
 msgid ":exc:`UnicodeEncodeError`"
-msgstr ":exc:`UnicodeEncodeError`"
+msgstr ""
 
 msgid ":exc:`UnicodeError`"
-msgstr ":exc:`UnicodeError`"
+msgstr ""
 
 msgid ":exc:`UnicodeTranslateError`"
-msgstr ":exc:`UnicodeTranslateError`"
+msgstr ""
 
 msgid ":exc:`ValueError`"
-msgstr ":exc:`ValueError`"
+msgstr ""
 
 msgid ":exc:`ZeroDivisionError`"
-msgstr ":exc:`ZeroDivisionError`"
+msgstr ""
 
 msgid ""
 ":c:data:`PyExc_BlockingIOError`, :c:data:`PyExc_BrokenPipeError`, :c:data:"
@@ -1105,10 +1100,10 @@ msgid ":c:data:`PyExc_StopAsyncIteration` and :c:data:`PyExc_RecursionError`."
 msgstr ""
 
 msgid ":c:data:`PyExc_ModuleNotFoundError`."
-msgstr ":c:data:`PyExc_ModuleNotFoundError`."
+msgstr ""
 
 msgid ":c:data:`PyExc_BaseExceptionGroup`."
-msgstr ":c:data:`PyExc_BaseExceptionGroup`."
+msgstr ""
 
 msgid "OSError aliases"
 msgstr ""
@@ -1120,13 +1115,13 @@ msgid "These aliases used to be separate exception types."
 msgstr ""
 
 msgid "Notes"
-msgstr "Notatki"
+msgstr ""
 
 msgid "[win]_"
-msgstr "[win]_"
+msgstr ""
 
 msgid "Notes:"
-msgstr "Uwagi:"
+msgstr ""
 
 msgid ""
 ":c:var:`!PyExc_WindowsError` is only defined on Windows; protect code that "
@@ -1137,52 +1132,52 @@ msgid "Warning types"
 msgstr ""
 
 msgid ":exc:`Warning`"
-msgstr ":exc:`Warning`"
+msgstr ""
 
 msgid ":exc:`BytesWarning`"
-msgstr ":exc:`BytesWarning`"
+msgstr ""
 
 msgid ":exc:`DeprecationWarning`"
-msgstr ":exc:`DeprecationWarning`"
+msgstr ""
 
 msgid ":exc:`EncodingWarning`"
-msgstr ":exc:`EncodingWarning`"
+msgstr ""
 
 msgid ":exc:`FutureWarning`"
-msgstr ":exc:`FutureWarning`"
+msgstr ""
 
 msgid ":exc:`ImportWarning`"
-msgstr ":exc:`ImportWarning`"
+msgstr ""
 
 msgid ":exc:`PendingDeprecationWarning`"
-msgstr ":exc:`PendingDeprecationWarning`"
+msgstr ""
 
 msgid ":exc:`ResourceWarning`"
-msgstr ":exc:`ResourceWarning`"
+msgstr ""
 
 msgid ":exc:`RuntimeWarning`"
-msgstr ":exc:`RuntimeWarning`"
+msgstr ""
 
 msgid ":exc:`SyntaxWarning`"
-msgstr ":exc:`SyntaxWarning`"
+msgstr ""
 
 msgid ":exc:`UnicodeWarning`"
-msgstr ":exc:`UnicodeWarning`"
+msgstr ""
 
 msgid ":exc:`UserWarning`"
-msgstr ":exc:`UserWarning`"
+msgstr ""
 
 msgid ":c:data:`PyExc_ResourceWarning`."
-msgstr ":c:data:`PyExc_ResourceWarning`."
+msgstr ""
 
 msgid ":c:data:`PyExc_EncodingWarning`."
-msgstr ":c:data:`PyExc_EncodingWarning`."
+msgstr ""
 
 msgid "strerror (C function)"
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "signal"
 msgstr ""

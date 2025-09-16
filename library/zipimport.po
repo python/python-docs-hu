@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-08-31 14:14+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -70,8 +66,6 @@ msgid ""
 "Documentation on the ZIP file format by Phil Katz, the creator of the format "
 "and algorithms used."
 msgstr ""
-"Документація щодо формату файлу ZIP від Філа Каца, творця формату та "
-"використаних алгоритмів."
 
 msgid ":pep:`273` - Import Modules from Zip Archives"
 msgstr ""
@@ -144,7 +138,7 @@ msgid ""
 msgstr ""
 
 msgid ":exc:`IOError` used to be raised, it is now an alias of :exc:`OSError`."
-msgstr ":exc:`IOError` kiedyś był rzucony, teraz jest alias z :exc:`OSError`."
+msgstr ""
 
 msgid ""
 "Return the value ``__file__`` would be set to if the specified module was "
@@ -169,7 +163,7 @@ msgid ""
 msgstr ""
 
 msgid "Use :meth:`exec_module` instead."
-msgstr "Замість цього використовуйте :meth:`exec_module`."
+msgstr ""
 
 msgid ""
 "Clear out the internal cache of information about files found within the ZIP "
@@ -193,7 +187,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid ""
 "Here is an example that imports a module from a ZIP archive - note that the :"

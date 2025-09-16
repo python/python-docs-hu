@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +56,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid "Display the top 10"
 msgstr ""
@@ -352,7 +348,7 @@ msgid ""
 msgstr ""
 
 msgid "Output::"
-msgstr "Вихід::"
+msgstr ""
 
 msgid ""
 "first_size=664, first_peak=3592984\n"
@@ -374,7 +370,7 @@ msgid "API"
 msgstr ""
 
 msgid "Functions"
-msgstr "Zadania"
+msgstr ""
 
 msgid "Clear traces of memory blocks allocated by Python."
 msgstr ""
@@ -545,7 +541,7 @@ msgid ""
 msgstr ""
 
 msgid "Examples:"
-msgstr "Przykłady:"
+msgstr ""
 
 msgid ""
 "``Filter(True, subprocess.__file__)`` only includes traces of the :mod:"
@@ -686,7 +682,7 @@ msgid "description"
 msgstr ""
 
 msgid "``'filename'``"
-msgstr "``'ім'я файлу'``"
+msgstr ""
 
 msgid "filename"
 msgstr ""
@@ -701,7 +697,7 @@ msgid "``'traceback'``"
 msgstr ""
 
 msgid "traceback"
-msgstr "traceback"
+msgstr ""
 
 msgid ""
 "If *cumulative* is ``True``, cumulate size and count of memory blocks of all "
@@ -862,7 +858,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "print(\"Traceback (most recent call first):\")\n"

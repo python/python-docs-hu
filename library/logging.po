@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-# Stan Ulbrych, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -557,7 +552,7 @@ msgid "What it means / When to use it"
 msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid ""
 "When set on a logger, indicates that ancestor loggers are to be consulted to "
@@ -741,7 +736,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "parametry"
+msgstr ""
 
 msgid ""
 "A format string in the given *style* for the logged output as a whole. The "
@@ -1089,13 +1084,13 @@ msgid "Attribute name"
 msgstr ""
 
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 msgid "Description"
-msgstr "Opis"
+msgstr ""
 
 msgid "args"
-msgstr "args"
+msgstr ""
 
 msgid "You shouldn't need to format this yourself."
 msgstr ""
@@ -1110,7 +1105,7 @@ msgid "asctime"
 msgstr ""
 
 msgid "``%(asctime)s``"
-msgstr "``%(asctime)s``"
+msgstr ""
 
 msgid ""
 "Human-readable time when the :class:`LogRecord` was created.  By default "
@@ -1122,7 +1117,7 @@ msgid "created"
 msgstr ""
 
 msgid "``%(created)f``"
-msgstr "``%(created)f``"
+msgstr ""
 
 msgid ""
 "Time when the :class:`LogRecord` was created (as returned by :func:`time."
@@ -1141,7 +1136,7 @@ msgid "filename"
 msgstr ""
 
 msgid "``%(filename)s``"
-msgstr "``%(filename)s``"
+msgstr ""
 
 msgid "Filename portion of ``pathname``."
 msgstr ""
@@ -1150,7 +1145,7 @@ msgid "funcName"
 msgstr ""
 
 msgid "``%(funcName)s``"
-msgstr "``%(funcName)s``"
+msgstr ""
 
 msgid "Name of function containing the logging call."
 msgstr ""
@@ -1159,7 +1154,7 @@ msgid "levelname"
 msgstr ""
 
 msgid "``%(levelname)s``"
-msgstr "``%(levelname)s``"
+msgstr ""
 
 msgid ""
 "Text logging level for the message (``'DEBUG'``, ``'INFO'``, ``'WARNING'``, "
@@ -1170,7 +1165,7 @@ msgid "levelno"
 msgstr ""
 
 msgid "``%(levelno)s``"
-msgstr "``%(levelno)s``"
+msgstr ""
 
 msgid ""
 "Numeric logging level for the message (:const:`DEBUG`, :const:`INFO`, :const:"
@@ -1181,7 +1176,7 @@ msgid "lineno"
 msgstr ""
 
 msgid "``%(lineno)d``"
-msgstr "``%(lineno)d``"
+msgstr ""
 
 msgid "Source line number where the logging call was issued (if available)."
 msgstr ""
@@ -1190,7 +1185,7 @@ msgid "message"
 msgstr ""
 
 msgid "``%(message)s``"
-msgstr "``%(message)s``"
+msgstr ""
 
 msgid ""
 "The logged message, computed as ``msg % args``. This is set when :meth:"
@@ -1198,10 +1193,10 @@ msgid ""
 msgstr ""
 
 msgid "module"
-msgstr "moduł"
+msgstr ""
 
 msgid "``%(module)s``"
-msgstr "``%(module)s``"
+msgstr ""
 
 msgid "Module (name portion of ``filename``)."
 msgstr ""
@@ -1210,7 +1205,7 @@ msgid "msecs"
 msgstr ""
 
 msgid "``%(msecs)d``"
-msgstr "``%(msecs)d``"
+msgstr ""
 
 msgid ""
 "Millisecond portion of the time when the :class:`LogRecord` was created."
@@ -1226,10 +1221,10 @@ msgid ""
 msgstr ""
 
 msgid "name"
-msgstr "nazwa"
+msgstr ""
 
 msgid "``%(name)s``"
-msgstr "``%(name)s``"
+msgstr ""
 
 msgid "Name of the logger used to log the call."
 msgstr ""
@@ -1238,7 +1233,7 @@ msgid "pathname"
 msgstr ""
 
 msgid "``%(pathname)s``"
-msgstr "``%(pathname)s``"
+msgstr ""
 
 msgid ""
 "Full pathname of the source file where the logging call was issued (if "
@@ -1249,7 +1244,7 @@ msgid "process"
 msgstr ""
 
 msgid "``%(process)d``"
-msgstr "``%(process)d``"
+msgstr ""
 
 msgid "Process ID (if available)."
 msgstr ""
@@ -1258,7 +1253,7 @@ msgid "processName"
 msgstr ""
 
 msgid "``%(processName)s``"
-msgstr "``%(processName)s``"
+msgstr ""
 
 msgid "Process name (if available)."
 msgstr ""
@@ -1267,7 +1262,7 @@ msgid "relativeCreated"
 msgstr ""
 
 msgid "``%(relativeCreated)d``"
-msgstr "``%(relativeCreated)d``"
+msgstr ""
 
 msgid ""
 "Time in milliseconds when the LogRecord was created, relative to the time "
@@ -1287,7 +1282,7 @@ msgid "thread"
 msgstr ""
 
 msgid "``%(thread)d``"
-msgstr "``%(thread)d``"
+msgstr ""
 
 msgid "Thread ID (if available)."
 msgstr ""
@@ -1296,7 +1291,7 @@ msgid "threadName"
 msgstr ""
 
 msgid "``%(threadName)s``"
-msgstr "``%(threadName)s``"
+msgstr ""
 
 msgid "Thread name (if available)."
 msgstr ""
@@ -1305,7 +1300,7 @@ msgid "taskName"
 msgstr ""
 
 msgid "``%(taskName)s``"
-msgstr "``%(taskName)s``"
+msgstr ""
 
 msgid ":class:`asyncio.Task` name (if available)."
 msgstr ""
@@ -1392,7 +1387,7 @@ msgid ""
 msgstr ""
 
 msgid "Module-Level Functions"
-msgstr "Функції рівня модуля"
+msgstr ""
 
 msgid ""
 "In addition to the classes described above, there are a number of module-"
@@ -1805,7 +1800,7 @@ msgid "An exception tuple, or ``None``."
 msgstr ""
 
 msgid "func"
-msgstr "func"
+msgstr ""
 
 msgid "The name of the function or method which invoked the logging call."
 msgstr ""
@@ -1819,7 +1814,7 @@ msgid ""
 msgstr ""
 
 msgid "kwargs"
-msgstr "kwargs"
+msgstr ""
 
 msgid "Additional keyword arguments."
 msgstr ""

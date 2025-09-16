@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -132,7 +127,7 @@ msgid ""
 msgstr ""
 
 msgid "Parameters"
-msgstr "parametry"
+msgstr ""
 
 msgid ""
 "A filename, or a file-like object, or an instance derived from :class:"
@@ -250,7 +245,7 @@ msgid ""
 msgstr ""
 
 msgid "Security considerations"
-msgstr "Міркування безпеки"
+msgstr ""
 
 msgid ""
 "The logging configuration functionality tries to offer convenience, and in "
@@ -314,13 +309,13 @@ msgid ""
 msgstr ""
 
 msgid "``format``"
-msgstr "``format``"
+msgstr ""
 
 msgid "``datefmt``"
-msgstr "``datefmt``"
+msgstr ""
 
 msgid "``style``"
-msgstr "``style``"
+msgstr ""
 
 msgid "``validate`` (since version >=3.8)"
 msgstr ""
@@ -605,7 +600,7 @@ msgid ""
 msgstr ""
 
 msgid "and::"
-msgstr "dan::"
+msgstr ""
 
 msgid ""
 "{\n"

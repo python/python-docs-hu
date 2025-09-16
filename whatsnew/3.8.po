@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-03 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +40,7 @@ msgid "New Features"
 msgstr ""
 
 msgid "Assignment expressions"
-msgstr "Wyrażenia przypisania"
+msgstr ""
 
 msgid ""
 "There is new syntax ``:=`` that assigns values to variables as part of a "
@@ -418,13 +413,13 @@ msgid ":c:func:`PyWideStringList_Insert`"
 msgstr ""
 
 msgid ":c:func:`Py_BytesMain`"
-msgstr ":c:func:`Py_BytesMain`"
+msgstr ""
 
 msgid ":c:func:`Py_ExitStatusException`"
 msgstr ""
 
 msgid ":c:func:`Py_InitializeFromConfig`"
-msgstr ":c:func:`Py_InitializeFromConfig`"
+msgstr ""
 
 msgid ":c:func:`Py_PreInitialize`"
 msgstr ""
@@ -950,7 +945,7 @@ msgid ""
 msgstr ""
 
 msgid "ctypes"
-msgstr "ctypes"
+msgstr ""
 
 msgid ""
 "On Windows, :class:`~ctypes.CDLL` and subclasses now accept a *winmode* "
@@ -1637,7 +1632,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid ""
 "Added new clock :const:`~time.CLOCK_UPTIME_RAW` for macOS 10.12. "
@@ -1740,7 +1735,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "import unittest\n"
@@ -2622,7 +2617,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr "Przykład:"
+msgstr ""
 
 msgid ""
 "static foo_struct *\n"

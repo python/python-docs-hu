@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -70,16 +65,16 @@ msgid "Info [#cols]_"
 msgstr ""
 
 msgid "O"
-msgstr "O"
+msgstr ""
 
 msgid "T"
-msgstr "T"
+msgstr ""
 
 msgid "D"
-msgstr "D"
+msgstr ""
 
 msgid "I"
-msgstr "I"
+msgstr ""
 
 msgid "<R> :c:member:`~PyTypeObject.tp_name`"
 msgstr ""
@@ -88,334 +83,334 @@ msgid "const char *"
 msgstr ""
 
 msgid "__name__"
-msgstr "__name__"
+msgstr ""
 
 msgid "X"
-msgstr "X"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_basicsize`"
-msgstr ":c:member:`~PyTypeObject.tp_basicsize`"
+msgstr ""
 
 msgid ":c:type:`Py_ssize_t`"
-msgstr ":c:type:`Py_ssize_t`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_itemsize`"
-msgstr ":c:member:`~PyTypeObject.tp_itemsize`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_dealloc`"
-msgstr ":c:member:`~PyTypeObject.tp_dealloc`"
+msgstr ""
 
 msgid ":c:type:`destructor`"
-msgstr ":c:type:`destructor`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_vectorcall_offset`"
-msgstr ":c:member:`~PyTypeObject.tp_vectorcall_offset`"
+msgstr ""
 
 msgid "(:c:member:`~PyTypeObject.tp_getattr`)"
-msgstr "(:c:member:`~PyTypeObject.tp_getattr`)"
+msgstr ""
 
 msgid ":c:type:`getattrfunc`"
-msgstr ":c:type:`getattrfunc`"
+msgstr ""
 
 msgid "__getattribute__, __getattr__"
 msgstr ""
 
 msgid "G"
-msgstr "G"
+msgstr ""
 
 msgid "(:c:member:`~PyTypeObject.tp_setattr`)"
-msgstr "(:c:member:`~PyTypeObject.tp_setattr`)"
+msgstr ""
 
 msgid ":c:type:`setattrfunc`"
-msgstr ":c:type:`setattrfunc`"
+msgstr ""
 
 msgid "__setattr__, __delattr__"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_as_async`"
-msgstr ":c:member:`~PyTypeObject.tp_as_async`"
+msgstr ""
 
 msgid ":c:type:`PyAsyncMethods` *"
 msgstr ""
 
 msgid ":ref:`sub-slots`"
-msgstr ":ref:`sub-slots`"
+msgstr ""
 
 msgid "%"
-msgstr "%"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_repr`"
-msgstr ":c:member:`~PyTypeObject.tp_repr`"
+msgstr ""
 
 msgid ":c:type:`reprfunc`"
-msgstr ":c:type:`reprfunc`"
+msgstr ""
 
 msgid "__repr__"
-msgstr "__repr__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_as_number`"
-msgstr ":c:member:`~PyTypeObject.tp_as_number`"
+msgstr ""
 
 msgid ":c:type:`PyNumberMethods` *"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_as_sequence`"
-msgstr ":c:member:`~PyTypeObject.tp_as_sequence`"
+msgstr ""
 
 msgid ":c:type:`PySequenceMethods` *"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_as_mapping`"
-msgstr ":c:member:`~PyTypeObject.tp_as_mapping`"
+msgstr ""
 
 msgid ":c:type:`PyMappingMethods` *"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_hash`"
-msgstr ":c:member:`~PyTypeObject.tp_hash`"
+msgstr ""
 
 msgid ":c:type:`hashfunc`"
-msgstr ":c:type:`hashfunc`"
+msgstr ""
 
 msgid "__hash__"
-msgstr "__hash__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_call`"
-msgstr ":c:member:`~PyTypeObject.tp_call`"
+msgstr ""
 
 msgid ":c:type:`ternaryfunc`"
-msgstr ":c:type:`ternaryfunc`"
+msgstr ""
 
 msgid "__call__"
-msgstr "__call__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_str`"
-msgstr ":c:member:`~PyTypeObject.tp_str`"
+msgstr ""
 
 msgid "__str__"
-msgstr "__str__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_getattro`"
-msgstr ":c:member:`~PyTypeObject.tp_getattro`"
+msgstr ""
 
 msgid ":c:type:`getattrofunc`"
-msgstr ":c:type:`getattrofunc`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_setattro`"
-msgstr ":c:member:`~PyTypeObject.tp_setattro`"
+msgstr ""
 
 msgid ":c:type:`setattrofunc`"
-msgstr ":c:type:`setattrofunc`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_as_buffer`"
-msgstr ":c:member:`~PyTypeObject.tp_as_buffer`"
+msgstr ""
 
 msgid ":c:type:`PyBufferProcs` *"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_flags`"
-msgstr ":c:member:`~PyTypeObject.tp_flags`"
+msgstr ""
 
 msgid "unsigned long"
-msgstr "nieoznaczony typ długi"
+msgstr ""
 
 msgid "?"
-msgstr "?"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_doc`"
-msgstr ":c:member:`~PyTypeObject.tp_doc`"
+msgstr ""
 
 msgid "__doc__"
-msgstr "__doc__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_traverse`"
-msgstr ":c:member:`~PyTypeObject.tp_traverse`"
+msgstr ""
 
 msgid ":c:type:`traverseproc`"
-msgstr ":c:type:`traverseproc`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_clear`"
-msgstr ":c:member:`~PyTypeObject.tp_clear`"
+msgstr ""
 
 msgid ":c:type:`inquiry`"
-msgstr ":c:type:`inquiry`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_richcompare`"
-msgstr ":c:member:`~PyTypeObject.tp_richcompare`"
+msgstr ""
 
 msgid ":c:type:`richcmpfunc`"
-msgstr ":c:type:`richcmpfunc`"
+msgstr ""
 
 msgid "__lt__, __le__, __eq__, __ne__, __gt__, __ge__"
 msgstr ""
 
 msgid "(:c:member:`~PyTypeObject.tp_weaklistoffset`)"
-msgstr "(:c:member:`~PyTypeObject.tp_weaklistoffset`)"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_iter`"
-msgstr ":c:member:`~PyTypeObject.tp_iter`"
+msgstr ""
 
 msgid ":c:type:`getiterfunc`"
-msgstr ":c:type:`getiterfunc`"
+msgstr ""
 
 msgid "__iter__"
-msgstr "__iter__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_iternext`"
-msgstr ":c:member:`~PyTypeObject.tp_iternext`"
+msgstr ""
 
 msgid ":c:type:`iternextfunc`"
-msgstr ":c:type:`iternextfunc`"
+msgstr ""
 
 msgid "__next__"
-msgstr "__next__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_methods`"
-msgstr ":c:member:`~PyTypeObject.tp_methods`"
+msgstr ""
 
 msgid ":c:type:`PyMethodDef` []"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_members`"
-msgstr ":c:member:`~PyTypeObject.tp_members`"
+msgstr ""
 
 msgid ":c:type:`PyMemberDef` []"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_getset`"
-msgstr ":c:member:`~PyTypeObject.tp_getset`"
+msgstr ""
 
 msgid ":c:type:`PyGetSetDef` []"
 msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_base`"
-msgstr ":c:member:`~PyTypeObject.tp_base`"
+msgstr ""
 
 msgid ":c:type:`PyTypeObject` *"
 msgstr ""
 
 msgid "__base__"
-msgstr "__base__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_dict`"
-msgstr ":c:member:`~PyTypeObject.tp_dict`"
+msgstr ""
 
 msgid ":c:type:`PyObject` *"
 msgstr ""
 
 msgid "__dict__"
-msgstr "__dict__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_descr_get`"
-msgstr ":c:member:`~PyTypeObject.tp_descr_get`"
+msgstr ""
 
 msgid ":c:type:`descrgetfunc`"
-msgstr ":c:type:`descrgetfunc`"
+msgstr ""
 
 msgid "__get__"
-msgstr "__get__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_descr_set`"
-msgstr ":c:member:`~PyTypeObject.tp_descr_set`"
+msgstr ""
 
 msgid ":c:type:`descrsetfunc`"
-msgstr ":c:type:`descrsetfunc`"
+msgstr ""
 
 msgid "__set__, __delete__"
 msgstr ""
 
 msgid "(:c:member:`~PyTypeObject.tp_dictoffset`)"
-msgstr "(:c:member:`~PyTypeObject.tp_dictoffset`)"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_init`"
-msgstr ":c:member:`~PyTypeObject.tp_init`"
+msgstr ""
 
 msgid ":c:type:`initproc`"
-msgstr ":c:type:`initproc`"
+msgstr ""
 
 msgid "__init__"
-msgstr "__init__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_alloc`"
-msgstr ":c:member:`~PyTypeObject.tp_alloc`"
+msgstr ""
 
 msgid ":c:type:`allocfunc`"
-msgstr ":c:type:`allocfunc`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_new`"
-msgstr ":c:member:`~PyTypeObject.tp_new`"
+msgstr ""
 
 msgid ":c:type:`newfunc`"
-msgstr ":c:type:`newfunc`"
+msgstr ""
 
 msgid "__new__"
-msgstr "__new__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_free`"
-msgstr ":c:member:`~PyTypeObject.tp_free`"
+msgstr ""
 
 msgid ":c:type:`freefunc`"
-msgstr ":c:type:`freefunc`"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_is_gc`"
-msgstr ":c:member:`~PyTypeObject.tp_is_gc`"
+msgstr ""
 
 msgid "<:c:member:`~PyTypeObject.tp_bases`>"
-msgstr "<:c:member:`~PyTypeObject.tp_bases`>"
+msgstr ""
 
 msgid "__bases__"
-msgstr "__bases__"
+msgstr ""
 
 msgid "~"
-msgstr "~"
+msgstr ""
 
 msgid "<:c:member:`~PyTypeObject.tp_mro`>"
-msgstr "<:c:member:`~PyTypeObject.tp_mro`>"
+msgstr ""
 
 msgid "__mro__"
-msgstr "__mro__"
+msgstr ""
 
 msgid "[:c:member:`~PyTypeObject.tp_cache`]"
-msgstr "[:c:member:`~PyTypeObject.tp_cache`]"
+msgstr ""
 
 msgid "[:c:member:`~PyTypeObject.tp_subclasses`]"
-msgstr "[:c:member:`~PyTypeObject.tp_subclasses`]"
+msgstr ""
 
 msgid "void *"
 msgstr ""
 
 msgid "__subclasses__"
-msgstr "__subclasses__"
+msgstr ""
 
 msgid "[:c:member:`~PyTypeObject.tp_weaklist`]"
-msgstr "[:c:member:`~PyTypeObject.tp_weaklist`]"
+msgstr ""
 
 msgid "(:c:member:`~PyTypeObject.tp_del`)"
-msgstr "(:c:member:`~PyTypeObject.tp_del`)"
+msgstr ""
 
 msgid "[:c:member:`~PyTypeObject.tp_version_tag`]"
-msgstr "[:c:member:`~PyTypeObject.tp_version_tag`]"
+msgstr ""
 
 msgid "unsigned int"
-msgstr "nieoznaczony typ int"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_finalize`"
-msgstr ":c:member:`~PyTypeObject.tp_finalize`"
+msgstr ""
 
 msgid "__del__"
-msgstr "__del__"
+msgstr ""
 
 msgid ":c:member:`~PyTypeObject.tp_vectorcall`"
-msgstr ":c:member:`~PyTypeObject.tp_vectorcall`"
+msgstr ""
 
 msgid ":c:type:`vectorcallfunc`"
-msgstr ":c:type:`vectorcallfunc`"
+msgstr ""
 
 msgid "[:c:member:`~PyTypeObject.tp_watched`]"
-msgstr "[:c:member:`~PyTypeObject.tp_watched`]"
+msgstr ""
 
 msgid "unsigned char"
-msgstr "nieoznaczony typ znakowy"
+msgstr ""
 
 msgid ""
 "**()**: A slot name in parentheses indicates it is (effectively) deprecated."
@@ -480,10 +475,10 @@ msgid "special methods"
 msgstr ""
 
 msgid ":c:member:`~PyAsyncMethods.am_await`"
-msgstr ":c:member:`~PyAsyncMethods.am_await`"
+msgstr ""
 
 msgid ":c:type:`unaryfunc`"
-msgstr ":c:type:`unaryfunc`"
+msgstr ""
 
 msgid "__await__"
 msgstr ""
@@ -828,7 +823,7 @@ msgid ":c:type:`visitproc`"
 msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "Py_hash_t"
 msgstr ""
@@ -1283,7 +1278,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "static void\n"
@@ -2289,28 +2284,28 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr "Stała"
+msgstr ""
 
 msgid "Comparison"
 msgstr ""
 
 msgid "``<``"
-msgstr "``<``"
+msgstr ""
 
 msgid "``<=``"
-msgstr "``<=``"
+msgstr ""
 
 msgid "``==``"
-msgstr "``==``"
+msgstr ""
 
 msgid "``!=``"
-msgstr "``!=``"
+msgstr ""
 
 msgid "``>``"
-msgstr "``>``"
+msgstr ""
 
 msgid "``>=``"
-msgstr "``>=``"
+msgstr ""
 
 msgid ""
 "The following macro is defined to ease writing rich comparison functions:"
@@ -2543,7 +2538,7 @@ msgid "An optional pointer to a \"descriptor get\" function."
 msgstr ""
 
 msgid "The function signature is::"
-msgstr "Сигнатура функції:"
+msgstr ""
 
 msgid "PyObject * tp_descr_get(PyObject *self, PyObject *obj, PyObject *type);"
 msgstr ""
@@ -3554,7 +3549,7 @@ msgid "See :c:member:`~PyAsyncMethods.am_send`."
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid ""
 "The following are simple examples of Python type definitions.  They include "

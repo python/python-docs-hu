@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -106,22 +105,22 @@ msgid "Example values"
 msgstr ""
 
 msgid "``3.4.1a2``"
-msgstr "``3.4.1a2``"
+msgstr ""
 
 msgid "``3.10.0``"
-msgstr "``3.10.0``"
+msgstr ""
 
 msgid "*major*"
 msgstr ""
 
 msgid "8"
-msgstr "8"
+msgstr ""
 
 msgid "``0xFF000000``"
-msgstr "``0xFF000000``"
+msgstr ""
 
 msgid "24"
-msgstr "24"
+msgstr ""
 
 msgid "``0x03``"
 msgstr "``0x03``"
@@ -130,28 +129,28 @@ msgid "*minor*"
 msgstr ""
 
 msgid "``0x00FF0000``"
-msgstr "``0x00FF0000``"
+msgstr ""
 
 msgid "16"
-msgstr "16"
+msgstr ""
 
 msgid "``0x04``"
 msgstr "``0x04``"
 
 msgid "``0x0A``"
-msgstr "``0x0A``"
+msgstr ""
 
 msgid "*micro*"
 msgstr ""
 
 msgid "``0x0000FF00``"
-msgstr "``0x0000FF00``"
+msgstr ""
 
 msgid "``0x01``"
 msgstr "``0x01``"
 
 msgid "``0x00``"
-msgstr "``0x00``"
+msgstr ""
 
 msgid "*release_level*"
 msgstr ""
@@ -160,31 +159,31 @@ msgid "4"
 msgstr "4"
 
 msgid "``0x000000F0``"
-msgstr "``0x000000F0``"
+msgstr ""
 
 msgid "``0xA``"
 msgstr "``0xA``"
 
 msgid "``0xF``"
-msgstr "``0xF``"
+msgstr ""
 
 msgid "*release_serial*"
 msgstr ""
 
 msgid "``0x0000000F``"
-msgstr "``0x0000000F``"
+msgstr ""
 
 msgid "0"
-msgstr "0"
+msgstr ""
 
 msgid "``0x2``"
 msgstr "``0x2``"
 
 msgid "``0x0``"
-msgstr "``0x0``"
+msgstr ""
 
 msgid "For example:"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid "Version"
 msgstr ""
@@ -199,13 +198,13 @@ msgid "``(3, 4, 1, 0xA, 2)``"
 msgstr ""
 
 msgid "``0x030401a2``"
-msgstr "``0x030401a2``"
+msgstr ""
 
 msgid "``(3, 10, 0, 0xF, 0)``"
 msgstr ""
 
 msgid "``0x030a00f0``"
-msgstr "``0x030a00f0``"
+msgstr ""
 
 msgid ""
 "Out-of range bits in the arguments are ignored. That is, the macro can be "

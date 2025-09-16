@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-09-07 14:14+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +179,7 @@ msgid ""
 msgstr ""
 
 msgid "Features"
-msgstr "особливості"
+msgstr ""
 
 msgid ""
 "All native single character format specifiers in struct module syntax "
@@ -426,52 +421,52 @@ msgid ""
 msgstr ""
 
 msgid ":exc:`BlockingIOError`"
-msgstr ":exc:`BlockingIOError`"
+msgstr ""
 
 msgid ":exc:`ChildProcessError`"
-msgstr ":exc:`ChildProcessError`"
+msgstr ""
 
 msgid ":exc:`ConnectionError`"
-msgstr ":exc:`ConnectionError`"
+msgstr ""
 
 msgid ":exc:`FileExistsError`"
-msgstr ":exc:`FileExistsError`"
+msgstr ""
 
 msgid ":exc:`FileNotFoundError`"
-msgstr ":exc:`FileNotFoundError`"
+msgstr ""
 
 msgid ":exc:`InterruptedError`"
-msgstr ":exc:`InterruptedError`"
+msgstr ""
 
 msgid ":exc:`IsADirectoryError`"
-msgstr ":exc:`IsADirectoryError`"
+msgstr ""
 
 msgid ":exc:`NotADirectoryError`"
-msgstr ":exc:`NotADirectoryError`"
+msgstr ""
 
 msgid ":exc:`PermissionError`"
-msgstr ":exc:`PermissionError`"
+msgstr ""
 
 msgid ":exc:`ProcessLookupError`"
-msgstr ":exc:`ProcessLookupError`"
+msgstr ""
 
 msgid ":exc:`TimeoutError`"
-msgstr ":exc:`TimeoutError`"
+msgstr ""
 
 msgid "And the :exc:`ConnectionError` itself has finer-grained subclasses:"
 msgstr ""
 
 msgid ":exc:`BrokenPipeError`"
-msgstr ":exc:`BrokenPipeError`"
+msgstr ""
 
 msgid ":exc:`ConnectionAbortedError`"
-msgstr ":exc:`ConnectionAbortedError`"
+msgstr ""
 
 msgid ":exc:`ConnectionRefusedError`"
-msgstr ":exc:`ConnectionRefusedError`"
+msgstr ""
 
 msgid ":exc:`ConnectionResetError`"
-msgstr ":exc:`ConnectionResetError`"
+msgstr ""
 
 msgid ""
 "Thanks to the new exceptions, common usages of the :mod:`errno` can now be "
@@ -588,7 +583,7 @@ msgid ""
 msgstr ""
 
 msgid ":pep:`380` - Syntax for Delegating to a Subgenerator"
-msgstr ":pep:`380` - Синтаксис для делегування підгенератору"
+msgstr ""
 
 msgid ""
 "PEP written by Greg Ewing; implementation by Greg Ewing, integrated into 3.3 "
@@ -1194,7 +1189,7 @@ msgid ""
 msgstr ""
 
 msgid "array"
-msgstr "array"
+msgstr ""
 
 msgid ""
 "The :mod:`array` module supports the :c:expr:`long long` type using ``q`` "
@@ -1224,7 +1219,7 @@ msgid ""
 msgstr ""
 
 msgid "bz2"
-msgstr "bz2"
+msgstr ""
 
 msgid ""
 "The :mod:`bz2` module has been rewritten from scratch. In the process, "
@@ -1514,10 +1509,10 @@ msgid ":const:`~decimal.MAX_PREC`"
 msgstr ""
 
 msgid "``425000000``"
-msgstr "``425000000``"
+msgstr ""
 
 msgid "``999999999999999999``"
-msgstr "``999999999999999999``"
+msgstr ""
 
 msgid ":const:`~decimal.MAX_EMAX`"
 msgstr ""
@@ -1526,10 +1521,10 @@ msgid ":const:`~decimal.MIN_EMIN`"
 msgstr ""
 
 msgid "``-425000000``"
-msgstr "``-425000000``"
+msgstr ""
 
 msgid "``-999999999999999999``"
-msgstr "``-999999999999999999``"
+msgstr ""
 
 msgid ""
 "In the context templates (:const:`~decimal.DefaultContext`, :const:`~decimal."
@@ -2731,7 +2726,7 @@ msgid ""
 msgstr ""
 
 msgid "time"
-msgstr "time"
+msgstr ""
 
 msgid "The :pep:`418` added new functions to the :mod:`time` module:"
 msgstr ""

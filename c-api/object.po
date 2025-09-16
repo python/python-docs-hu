@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"POT-Creation-Date: 2025-07-25 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -39,64 +38,64 @@ msgid "Constant Identifier"
 msgstr ""
 
 msgid "Value"
-msgstr "Wartość"
+msgstr ""
 
 msgid "Returned object"
 msgstr ""
 
 msgid "``0``"
-msgstr "``0``"
+msgstr ""
 
 msgid ":py:data:`None`"
-msgstr ":py:data:`None`"
+msgstr ""
 
 msgid "``1``"
 msgstr "``1``"
 
 msgid ":py:data:`False`"
-msgstr ":py:data:`False`"
+msgstr ""
 
 msgid "``2``"
 msgstr "``2``"
 
 msgid ":py:data:`True`"
-msgstr ":py:data:`True`"
+msgstr ""
 
 msgid "``3``"
 msgstr "``3``"
 
 msgid ":py:data:`Ellipsis`"
-msgstr ":py:data:`Ellipsis`"
+msgstr ""
 
 msgid "``4``"
 msgstr "``4``"
 
 msgid ":py:data:`NotImplemented`"
-msgstr ":py:data:`NotImplemented`"
+msgstr ""
 
 msgid "``5``"
-msgstr "``5``"
+msgstr ""
 
 msgid "``6``"
-msgstr "``6``"
+msgstr ""
 
 msgid "``7``"
-msgstr "``7``"
+msgstr ""
 
 msgid "``''``"
-msgstr "``''``"
+msgstr ""
 
 msgid "``8``"
-msgstr "``8``"
+msgstr ""
 
 msgid "``b''``"
-msgstr "``b''``"
+msgstr ""
 
 msgid "``9``"
-msgstr "``9``"
+msgstr ""
 
 msgid "``()``"
-msgstr "``()``"
+msgstr ""
 
 msgid ""
 "Numeric values are only given for projects which cannot use the constant "
@@ -798,22 +797,22 @@ msgid "repr"
 msgstr ""
 
 msgid "ascii"
-msgstr "ascii"
+msgstr ""
 
 msgid "string"
-msgstr "ciąg znaków"
+msgstr ""
 
 msgid "PyObject_Str (C function)"
 msgstr ""
 
 msgid "bytes"
-msgstr "байтів"
+msgstr ""
 
 msgid "hash"
 msgstr ""
 
 msgid "type"
-msgstr "typ"
+msgstr ""
 
 msgid "len"
 msgstr ""

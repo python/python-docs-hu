@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-06-27 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Function Objects"
-msgstr "Obiekty Funkcja"
+msgstr ""
 
 msgid "There are a few functions specific to Python functions."
 msgstr ""
@@ -152,19 +147,19 @@ msgid "Enumeration of possible function watcher events:"
 msgstr ""
 
 msgid "``PyFunction_EVENT_CREATE``"
-msgstr "``PyFunction_EVENT_CREATE``"
+msgstr ""
 
 msgid "``PyFunction_EVENT_DESTROY``"
-msgstr "``PyFunction_EVENT_DESTROY``"
+msgstr ""
 
 msgid "``PyFunction_EVENT_MODIFY_CODE``"
-msgstr "``PyFunction_EVENT_MODIFY_CODE``"
+msgstr ""
 
 msgid "``PyFunction_EVENT_MODIFY_DEFAULTS``"
-msgstr "``PyFunction_EVENT_MODIFY_DEFAULTS``"
+msgstr ""
 
 msgid "``PyFunction_EVENT_MODIFY_KWDEFAULTS``"
-msgstr "``PyFunction_EVENT_MODIFY_KWDEFAULTS``"
+msgstr ""
 
 msgid "Type of a function watcher callback function."
 msgstr ""
@@ -214,10 +209,10 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "function"
-msgstr "funkcja"
+msgstr ""
 
 msgid "MethodType (in module types)"
 msgstr ""

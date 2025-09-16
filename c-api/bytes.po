@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Bytes Objects"
-msgstr "Bayt Nesneleri"
+msgstr ""
 
 msgid ""
 "These functions raise :exc:`TypeError` when expecting a bytes parameter and "
@@ -71,16 +66,16 @@ msgid ""
 msgstr ""
 
 msgid "Format Characters"
-msgstr "Формат символів"
+msgstr ""
 
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 msgid "Comment"
 msgstr ""
 
 msgid "``%%``"
-msgstr "``%%``"
+msgstr ""
 
 msgid "*n/a*"
 msgstr ""
@@ -89,49 +84,49 @@ msgid "The literal % character."
 msgstr ""
 
 msgid "``%c``"
-msgstr "``%c``"
+msgstr ""
 
 msgid "int"
-msgstr "int"
+msgstr ""
 
 msgid "A single byte, represented as a C int."
 msgstr ""
 
 msgid "``%d``"
-msgstr "``%d``"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%d\")``. [1]_"
 msgstr ""
 
 msgid "``%u``"
-msgstr "``%u``"
+msgstr ""
 
 msgid "unsigned int"
-msgstr "nieoznaczony typ int"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%u\")``. [1]_"
 msgstr ""
 
 msgid "``%ld``"
-msgstr "``%ld``"
+msgstr ""
 
 msgid "long"
-msgstr "long"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%ld\")``. [1]_"
 msgstr ""
 
 msgid "``%lu``"
-msgstr "``%lu``"
+msgstr ""
 
 msgid "unsigned long"
-msgstr "nieoznaczony typ długi"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%lu\")``. [1]_"
 msgstr ""
 
 msgid "``%zd``"
-msgstr "``%zd``"
+msgstr ""
 
 msgid ":c:type:`\\ Py_ssize_t`"
 msgstr ""
@@ -140,28 +135,28 @@ msgid "Equivalent to ``printf(\"%zd\")``. [1]_"
 msgstr ""
 
 msgid "``%zu``"
-msgstr "``%zu``"
+msgstr ""
 
 msgid "size_t"
-msgstr "size_t"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%zu\")``. [1]_"
 msgstr ""
 
 msgid "``%i``"
-msgstr "``%i``"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%i\")``. [1]_"
 msgstr ""
 
 msgid "``%x``"
-msgstr "``%x``"
+msgstr ""
 
 msgid "Equivalent to ``printf(\"%x\")``. [1]_"
 msgstr ""
 
 msgid "``%s``"
-msgstr "``%s``"
+msgstr ""
 
 msgid "const char\\*"
 msgstr ""
@@ -170,7 +165,7 @@ msgid "A null-terminated C character array."
 msgstr ""
 
 msgid "``%p``"
-msgstr "``%p``"
+msgstr ""
 
 msgid "const void\\*"
 msgstr ""
@@ -290,7 +285,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "bytes"
-msgstr "байтів"
+msgstr ""

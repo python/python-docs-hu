@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -1012,7 +1007,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr "Na przykład::"
+msgstr ""
 
 msgid ""
 ">>> from decimal import Decimal, getcontext, ROUND_DOWN\n"
@@ -1544,7 +1539,7 @@ msgid "Converts a number to a string using scientific notation."
 msgstr ""
 
 msgid "Constants"
-msgstr "Stały"
+msgstr ""
 
 msgid ""
 "The constants in this section are only relevant for the C module. They are "
@@ -1558,28 +1553,28 @@ msgid "64-bit"
 msgstr ""
 
 msgid "``425000000``"
-msgstr "``425000000``"
+msgstr ""
 
 msgid "``999999999999999999``"
-msgstr "``999999999999999999``"
+msgstr ""
 
 msgid "``-425000000``"
-msgstr "``-425000000``"
+msgstr ""
 
 msgid "``-999999999999999999``"
-msgstr "``-999999999999999999``"
+msgstr ""
 
 msgid "``-849999999``"
-msgstr "``-849999999``"
+msgstr ""
 
 msgid "``-1999999999999999997``"
-msgstr "``-1999999999999999997``"
+msgstr ""
 
 msgid "``256``"
-msgstr "``256``"
+msgstr ""
 
 msgid "``512``"
-msgstr "``512``"
+msgstr ""
 
 msgid ""
 "The value is ``True``.  Deprecated, because Python now always has threads."

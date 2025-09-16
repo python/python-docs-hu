@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -150,13 +146,13 @@ msgid "All the :mod:`ttk` Widgets accept the following options:"
 msgstr ""
 
 msgid "Option"
-msgstr "Opsi"
+msgstr ""
 
 msgid "Description"
-msgstr "Opis"
+msgstr ""
 
 msgid "class"
-msgstr "klasa"
+msgstr ""
 
 msgid ""
 "Specifies the window class. The class is used when querying the option "
@@ -166,7 +162,7 @@ msgid ""
 msgstr ""
 
 msgid "cursor"
-msgstr "kursor"
+msgstr ""
 
 msgid ""
 "Specifies the mouse cursor to be used for the widget. If set to the empty "
@@ -288,7 +284,7 @@ msgid "none: the default. display the image if present, otherwise the text."
 msgstr ""
 
 msgid "width"
-msgstr "lebar"
+msgstr ""
 
 msgid ""
 "If greater than zero, specifies how much space, in character widths, to "
@@ -300,7 +296,7 @@ msgid "Compatibility Options"
 msgstr ""
 
 msgid "state"
-msgstr "стан"
+msgstr ""
 
 msgid ""
 "May be set to \"normal\" or \"disabled\" to control the \"disabled\" state "
@@ -315,7 +311,7 @@ msgid "The widget state is a bitmap of independent state flags."
 msgstr ""
 
 msgid "Flag"
-msgstr "Penanda"
+msgstr ""
 
 msgid "active"
 msgstr ""
@@ -332,7 +328,7 @@ msgid "Widget is disabled under program control"
 msgstr ""
 
 msgid "focus"
-msgstr "fokus"
+msgstr ""
 
 msgid "Widget has keyboard focus"
 msgstr ""
@@ -433,7 +429,7 @@ msgid ""
 msgstr ""
 
 msgid "Options"
-msgstr "Opsi"
+msgstr ""
 
 msgid "This widget accepts the following specific options:"
 msgstr ""
@@ -448,7 +444,7 @@ msgid ""
 msgstr ""
 
 msgid "justify"
-msgstr "виправдати"
+msgstr ""
 
 msgid ""
 "Specifies how the text is aligned within the widget. One of \"left\", "
@@ -456,7 +452,7 @@ msgid ""
 msgstr ""
 
 msgid "height"
-msgstr "tinggi"
+msgstr ""
 
 msgid "Specifies the height of the pop-down listbox, in rows."
 msgstr ""
@@ -535,7 +531,7 @@ msgid ""
 msgstr ""
 
 msgid "from"
-msgstr "dari"
+msgstr ""
 
 msgid ""
 "Float value.  If set, this is the minimum value to which the decrement "
@@ -544,7 +540,7 @@ msgid ""
 msgstr ""
 
 msgid "to"
-msgstr "ke"
+msgstr ""
 
 msgid ""
 "Float value.  If set, this is the maximum value to which the increment "
@@ -566,7 +562,7 @@ msgid ""
 msgstr ""
 
 msgid "wrap"
-msgstr "загорнути"
+msgstr ""
 
 msgid ""
 "Boolean value.  If ``True``, increment and decrement buttons will cycle from "
@@ -1109,7 +1105,7 @@ msgid "Specifies the cell or item background color."
 msgstr ""
 
 msgid "font"
-msgstr "font"
+msgstr ""
 
 msgid "Specifies the font to use when drawing text."
 msgstr ""
@@ -1135,7 +1131,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes:"
-msgstr "Uwagi:"
+msgstr ""
 
 msgid ""
 "Item's option values may be displayed in a different order than the order in "
@@ -1348,7 +1344,7 @@ msgid "Returns one of:"
 msgstr ""
 
 msgid "region"
-msgstr "область"
+msgstr ""
 
 msgid "meaning"
 msgstr ""
@@ -1366,7 +1362,7 @@ msgid "Space between two columns headings."
 msgstr ""
 
 msgid "tree"
-msgstr "pohon"
+msgstr ""
 
 msgid "The tree area."
 msgstr ""
@@ -1712,7 +1708,7 @@ msgid ""
 msgstr ""
 
 msgid "Example::"
-msgstr "Przykład::"
+msgstr ""
 
 msgid ""
 "img1 = tkinter.PhotoImage(master=root, file='button.png')\n"

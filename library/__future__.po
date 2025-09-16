@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +58,7 @@ msgid ""
 msgstr ""
 
 msgid "Module Contents"
-msgstr "Modul-Modul"
+msgstr ""
 
 msgid ""
 "No feature description will ever be deleted from :mod:`__future__`. Since "
@@ -217,7 +213,7 @@ msgid "How the compiler treats future imports."
 msgstr ""
 
 msgid ":pep:`236` - Back to the __future__"
-msgstr ":pep:`236` - Назад у __future__"
+msgstr ""
 
 msgid "The original proposal for the __future__ mechanism."
-msgstr "Оригінальна пропозиція щодо механізму __future__."
+msgstr ""

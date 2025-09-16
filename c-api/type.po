@@ -3,18 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# Stan Ulbrych, 2025
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-06-20 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Type Objects"
-msgstr "Objek Tipe"
+msgstr ""
 
 msgid "The C structure of the objects used to describe built-in types."
 msgstr ""
@@ -541,7 +536,7 @@ msgid ""
 msgstr ""
 
 msgid ":c:data:`Py_tp_token`"
-msgstr ":c:data:`Py_tp_token`"
+msgstr ""
 
 msgid ""
 "The following “offset” fields cannot be set using :c:type:`PyType_Slot`:"
@@ -608,7 +603,7 @@ msgid "*pfunc* values may not be ``NULL``, except for the following slots:"
 msgstr ""
 
 msgid "``Py_tp_doc``"
-msgstr "``Py_tp_doc``"
+msgstr ""
 
 msgid ""
 ":c:data:`Py_tp_token` (for clarity, prefer :c:data:`Py_TP_USE_SPEC` rather "
@@ -659,7 +654,7 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "type"
-msgstr "typ"
+msgstr ""

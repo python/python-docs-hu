@@ -3,17 +3,13 @@
 # This file is distributed under the same license as the Python package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
-# python-doc bot, 2025
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"POT-Creation-Date: 2025-05-09 14:19+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +52,7 @@ msgid "Create a new event loop."
 msgstr ""
 
 msgid "Examples"
-msgstr "Przykłady"
+msgstr ""
 
 msgid ":ref:`Using asyncio.get_running_loop() <asyncio_example_future>`."
 msgstr ""
@@ -115,7 +111,7 @@ msgid "Close asynchronous generators."
 msgstr ""
 
 msgid "Debugging"
-msgstr "Налагодження"
+msgstr ""
 
 msgid ":meth:`loop.set_debug`"
 msgstr ""
@@ -379,7 +375,7 @@ msgid "Remove a handler for a :mod:`signal`."
 msgstr ""
 
 msgid "Subprocesses"
-msgstr "Підпроцеси"
+msgstr ""
 
 msgid ":meth:`loop.subprocess_exec`"
 msgstr ""
@@ -394,7 +390,7 @@ msgid "Spawn a subprocess from a shell command."
 msgstr ""
 
 msgid "Error Handling"
-msgstr "Przechwytywanie błędów"
+msgstr ""
 
 msgid ":meth:`loop.call_exception_handler`"
 msgstr ""
@@ -450,7 +446,7 @@ msgid ":ref:`Using loop.subprocess_exec() <asyncio_example_subprocess_proto>`."
 msgstr ""
 
 msgid "Transports"
-msgstr "Транспорти"
+msgstr ""
 
 msgid "All transports implement the following methods:"
 msgstr ""
@@ -459,13 +455,13 @@ msgid ":meth:`transport.close() <BaseTransport.close>`"
 msgstr ""
 
 msgid "Close the transport."
-msgstr "Закрити транспорт."
+msgstr ""
 
 msgid ":meth:`transport.is_closing() <BaseTransport.is_closing>`"
 msgstr ""
 
 msgid "Return ``True`` if the transport is closing or is closed."
-msgstr "Повертає ``True``, якщо транспорт закривається або закритий."
+msgstr ""
 
 msgid ":meth:`transport.get_extra_info() <BaseTransport.get_extra_info>`"
 msgstr ""
@@ -477,13 +473,13 @@ msgid ":meth:`transport.set_protocol() <BaseTransport.set_protocol>`"
 msgstr ""
 
 msgid "Set a new protocol."
-msgstr "Встановіть новий протокол."
+msgstr ""
 
 msgid ":meth:`transport.get_protocol() <BaseTransport.get_protocol>`"
 msgstr ""
 
 msgid "Return the current protocol."
-msgstr "Повернути поточний протокол."
+msgstr ""
 
 msgid ""
 "Transports that can receive data (TCP and Unix connections, pipes, etc).  "
@@ -579,7 +575,7 @@ msgid "Transports returned by :meth:`loop.create_datagram_endpoint`:"
 msgstr ""
 
 msgid "Datagram Transports"
-msgstr "Транспортування дейтаграм"
+msgstr ""
 
 msgid ":meth:`transport.sendto() <DatagramTransport.sendto>`"
 msgstr ""
@@ -596,7 +592,7 @@ msgid ""
 msgstr ""
 
 msgid "Subprocess Transports"
-msgstr "Транспортування підпроцесів"
+msgstr ""
 
 msgid ":meth:`transport.get_pid() <SubprocessTransport.get_pid>`"
 msgstr ""
@@ -624,7 +620,7 @@ msgid ":meth:`transport.kill() <SubprocessTransport.kill>`"
 msgstr ""
 
 msgid "Kill the subprocess."
-msgstr "Закрийте підпроцес."
+msgstr ""
 
 msgid ":meth:`transport.send_signal() <SubprocessTransport.send_signal>`"
 msgstr ""
@@ -636,7 +632,7 @@ msgid ":meth:`transport.terminate() <SubprocessTransport.terminate>`"
 msgstr ""
 
 msgid "Stop the subprocess."
-msgstr "Зупиніть підпроцес."
+msgstr ""
 
 msgid ":meth:`transport.close() <SubprocessTransport.close>`"
 msgstr ""
@@ -645,7 +641,7 @@ msgid "Kill the subprocess and close all pipes."
 msgstr ""
 
 msgid "Protocols"
-msgstr "Протоколи"
+msgstr ""
 
 msgid "Protocol classes can implement the following **callback methods**:"
 msgstr ""
@@ -654,13 +650,13 @@ msgid "``callback`` :meth:`connection_made() <BaseProtocol.connection_made>`"
 msgstr ""
 
 msgid "Called when a connection is made."
-msgstr "Викликається, коли встановлено з'єднання."
+msgstr ""
 
 msgid "``callback`` :meth:`connection_lost() <BaseProtocol.connection_lost>`"
 msgstr ""
 
 msgid "Called when the connection is lost or closed."
-msgstr "Викликається, коли з'єднання втрачено або закрито."
+msgstr ""
 
 msgid "``callback`` :meth:`pause_writing() <BaseProtocol.pause_writing>`"
 msgstr ""
@@ -690,25 +686,25 @@ msgid "Called when an EOF is received."
 msgstr ""
 
 msgid "Buffered Streaming Protocols"
-msgstr "Буферизовані потокові протоколи"
+msgstr ""
 
 msgid "``callback`` :meth:`get_buffer() <BufferedProtocol.get_buffer>`"
 msgstr ""
 
 msgid "Called to allocate a new receive buffer."
-msgstr "Викликається для виділення нового буфера отримання."
+msgstr ""
 
 msgid "``callback`` :meth:`buffer_updated() <BufferedProtocol.buffer_updated>`"
 msgstr ""
 
 msgid "Called when the buffer was updated with the received data."
-msgstr "Викликається, коли буфер оновлюється отриманими даними."
+msgstr ""
 
 msgid "``callback`` :meth:`eof_received() <BufferedProtocol.eof_received>`"
 msgstr ""
 
 msgid "Datagram Protocols"
-msgstr "Протоколи дейтаграм"
+msgstr ""
 
 msgid ""
 "``callback`` :meth:`datagram_received() <DatagramProtocol.datagram_received>`"
@@ -725,7 +721,7 @@ msgid ""
 msgstr ""
 
 msgid "Subprocess Protocols"
-msgstr "Протоколи підпроцесів"
+msgstr ""
 
 msgid "``callback`` :meth:`~SubprocessProtocol.pipe_data_received`"
 msgstr ""
@@ -740,7 +736,6 @@ msgstr ""
 msgid ""
 "Called when one of the pipes communicating with the child process is closed."
 msgstr ""
-"Викликається, коли одна з труб, що спілкуються з дочірнім процесом, закрита."
 
 msgid ""
 "``callback`` :meth:`process_exited() <SubprocessProtocol.process_exited>`"

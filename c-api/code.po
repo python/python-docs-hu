@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
+"POT-Creation-Date: 2025-07-11 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -24,7 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Code Objects"
-msgstr "Objek Kode"
+msgstr ""
 
 msgid ""
 "Code objects are a low-level detail of the CPython implementation. Each one "
@@ -244,43 +243,43 @@ msgid ""
 msgstr ""
 
 msgid "Flag"
-msgstr "Penanda"
+msgstr ""
 
 msgid "Meaning"
 msgstr "Jelentés"
 
 msgid ":py:data:`inspect.CO_OPTIMIZED`"
-msgstr ":py:data:`inspect.CO_OPTIMIZED`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_NEWLOCALS`"
-msgstr ":py:data:`inspect.CO_NEWLOCALS`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_VARARGS`"
-msgstr ":py:data:`inspect.CO_VARARGS`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_VARKEYWORDS`"
-msgstr ":py:data:`inspect.CO_VARKEYWORDS`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_NESTED`"
-msgstr ":py:data:`inspect.CO_NESTED`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_GENERATOR`"
-msgstr ":py:data:`inspect.CO_GENERATOR`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_COROUTINE`"
-msgstr ":py:data:`inspect.CO_COROUTINE`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
-msgstr ":py:data:`inspect.CO_ITERABLE_COROUTINE`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_ASYNC_GENERATOR`"
-msgstr ":py:data:`inspect.CO_ASYNC_GENERATOR`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_HAS_DOCSTRING`"
-msgstr ":py:data:`inspect.CO_HAS_DOCSTRING`"
+msgstr ""
 
 msgid ":py:data:`inspect.CO_METHOD`"
-msgstr ":py:data:`inspect.CO_METHOD`"
+msgstr ""
 
 msgid "no effect (:py:data:`__future__.division`)"
 msgstr ""
@@ -301,7 +300,7 @@ msgid "no effect (:py:data:`__future__.generator_stop`)"
 msgstr ""
 
 msgid ":py:data:`__future__.annotations`"
-msgstr ":py:data:`__future__.annotations`"
+msgstr ""
 
 msgid "Extra information"
 msgstr ""
@@ -373,10 +372,10 @@ msgid ""
 msgstr ""
 
 msgid "object"
-msgstr "obiekt"
+msgstr ""
 
 msgid "code"
-msgstr "code"
+msgstr ""
 
 msgid "code object"
 msgstr ""

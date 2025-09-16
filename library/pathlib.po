@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"POT-Creation-Date: 2025-09-11 14:18+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -302,7 +301,7 @@ msgid ""
 msgstr ""
 
 msgid "Operators"
-msgstr "Оператори"
+msgstr ""
 
 msgid ""
 "The slash operator helps create child paths, like :func:`os.path.join`. If "
@@ -1260,7 +1259,7 @@ msgid ""
 msgstr ""
 
 msgid "Windows support was added."
-msgstr "Додано підтримку Windows."
+msgstr ""
 
 msgid ""
 "Return ``True`` if the path points to a Unix socket. ``False`` will be "
@@ -1908,13 +1907,13 @@ msgid "Matches any number of non-separator characters, including zero."
 msgstr ""
 
 msgid "``?``"
-msgstr "``?``"
+msgstr ""
 
 msgid "Matches one non-separator character."
 msgstr ""
 
 msgid "``[seq]``"
-msgstr "``[seq]``"
+msgstr ""
 
 msgid ""
 "Matches one character in *seq*, where *seq* is a sequence of characters. "
@@ -1924,7 +1923,7 @@ msgid ""
 msgstr ""
 
 msgid "``[!seq]``"
-msgstr "``[!seq]``"
+msgstr ""
 
 msgid ""
 "Matches one character not in *seq*, where *seq* follows the same rules as "
@@ -1940,10 +1939,10 @@ msgid "The \"``**``\" wildcard enables recursive globbing. A few examples:"
 msgstr ""
 
 msgid "Pattern"
-msgstr "Візерунок"
+msgstr ""
 
 msgid "Meaning"
-msgstr "Jelentés"
+msgstr ""
 
 msgid "\"``**/*``\""
 msgstr ""
@@ -2289,7 +2288,7 @@ msgid ":meth:`Path.lchmod`"
 msgstr ""
 
 msgid "Footnotes"
-msgstr "Lábjegyzet"
+msgstr ""
 
 msgid ""
 ":func:`os.path.relpath` calls :func:`~os.path.abspath` to make paths "
@@ -2317,7 +2316,7 @@ msgid ""
 msgstr ""
 
 msgid "Protocols"
-msgstr "Протоколи"
+msgstr ""
 
 msgid ""
 "The :mod:`pathlib.types` module provides types for static type checking."

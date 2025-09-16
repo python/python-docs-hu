@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:01+0000\n"
+"POT-Creation-Date: 2025-05-23 14:20+0000\n"
+"PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -23,10 +23,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Stable"
-msgstr "Stabilna"
+msgstr ""
 
 msgid "In development"
-msgstr "W rozwoju"
+msgstr ""
 
 msgid "This page"
 msgstr ""
@@ -38,7 +38,7 @@ msgid "Show source"
 msgstr ""
 
 msgid "Download"
-msgstr "Pobieranie"
+msgstr ""
 
 msgid "Download Python %(dl_version)s documentation"
 msgstr ""
@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 
 msgid "Format"
-msgstr "Format"
+msgstr ""
 
 msgid "Packed as .zip"
 msgstr ""
@@ -193,39 +193,38 @@ msgid "Return value: Borrowed reference."
 msgstr ""
 
 msgid "CPython implementation detail:"
-msgstr "Szczegół implementacyjny CPythona:"
+msgstr ""
 
 msgid ""
 "Deprecated since version {deprecated}, will be removed in version {removed}"
 msgstr ""
-"Zdezaprobowane w wersji {deprecated}, zostanie usunięte w wersji {removed}"
 
 msgid "Deprecated since version {deprecated}, removed in version {removed}"
-msgstr "Zdezaprobowane w wersji {deprecated}, usunięte w wersji {removed}"
+msgstr ""
 
 msgid "in development"
-msgstr "w rozwoju"
+msgstr ""
 
 msgid "pre-release"
-msgstr "przedpremiera"
+msgstr ""
 
 msgid "stable"
-msgstr "stabilny"
+msgstr ""
 
 msgid "security-fixes"
-msgstr "poprawki bezpieczeństwa"
+msgstr ""
 
 msgid "EOL"
-msgstr "niewspierany"
+msgstr ""
 
 msgid "Welcome! This is the official documentation for Python %(release)s."
-msgstr "Witamy! To jest oficjalna dokumentacja Pythona %(release)s."
+msgstr ""
 
 msgid "Documentation sections:"
 msgstr ""
 
 msgid "What's new in Python %(version)s?"
-msgstr "Co nowego w Pythonie %(version)s?"
+msgstr ""
 
 msgid ""
 "Or <a href=\"%(whatsnew_index)s\">all \"What's new\" documents since Python "
@@ -233,7 +232,7 @@ msgid ""
 msgstr ""
 
 msgid "Tutorial"
-msgstr "Tutorial"
+msgstr ""
 
 msgid "Start here: a tour of Python's syntax and features"
 msgstr ""
@@ -257,7 +256,7 @@ msgid "How to install, configure, and use Python"
 msgstr ""
 
 msgid "Python HOWTOs"
-msgstr "Pythonowe „Jak to zrobić?”"
+msgstr ""
 
 msgid "In-depth topic manuals"
 msgstr ""
@@ -287,7 +286,7 @@ msgid "C API reference"
 msgstr ""
 
 msgid "FAQs"
-msgstr "Często zadawane pytania"
+msgstr ""
 
 msgid "Frequently asked questions (with answers!)"
 msgstr ""
@@ -320,7 +319,7 @@ msgid "Terms explained"
 msgstr ""
 
 msgid "Search page"
-msgstr "Strona wyszukiwania"
+msgstr ""
 
 msgid "Search this documentation"
 msgstr ""
@@ -347,22 +346,22 @@ msgid "History and license of Python"
 msgstr ""
 
 msgid "Copyright"
-msgstr "Prawa autorskie"
+msgstr ""
 
 msgid "About the documentation"
-msgstr "O dokumentacji"
+msgstr ""
 
 msgid "Download these documents"
-msgstr "Pobierz te dokumenty"
+msgstr ""
 
 msgid "Docs by version"
-msgstr "Dokumentacja według wersji"
+msgstr ""
 
 msgid "All versions"
-msgstr "Wszystkie wersje"
+msgstr ""
 
 msgid "Other resources"
-msgstr "Inne zasoby"
+msgstr ""
 
 msgid "PEP index"
 msgstr ""

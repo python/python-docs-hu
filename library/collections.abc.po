@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -12,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 19:00+0000\n"
+"POT-Creation-Date: 2025-09-07 14:14+0000\n"
+"PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -144,7 +143,7 @@ msgid ""
 msgstr ""
 
 msgid "ABC"
-msgstr "ABC"
+msgstr ""
 
 msgid "Inherits from"
 msgstr ""
@@ -159,19 +158,19 @@ msgid ":class:`Container` [1]_"
 msgstr ""
 
 msgid "``__contains__``"
-msgstr "``__contains__``"
+msgstr ""
 
 msgid ":class:`Hashable` [1]_"
 msgstr ""
 
 msgid "``__hash__``"
-msgstr "``__hash__``"
+msgstr ""
 
 msgid ":class:`Iterable` [1]_ [2]_"
 msgstr ""
 
 msgid "``__iter__``"
-msgstr "``__iter__``"
+msgstr ""
 
 msgid ":class:`Iterator` [1]_"
 msgstr ""
@@ -180,13 +179,13 @@ msgid ":class:`Iterable`"
 msgstr ""
 
 msgid "``__next__``"
-msgstr "``__next__``"
+msgstr ""
 
 msgid ":class:`Reversible` [1]_"
 msgstr ""
 
 msgid "``__reversed__``"
-msgstr "``__reversed__``"
+msgstr ""
 
 msgid ":class:`Generator`  [1]_"
 msgstr ""
@@ -204,13 +203,13 @@ msgid ":class:`Sized`  [1]_"
 msgstr ""
 
 msgid "``__len__``"
-msgstr "``__len__``"
+msgstr ""
 
 msgid ":class:`Callable`  [1]_"
 msgstr ""
 
 msgid "``__call__``"
-msgstr "``__call__``"
+msgstr ""
 
 msgid ":class:`Collection`  [1]_"
 msgstr ""
@@ -323,7 +322,7 @@ msgid ":class:`Awaitable` [1]_"
 msgstr ""
 
 msgid "``__await__``"
-msgstr "``__await__``"
+msgstr ""
 
 msgid ":class:`Coroutine` [1]_"
 msgstr ""
@@ -332,13 +331,13 @@ msgid ":class:`Awaitable`"
 msgstr ""
 
 msgid "``close``"
-msgstr "``close``"
+msgstr ""
 
 msgid ":class:`AsyncIterable` [1]_"
 msgstr ""
 
 msgid "``__aiter__``"
-msgstr "``__aiter__``"
+msgstr ""
 
 msgid ":class:`AsyncIterator` [1]_"
 msgstr ""
@@ -347,7 +346,7 @@ msgid ":class:`AsyncIterable`"
 msgstr ""
 
 msgid "``__anext__``"
-msgstr "``__anext__``"
+msgstr ""
 
 msgid ":class:`AsyncGenerator` [1]_"
 msgstr ""
@@ -365,7 +364,7 @@ msgid ":class:`Buffer` [1]_"
 msgstr ""
 
 msgid "``__buffer__``"
-msgstr "``__buffer__``"
+msgstr ""
 
 msgid "Footnotes"
 msgstr "Lábjegyzet"

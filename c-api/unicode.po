@@ -5,16 +5,15 @@
 #
 # Translators:
 # python-doc bot, 2025
-# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 21:21+0000\n"
-"PO-Revision-Date: 2025-08-15 18:59+0000\n"
-"Last-Translator: Stan Ulbrych, 2025\n"
+"POT-Creation-Date: 2025-06-13 14:21+0000\n"
+"PO-Revision-Date: 2025-09-16 00:00+0000\n"
+"Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -368,18 +367,14 @@ msgid ""
 "A conversion specifier contains two or more characters and has the following "
 "components, which must occur in this order:"
 msgstr ""
-"Специфікатор перетворення містить два або більше символів і має наступні "
-"компоненти, які мають відображатися в такому порядку:"
 
 msgid "The ``'%'`` character, which marks the start of the specifier."
-msgstr "Символ ``'%'``, який позначає початок специфікатора."
+msgstr ""
 
 msgid ""
 "Conversion flags (optional), which affect the result of some conversion "
 "types."
 msgstr ""
-"Прапорці перетворення (опціонально), які впливають на результат деяких типів "
-"перетворення."
 
 msgid ""
 "Minimum field width (optional). If specified as an ``'*'`` (asterisk), the "
@@ -396,28 +391,28 @@ msgid ""
 msgstr ""
 
 msgid "Length modifier (optional)."
-msgstr "Модифікатор довжини (необов'язково)."
+msgstr ""
 
 msgid "Conversion type."
-msgstr "Dönüşüm türü."
+msgstr ""
 
 msgid "The conversion flag characters are:"
-msgstr "Символи прапора перетворення:"
+msgstr ""
 
 msgid "Flag"
-msgstr "Penanda"
+msgstr ""
 
 msgid "Meaning"
 msgstr "Jelentés"
 
 msgid "``0``"
-msgstr "``0``"
+msgstr ""
 
 msgid "The conversion will be zero padded for numeric values."
-msgstr "Перетворення буде доповнено нулем для числових значень."
+msgstr ""
 
 msgid "``-``"
-msgstr "``-``"
+msgstr ""
 
 msgid ""
 "The converted value is left adjusted (overrides the ``0`` flag if both are "
@@ -434,34 +429,34 @@ msgid "Modifier"
 msgstr ""
 
 msgid "Types"
-msgstr "Typy"
+msgstr ""
 
 msgid "``l``"
-msgstr "``l``"
+msgstr ""
 
 msgid ":c:expr:`long` or :c:expr:`unsigned long`"
 msgstr ""
 
 msgid "``ll``"
-msgstr "``ll``"
+msgstr ""
 
 msgid ":c:expr:`long long` or :c:expr:`unsigned long long`"
 msgstr ""
 
 msgid "``j``"
-msgstr "``j``"
+msgstr ""
 
 msgid ":c:type:`intmax_t` or :c:type:`uintmax_t`"
 msgstr ""
 
 msgid "``z``"
-msgstr "``z``"
+msgstr ""
 
 msgid ":c:type:`size_t` or :c:type:`ssize_t`"
 msgstr ""
 
 msgid "``t``"
-msgstr "``t``"
+msgstr ""
 
 msgid ":c:type:`ptrdiff_t`"
 msgstr ""
@@ -478,13 +473,13 @@ msgid "Conversion Specifier"
 msgstr ""
 
 msgid "Type"
-msgstr "Typ"
+msgstr ""
 
 msgid "Comment"
 msgstr ""
 
 msgid "``%``"
-msgstr "``%``"
+msgstr ""
 
 msgid "*n/a*"
 msgstr ""
@@ -502,40 +497,40 @@ msgid "The decimal representation of a signed C integer."
 msgstr ""
 
 msgid "``u``"
-msgstr "``u``"
+msgstr ""
 
 msgid "The decimal representation of an unsigned C integer."
 msgstr ""
 
 msgid "``o``"
-msgstr "``o``"
+msgstr ""
 
 msgid "The octal representation of an unsigned C integer."
 msgstr ""
 
 msgid "``x``"
-msgstr "``x``"
+msgstr ""
 
 msgid "The hexadecimal representation of an unsigned C integer (lowercase)."
 msgstr ""
 
 msgid "``X``"
-msgstr "``X``"
+msgstr ""
 
 msgid "The hexadecimal representation of an unsigned C integer (uppercase)."
 msgstr ""
 
 msgid "``c``"
-msgstr "``c``"
+msgstr ""
 
 msgid ":c:expr:`int`"
-msgstr ":c:expr:`int`"
+msgstr ""
 
 msgid "A single character."
 msgstr ""
 
 msgid "``s``"
-msgstr "``s``"
+msgstr ""
 
 msgid ":c:expr:`const char*` or :c:expr:`const wchar_t*`"
 msgstr ""
@@ -544,7 +539,7 @@ msgid "A null-terminated C character array."
 msgstr ""
 
 msgid "``p``"
-msgstr "``p``"
+msgstr ""
 
 msgid ":c:expr:`const void*`"
 msgstr ""
@@ -556,7 +551,7 @@ msgid ""
 msgstr ""
 
 msgid "``A``"
-msgstr "``A``"
+msgstr ""
 
 msgid ":c:expr:`PyObject*`"
 msgstr ""
@@ -565,13 +560,13 @@ msgid "The result of calling :func:`ascii`."
 msgstr ""
 
 msgid "``U``"
-msgstr "``U``"
+msgstr ""
 
 msgid "A Unicode object."
 msgstr ""
 
 msgid "``V``"
-msgstr "``V``"
+msgstr ""
 
 msgid ":c:expr:`PyObject*`, :c:expr:`const char*` or :c:expr:`const wchar_t*`"
 msgstr ""
@@ -583,19 +578,19 @@ msgid ""
 msgstr ""
 
 msgid "``S``"
-msgstr "``S``"
+msgstr ""
 
 msgid "The result of calling :c:func:`PyObject_Str`."
 msgstr ""
 
 msgid "``R``"
-msgstr "``R``"
+msgstr ""
 
 msgid "The result of calling :c:func:`PyObject_Repr`."
 msgstr ""
 
 msgid "``T``"
-msgstr "``T``"
+msgstr ""
 
 msgid ""
 "Get the fully qualified name of an object type; call :c:func:"
@@ -603,7 +598,7 @@ msgid ""
 msgstr ""
 
 msgid "``#T``"
-msgstr "``#T``"
+msgstr ""
 
 msgid ""
 "Similar to ``T`` format, but use a colon (``:``) as separator between the "
@@ -611,7 +606,7 @@ msgid ""
 msgstr ""
 
 msgid "``N``"
-msgstr "``N``"
+msgstr ""
 
 msgid ":c:expr:`PyTypeObject*`"
 msgstr ""
@@ -622,7 +617,7 @@ msgid ""
 msgstr ""
 
 msgid "``#N``"
-msgstr "``#N``"
+msgstr ""
 
 msgid ""
 "Similar to ``N`` format, but use a colon (``:``) as separator between the "
@@ -938,7 +933,7 @@ msgid ""
 msgstr ""
 
 msgid "Accepts a :term:`path-like object`."
-msgstr "Menerima sebuah :term:`path-like object`."
+msgstr ""
 
 msgid ""
 "To decode file names to :class:`str` during argument parsing, the ``\"O&\"`` "
