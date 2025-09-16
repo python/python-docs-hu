@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Stan Ulbrych, 2025
 # python-doc bot, 2025
+# Stan Ulbrych, 2025
 #
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-15 21:21+0000\n"
 "PO-Revision-Date: 2025-08-15 19:01+0000\n"
-"Last-Translator: python-doc bot, 2025\n"
+"Last-Translator: Stan Ulbrych, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
 "MIME-Version: 1.0\n"
@@ -3096,13 +3096,13 @@ msgid "``ssl.PROTOCOL_TLSv1_2``"
 msgstr "``ssl.PROTOCOL_TLSv1_2``"
 
 msgid "``ssl.TLSVersion.SSLv3``"
-msgstr ""
+msgstr "``ssl.TLSVersion.SSLv3``"
 
 msgid "``ssl.TLSVersion.TLSv1``"
-msgstr ""
+msgstr "``ssl.TLSVersion.TLSv1``"
 
 msgid "``ssl.TLSVersion.TLSv1_1``"
-msgstr ""
+msgstr "``ssl.TLSVersion.TLSv1_1``"
 
 msgid ":mod:`threading` methods:"
 msgstr ""
@@ -3152,37 +3152,37 @@ msgid ""
 msgstr ""
 
 msgid "``splitattr()``"
-msgstr ""
+msgstr "``splitattr()``"
 
 msgid "``splithost()``"
-msgstr ""
+msgstr "``splithost()``"
 
 msgid "``splitnport()``"
-msgstr ""
+msgstr "``splitnport()``"
 
 msgid "``splitpasswd()``"
-msgstr ""
+msgstr "``splitpasswd()``"
 
 msgid "``splitport()``"
-msgstr ""
+msgstr "``splitport()``"
 
 msgid "``splitquery()``"
-msgstr ""
+msgstr "``splitquery()``"
 
 msgid "``splittag()``"
-msgstr ""
+msgstr "``splittag()``"
 
 msgid "``splittype()``"
-msgstr ""
+msgstr "``splittype()``"
 
 msgid "``splituser()``"
-msgstr ""
+msgstr "``splituser()``"
 
 msgid "``splitvalue()``"
-msgstr ""
+msgstr "``splitvalue()``"
 
 msgid "``to_bytes()``"
-msgstr ""
+msgstr "``to_bytes()``"
 
 msgid ""
 ":mod:`wsgiref`: ``SimpleHandler.stdout.write()`` should not do partial "
@@ -3625,16 +3625,16 @@ msgid "The following functions are now included in the Limited C API:"
 msgstr ""
 
 msgid ":c:func:`PyMem_RawMalloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawMalloc`"
 
 msgid ":c:func:`PyMem_RawCalloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawCalloc`"
 
 msgid ":c:func:`PyMem_RawRealloc`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawRealloc`"
 
 msgid ":c:func:`PyMem_RawFree`"
-msgstr ""
+msgstr ":c:func:`PyMem_RawFree`"
 
 msgid ":c:func:`PySys_Audit`"
 msgstr ""

@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+# Stan Ulbrych, 2025
 # python-doc bot, 2025
 #
 #, fuzzy
@@ -601,7 +602,7 @@ msgid "print(\"Hello World\")"
 msgstr ""
 
 msgid "and::"
-msgstr ""
+msgstr "dan::"
 
 msgid ""
 "while True:\n"
@@ -1054,7 +1055,7 @@ msgid ""
 msgstr ""
 
 msgid "bz2"
-msgstr ""
+msgstr "bz2"
 
 msgid ""
 "The :meth:`BZ2Decompressor.decompress <bz2.BZ2Decompressor.decompress>` "
@@ -1079,7 +1080,7 @@ msgid ""
 msgstr ""
 
 msgid "code"
-msgstr ""
+msgstr "code"
 
 msgid ""
 "The :func:`InteractiveInterpreter.showtraceback() <code."

@@ -26,7 +26,7 @@ msgid "What's New In Python 3.2"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "Raymond Hettinger"
 msgstr ""
@@ -2454,7 +2454,7 @@ msgid "(Suggested by Ray Allen in :issue:`9523`.)"
 msgstr ""
 
 msgid "ctypes"
-msgstr ""
+msgstr "ctypes"
 
 msgid ""
 "A new type, :class:`ctypes.c_ssize_t` represents the C :c:type:`ssize_t` "

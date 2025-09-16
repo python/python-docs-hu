@@ -5166,10 +5166,10 @@ msgid "co_qualname (code object attribute)"
 msgstr ""
 
 msgid "documentation string"
-msgstr ""
+msgstr "рядок документації"
 
 msgid "frame"
-msgstr ""
+msgstr "frame"
 
 msgid "f_back (frame attribute)"
 msgstr ""
@@ -5205,7 +5205,7 @@ msgid "f_lineno (frame attribute)"
 msgstr ""
 
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 msgid "stack"
 msgstr ""
@@ -5253,7 +5253,7 @@ msgid "tb_next (traceback attribute)"
 msgstr ""
 
 msgid "slice"
-msgstr ""
+msgstr "шматочок"
 
 msgid "start (slice object attribute)"
 msgstr ""
@@ -5334,7 +5334,7 @@ msgid "__class__ (module attribute)"
 msgstr ""
 
 msgid "metaclass"
-msgstr ""
+msgstr "metaklasa"
 
 msgid "= (equals)"
 msgstr ""
@@ -5370,10 +5370,10 @@ msgid "abs"
 msgstr ""
 
 msgid "int"
-msgstr ""
+msgstr "int"
 
 msgid "float"
-msgstr ""
+msgstr "typ (float) zmiennoprzecinkowy pojedynczej precyzji"
 
 msgid "round"
 msgstr ""
@@ -5382,4 +5382,4 @@ msgid "with"
 msgstr ""
 
 msgid "context manager"
-msgstr ""
+msgstr "manajer konteks"

@@ -26,7 +26,7 @@ msgid "What's New in Python 2.0"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "A.M. Kuchling and Moshe Zadka"
 msgstr ""
@@ -496,7 +496,7 @@ msgid ""
 msgstr ""
 
 msgid "String Methods"
-msgstr ""
+msgstr "Metody ciągów"
 
 msgid ""
 "Until now string-manipulation functionality was in the :mod:`string` module, "

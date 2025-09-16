@@ -915,7 +915,7 @@ msgid "Improved Modules"
 msgstr ""
 
 msgid "array"
-msgstr ""
+msgstr "array"
 
 msgid ""
 "Exhausted iterators of :class:`array.array` will now stay exhausted even if "

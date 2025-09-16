@@ -2212,7 +2212,7 @@ msgid "The :class:`argparse.FileType` type converter is deprecated."
 msgstr ""
 
 msgid "``bool(NotImplemented)``."
-msgstr ""
+msgstr "``bool(NotImplemented)``."
 
 msgid ""
 "Generators: ``throw(type, exc, tb)`` and ``athrow(type, exc, tb)`` signature "
@@ -2353,28 +2353,28 @@ msgid "``ssl.OP_NO_TLS*`` options"
 msgstr ""
 
 msgid "``ssl.PROTOCOL_SSLv3``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_SSLv3``"
 
 msgid "``ssl.PROTOCOL_TLS``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLS``"
 
 msgid "``ssl.PROTOCOL_TLSv1``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLSv1``"
 
 msgid "``ssl.PROTOCOL_TLSv1_1``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLSv1_1``"
 
 msgid "``ssl.PROTOCOL_TLSv1_2``"
-msgstr ""
+msgstr "``ssl.PROTOCOL_TLSv1_2``"
 
 msgid "``ssl.TLSVersion.SSLv3``"
-msgstr ""
+msgstr "``ssl.TLSVersion.SSLv3``"
 
 msgid "``ssl.TLSVersion.TLSv1``"
-msgstr ""
+msgstr "``ssl.TLSVersion.TLSv1``"
 
 msgid "``ssl.TLSVersion.TLSv1_1``"
-msgstr ""
+msgstr "``ssl.TLSVersion.TLSv1_1``"
 
 msgid ":mod:`threading` methods:"
 msgstr ""
@@ -2424,37 +2424,37 @@ msgid ""
 msgstr ""
 
 msgid "``splitattr()``"
-msgstr ""
+msgstr "``splitattr()``"
 
 msgid "``splithost()``"
-msgstr ""
+msgstr "``splithost()``"
 
 msgid "``splitnport()``"
-msgstr ""
+msgstr "``splitnport()``"
 
 msgid "``splitpasswd()``"
-msgstr ""
+msgstr "``splitpasswd()``"
 
 msgid "``splitport()``"
-msgstr ""
+msgstr "``splitport()``"
 
 msgid "``splitquery()``"
-msgstr ""
+msgstr "``splitquery()``"
 
 msgid "``splittag()``"
-msgstr ""
+msgstr "``splittag()``"
 
 msgid "``splittype()``"
-msgstr ""
+msgstr "``splittype()``"
 
 msgid "``splituser()``"
-msgstr ""
+msgstr "``splituser()``"
 
 msgid "``splitvalue()``"
-msgstr ""
+msgstr "``splitvalue()``"
 
 msgid "``to_bytes()``"
-msgstr ""
+msgstr "``to_bytes()``"
 
 msgid ""
 ":mod:`wsgiref`: ``SimpleHandler.stdout.write()`` should not do partial "

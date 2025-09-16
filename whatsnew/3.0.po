@@ -1118,7 +1118,7 @@ msgid ""
 msgstr ""
 
 msgid "Performance"
-msgstr ""
+msgstr "Wydajność"
 
 msgid ""
 "The net result of the 3.0 generalizations is that Python 3.0 runs the "

@@ -26,7 +26,7 @@ msgid "What's New in Python 2.7"
 msgstr ""
 
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 msgid "A.M. Kuchling (amk at amk.ca)"
 msgstr ""

@@ -11348,10 +11348,10 @@ msgid ":gh:`117987`: Restore functions removed in Python 3.13 alpha 1:"
 msgstr ""
 
 msgid ":c:func:`Py_SetPythonHome`"
-msgstr ""
+msgstr ":c:func:`Py_SetPythonHome`"
 
 msgid ":c:func:`Py_SetProgramName`"
-msgstr ""
+msgstr ":c:func:`Py_SetProgramName`"
 
 msgid ":c:func:`PySys_SetArgvEx`"
 msgstr ""
@@ -38091,7 +38091,7 @@ msgid ":meth:`dict.items`"
 msgstr ""
 
 msgid ":func:`enumerate`"
-msgstr ""
+msgstr ":func:`enumerate`"
 
 msgid ":func:`functools.reduce`"
 msgstr ""
@@ -38112,7 +38112,7 @@ msgid ":func:`itertools.zip_longest`"
 msgstr ""
 
 msgid ":func:`zip`"
-msgstr ""
+msgstr ":func:`zip`"
 
 msgid ""
 "Previously, they could have become untracked by a prior garbage collection. "

@@ -446,7 +446,7 @@ msgid ""
 msgstr ""
 
 msgid "For example::"
-msgstr ""
+msgstr "Na przykład::"
 
 msgid ""
 "# The create_model decorator is defined by a library.\n"
@@ -1128,7 +1128,7 @@ msgid ""
 msgstr ""
 
 msgid "string"
-msgstr ""
+msgstr "ciąg znaków"
 
 msgid ""
 "Add :meth:`~string.Template.get_identifiers` and :meth:`~string.Template."
