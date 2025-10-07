@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-05 14:11+0000\n"
+"POT-Creation-Date: 2025-10-07 14:17+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -27,10 +27,16 @@ msgstr ""
 msgid "*Release date: XXXX-XX-XX*"
 msgstr ""
 
-msgid "Windows"
+msgid "macOS"
+msgstr ""
+
+msgid ":gh:`124111`: Update macOS installer to use Tcl/Tk 8.6.17."
 msgstr ""
 
 msgid ":gh:`139573`: Updated bundled version of OpenSSL to 3.0.18."
+msgstr ""
+
+msgid "Windows"
 msgstr ""
 
 msgid "Tools/Demos"
@@ -53,6 +59,16 @@ msgid ""
 "subdirectory of the ``Apple`` folder."
 msgstr ""
 
+msgid "Security"
+msgstr ""
+
+msgid ""
+":gh:`139400`: :mod:`xml.parsers.expat`: Make sure that parent Expat parsers "
+"are only garbage-collected once they are no longer referenced by subparsers "
+"created by :meth:`~xml.parsers.expat.xmlparser.ExternalEntityParserCreate`. "
+"Patch by Sebastian Pipping."
+msgstr ""
+
 msgid "Library"
 msgstr ""
 
@@ -73,9 +89,6 @@ msgid ""
 ":gh:`137873`: The iOS test runner has been simplified, resolving some issues "
 "that have been observed using the runner in GitHub Actions and Azure "
 "Pipelines test environments."
-msgstr ""
-
-msgid "Security"
 msgstr ""
 
 msgid ""
@@ -229,9 +242,6 @@ msgid "Python 3.14.0 release candidate 2"
 msgstr ""
 
 msgid "*Release date: 2025-08-14*"
-msgstr ""
-
-msgid "macOS"
 msgstr ""
 
 msgid ""
