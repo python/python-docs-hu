@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-09 14:15+0000\n"
+"POT-Creation-Date: 2025-10-21 14:16+0000\n"
 "PO-Revision-Date: 2025-09-16 00:01+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
@@ -154,9 +154,10 @@ msgstr ""
 
 msgid ""
 "The maximum amount of processor time (in seconds) that a process can use. If "
-"this limit is exceeded, a :const:`SIGXCPU` signal is sent to the process. "
-"(See the :mod:`signal` module documentation for information about how to "
-"catch this signal and do something useful, e.g. flush open files to disk.)"
+"this limit is exceeded, a :const:`~signal.SIGXCPU` signal is sent to the "
+"process. (See the :mod:`signal` module documentation for information about "
+"how to catch this signal and do something useful, e.g. flush open files to "
+"disk.)"
 msgstr ""
 
 msgid "The maximum size of a file which the process may create."
@@ -277,7 +278,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The fields :attr:`ru_utime` and :attr:`ru_stime` of the return value are "
+"The fields :attr:`!ru_utime` and :attr:`!ru_stime` of the return value are "
 "floating-point values representing the amount of time spent executing in "
 "user mode and the amount of time spent executing in system mode, "
 "respectively. The remaining values are integers. Consult the :manpage:"
@@ -297,7 +298,7 @@ msgstr ""
 msgid "``0``"
 msgstr ""
 
-msgid ":attr:`ru_utime`"
+msgid ":attr:`!ru_utime`"
 msgstr ""
 
 msgid "time in user mode (float seconds)"
@@ -306,7 +307,7 @@ msgstr ""
 msgid "``1``"
 msgstr "``1``"
 
-msgid ":attr:`ru_stime`"
+msgid ":attr:`!ru_stime`"
 msgstr ""
 
 msgid "time in system mode (float seconds)"
@@ -315,7 +316,7 @@ msgstr ""
 msgid "``2``"
 msgstr "``2``"
 
-msgid ":attr:`ru_maxrss`"
+msgid ":attr:`!ru_maxrss`"
 msgstr ""
 
 msgid "maximum resident set size"
@@ -324,7 +325,7 @@ msgstr ""
 msgid "``3``"
 msgstr "``3``"
 
-msgid ":attr:`ru_ixrss`"
+msgid ":attr:`!ru_ixrss`"
 msgstr ""
 
 msgid "shared memory size"
@@ -333,7 +334,7 @@ msgstr ""
 msgid "``4``"
 msgstr "``4``"
 
-msgid ":attr:`ru_idrss`"
+msgid ":attr:`!ru_idrss`"
 msgstr ""
 
 msgid "unshared memory size"
@@ -342,7 +343,7 @@ msgstr ""
 msgid "``5``"
 msgstr ""
 
-msgid ":attr:`ru_isrss`"
+msgid ":attr:`!ru_isrss`"
 msgstr ""
 
 msgid "unshared stack size"
@@ -351,7 +352,7 @@ msgstr ""
 msgid "``6``"
 msgstr ""
 
-msgid ":attr:`ru_minflt`"
+msgid ":attr:`!ru_minflt`"
 msgstr ""
 
 msgid "page faults not requiring I/O"
@@ -360,7 +361,7 @@ msgstr ""
 msgid "``7``"
 msgstr ""
 
-msgid ":attr:`ru_majflt`"
+msgid ":attr:`!ru_majflt`"
 msgstr ""
 
 msgid "page faults requiring I/O"
@@ -369,7 +370,7 @@ msgstr ""
 msgid "``8``"
 msgstr ""
 
-msgid ":attr:`ru_nswap`"
+msgid ":attr:`!ru_nswap`"
 msgstr ""
 
 msgid "number of swap outs"
@@ -378,7 +379,7 @@ msgstr ""
 msgid "``9``"
 msgstr ""
 
-msgid ":attr:`ru_inblock`"
+msgid ":attr:`!ru_inblock`"
 msgstr ""
 
 msgid "block input operations"
@@ -387,7 +388,7 @@ msgstr ""
 msgid "``10``"
 msgstr ""
 
-msgid ":attr:`ru_oublock`"
+msgid ":attr:`!ru_oublock`"
 msgstr ""
 
 msgid "block output operations"
@@ -396,7 +397,7 @@ msgstr ""
 msgid "``11``"
 msgstr ""
 
-msgid ":attr:`ru_msgsnd`"
+msgid ":attr:`!ru_msgsnd`"
 msgstr ""
 
 msgid "messages sent"
@@ -405,7 +406,7 @@ msgstr ""
 msgid "``12``"
 msgstr ""
 
-msgid ":attr:`ru_msgrcv`"
+msgid ":attr:`!ru_msgrcv`"
 msgstr ""
 
 msgid "messages received"
@@ -414,7 +415,7 @@ msgstr ""
 msgid "``13``"
 msgstr ""
 
-msgid ":attr:`ru_nsignals`"
+msgid ":attr:`!ru_nsignals`"
 msgstr ""
 
 msgid "signals received"
@@ -423,7 +424,7 @@ msgstr ""
 msgid "``14``"
 msgstr ""
 
-msgid ":attr:`ru_nvcsw`"
+msgid ":attr:`!ru_nvcsw`"
 msgstr ""
 
 msgid "voluntary context switches"
@@ -432,7 +433,7 @@ msgstr ""
 msgid "``15``"
 msgstr ""
 
-msgid ":attr:`ru_nivcsw`"
+msgid ":attr:`!ru_nivcsw`"
 msgstr ""
 
 msgid "involuntary context switches"
