@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -81,6 +81,97 @@ msgid ""
 "Return the minimum normalized positive float *DBL_MIN* as C :c:expr:`double`."
 msgstr ""
 
+msgid ""
+"This macro expands a to constant expression of type :c:expr:`double`, that "
+"represents the positive infinity."
+msgstr ""
+
+msgid ""
+"On most platforms, this is equivalent to the :c:macro:`!INFINITY` macro from "
+"the C11 standard ``<math.h>`` header."
+msgstr ""
+
+msgid ""
+"This macro expands a to constant expression of type :c:expr:`double`, that "
+"represents a quiet not-a-number (qNaN) value."
+msgstr ""
+
+msgid ""
+"On most platforms, this is equivalent to the :c:macro:`!NAN` macro from the "
+"C11 standard ``<math.h>`` header."
+msgstr ""
+
+msgid "Equivalent to :c:macro:`!INFINITY`."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`."
+msgstr ""
+
+msgid ""
+"The definition (accurate for a :c:expr:`double` type) of the :data:`math.e` "
+"constant."
+msgstr ""
+
+msgid "High precision (long double) definition of :data:`~math.e` constant."
+msgstr ""
+
+msgid ""
+"The definition (accurate for a :c:expr:`double` type) of the :data:`math.pi` "
+"constant."
+msgstr ""
+
+msgid "High precision (long double) definition of :data:`~math.pi` constant."
+msgstr ""
+
+msgid ""
+"The definition (accurate for a :c:expr:`double` type) of the :data:`math."
+"tau` constant."
+msgstr ""
+
+msgid "Return :data:`math.nan` from a function."
+msgstr ""
+
+msgid ""
+"On most platforms, this is equivalent to ``return PyFloat_FromDouble(NAN)``."
+msgstr ""
+
+msgid ""
+"Return :data:`math.inf` or :data:`-math.inf <math.inf>` from a function, "
+"depending on the sign of *sign*."
+msgstr ""
+
+msgid "On most platforms, this is equivalent to the following::"
+msgstr ""
+
+msgid "return PyFloat_FromDouble(copysign(INFINITY, sign));"
+msgstr ""
+
+msgid ""
+"Return ``1`` if the given floating-point number *X* is finite, that is, it "
+"is normal, subnormal or zero, but not infinite or NaN. Return ``0`` "
+"otherwise."
+msgstr ""
+
+msgid ""
+"The macro is :term:`soft deprecated`.  Use :c:macro:`!isfinite` instead."
+msgstr ""
+
+msgid ""
+"Return ``1`` if the given floating-point number *X* is positive or negative "
+"infinity.  Return ``0`` otherwise."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`.  Use :c:macro:`!isinf` instead."
+msgstr ""
+
+msgid ""
+"Return ``1`` if the given floating-point number *X* is a not-a-number (NaN) "
+"value.  Return ``0`` otherwise."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`.  Use :c:macro:`!isnan` instead."
+msgstr ""
+
 msgid "Pack and Unpack functions"
 msgstr ""
 
@@ -104,8 +195,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Note that NaNs type may not be preserved on IEEE platforms (silent NaN "
-"become quiet), for example on x86 systems in 32-bit mode."
+"Note that NaNs type may not be preserved on IEEE platforms (signaling NaN "
+"become quiet NaN), for example on x86 systems in 32-bit mode."
 msgstr ""
 
 msgid ""

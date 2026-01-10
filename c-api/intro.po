@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-01-05 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Last-Translator: python-doc bot, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
@@ -160,6 +160,11 @@ msgid "Return the absolute value of ``x``."
 msgstr ""
 
 msgid ""
+"If the result cannot be represented (for example, if ``x`` has :c:macro:`!"
+"INT_MIN` value for :c:expr:`int` type), the behavior is undefined."
+msgstr ""
+
+msgid ""
 "Ask the compiler to always inline a static inline function. The compiler can "
 "ignore it and decide to not inline the function."
 msgstr ""
@@ -212,10 +217,29 @@ msgid ""
 "command line (see :c:member:`PyConfig.use_environment`)."
 msgstr ""
 
+msgid ""
+"Declare a function returning the specified *type* using a fast-calling "
+"qualifier for functions that are local to the current file. Semantically, "
+"this is equivalent to ``static type``."
+msgstr ""
+
+msgid ""
+"Equivalent to :c:macro:`Py_LOCAL` but additionally requests the function be "
+"inlined."
+msgstr ""
+
 msgid "Return the maximum value between ``x`` and ``y``."
 msgstr ""
 
 msgid "Return the size of a structure (``type``) ``member`` in bytes."
+msgstr ""
+
+msgid ""
+"This is a :term:`soft deprecated` alias to :c:func:`!memcpy`. Use :c:func:`!"
+"memcpy` directly instead."
+msgstr ""
+
+msgid "The macro is :term:`soft deprecated`."
 msgstr ""
 
 msgid "Return the minimum value between ``x`` and ``y``."
@@ -269,7 +293,29 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Creates a variable with name ``name`` that can be used in docstrings. If "
+"Asserts a compile-time condition *cond*, as a statement. The build will fail "
+"if the condition is false or cannot be evaluated at compile time."
+msgstr ""
+
+msgid "For example::"
+msgstr ""
+
+msgid "Py_BUILD_ASSERT(sizeof(PyTime_t) == sizeof(int64_t));"
+msgstr ""
+
+msgid ""
+"Asserts a compile-time condition *cond*, as an expression that evaluates to "
+"``0``. The build will fail if the condition is false or cannot be evaluated "
+"at compile time."
+msgstr ""
+
+msgid ""
+"#define foo_to_char(foo) \\\n"
+"    ((char *)(foo) + Py_BUILD_ASSERT_EXPR(offsetof(struct foo, string) == 0))"
+msgstr ""
+
+msgid ""
+"Creates a variable with name *name* that can be used in docstrings. If "
 "Python is built without docstrings, the value will be empty."
 msgstr ""
 
@@ -304,6 +350,32 @@ msgid ""
 "        PyDoc_STR(\"Returns the keys of the row.\")},\n"
 "    {NULL, NULL}\n"
 "};"
+msgstr ""
+
+msgid "Declares a static character array variable with the given name *name*."
+msgstr ""
+
+msgid ""
+"PyDoc_VAR(python_doc) = PyDoc_STR(\"A genus of constricting snakes in the "
+"Pythonidae family native \"\n"
+"                                  \"to the tropics and subtropics of the "
+"Eastern Hemisphere.\");"
+msgstr ""
+
+msgid "Compute the length of a statically allocated C array at compile time."
+msgstr ""
+
+msgid ""
+"The *array* argument must be a C array with a size known at compile time. "
+"Passing an array with an unknown size, such as a heap-allocated array, will "
+"result in a compilation error on some compilers, or otherwise produce "
+"incorrect results."
+msgstr ""
+
+msgid "This is roughly equivalent to::"
+msgstr ""
+
+msgid "sizeof(array) / sizeof((array)[0])"
 msgstr ""
 
 msgid "Objects, Types and Reference Counts"

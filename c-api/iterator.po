@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-25 14:12+0000\n"
+"POT-Creation-Date: 2026-01-09 14:19+0000\n"
 "PO-Revision-Date: 2025-09-16 00:00+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -61,4 +61,62 @@ msgid ""
 "callable object that can be called with no parameters; each call to it "
 "should return the next item in the iteration.  When *callable* returns a "
 "value equal to *sentinel*, the iteration will be terminated."
+msgstr ""
+
+msgid "Range Objects"
+msgstr ""
+
+msgid "The type object for :class:`range` objects."
+msgstr ""
+
+msgid ""
+"Return true if the object *o* is an instance of a :class:`range` object. "
+"This function always succeeds."
+msgstr ""
+
+msgid "Builtin Iterator Types"
+msgstr ""
+
+msgid ""
+"These are built-in iteration types that are included in Python's C API, but "
+"provide no additional functions. They are here for completeness."
+msgstr ""
+
+msgid "C type"
+msgstr ""
+
+msgid "Python type"
+msgstr ""
+
+msgid ":py:class:`enumerate`"
+msgstr ""
+
+msgid ":py:class:`filter`"
+msgstr ""
+
+msgid ":py:class:`map`"
+msgstr ""
+
+msgid ":py:class:`reversed`"
+msgstr ""
+
+msgid ":py:class:`zip`"
+msgstr ""
+
+msgid "Other Iterator Objects"
+msgstr ""
+
+msgid "Type objects for iterators of various built-in objects."
+msgstr ""
+
+msgid ""
+"Do not create instances of these directly; prefer calling :c:func:"
+"`PyObject_GetIter` instead."
+msgstr ""
+
+msgid ""
+"Note that there is no guarantee that a given built-in type uses a given "
+"iterator type. For example, iterating over :class:`range` will use one of "
+"two iterator types depending on the size of the range. Other types may start "
+"using a similar scheme in the future, without warning."
 msgstr ""
