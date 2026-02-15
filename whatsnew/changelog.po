@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-13 14:37+0000\n"
+"POT-Creation-Date: 2026-02-15 14:21+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -25,6 +25,12 @@ msgid "Python next"
 msgstr ""
 
 msgid "*Release date: XXXX-XX-XX*"
+msgstr ""
+
+msgid "Windows"
+msgstr ""
+
+msgid ":gh:`144551`: Updated bundled version of OpenSSL to 3.0.19."
 msgstr ""
 
 msgid "Library"
@@ -45,6 +51,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`143637`: Fixed a crash in socket.sendmsg() that could occur if "
+"ancillary data is mutated re-entrantly during argument parsing."
+msgstr ""
+
+msgid ""
 ":gh:`143543`: Fix a crash in itertools.groupby that could occur when a user-"
 "defined :meth:`~object.__eq__` method re-enters the iterator during key "
 "comparison."
@@ -56,6 +67,10 @@ msgid ""
 msgstr ""
 
 msgid "Core and Builtins"
+msgstr ""
+
+msgid ""
+":gh:`144766`: Fix a crash in fork child process when perf support is enabled."
 msgstr ""
 
 msgid ""
@@ -84,9 +99,6 @@ msgid "Python 3.14.3 final"
 msgstr ""
 
 msgid "*Release date: 2026-02-03*"
-msgstr ""
-
-msgid "Windows"
 msgstr ""
 
 msgid ""
