@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-03 14:40+0000\n"
+"POT-Creation-Date: 2026-03-05 14:41+0000\n"
 "PO-Revision-Date: 2025-09-16 00:02+0000\n"
 "Language-Team: Hungarian (https://app.transifex.com/python-doc/teams/5390/"
 "hu/)\n"
@@ -44,7 +44,35 @@ msgstr ""
 msgid ":gh:`144551`: Updated bundled version of OpenSSL to 3.0.19."
 msgstr ""
 
+msgid "Tests"
+msgstr ""
+
+msgid ""
+":gh:`144739`: When Python was compiled with system expat older then 2.7.2 "
+"but tests run with newer expat, still skip :class:`!test.test_pyexpat."
+"MemoryProtectionTest`."
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid ""
+":gh:`145506`: Fixes :cve:`2026-2297` by ensuring that "
+"``SourcelessFileLoader`` uses :func:`io.open_code` when opening ``.pyc`` "
+"files."
+msgstr ""
+
 msgid "Library"
+msgstr ""
+
+msgid ""
+":gh:`145301`: :mod:`hmac`: fix a crash when the initialization of the "
+"underlying C extension module fails."
+msgstr ""
+
+msgid ""
+":gh:`145301`: :mod:`hashlib`: fix a crash when the initialization of the "
+"underlying C extension module fails."
 msgstr ""
 
 msgid ""
@@ -97,6 +125,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+":gh:`144475`: Calling :func:`repr` on :func:`functools.partial` is now safer "
+"when the partial object's internal attributes are replaced while the string "
+"representation is being generated."
+msgstr ""
+
+msgid ""
 ":gh:`144538`: Bump the version of pip bundled in ensurepip to version 26.0.1"
 msgstr ""
 
@@ -146,6 +180,11 @@ msgstr ""
 msgid ""
 ":gh:`142516`: :mod:`ssl`: fix reference leaks in :class:`ssl.SSLContext` "
 "objects. Patch by Bénédikt Tran."
+msgstr ""
+
+msgid ""
+":gh:`143304`: Fix :class:`ctypes.CDLL` to honor the ``handle`` parameter on "
+"POSIX systems."
 msgstr ""
 
 msgid ""
@@ -274,6 +313,16 @@ msgid ""
 "construct CJK ideographs and Hangul syllables using case-insensitive names."
 msgstr ""
 
+msgid "C API"
+msgstr ""
+
+msgid ""
+":gh:`144981`: Made :c:func:`PyUnstable_Code_SetExtra`, :c:func:"
+"`PyUnstable_Code_GetExtra`, and :c:func:"
+"`PyUnstable_Eval_RequestCodeExtraIndex` thread-safe on the :term:`free "
+"threaded <free threading>` build."
+msgstr ""
+
 msgid "Python 3.14.3 final"
 msgstr ""
 
@@ -291,9 +340,6 @@ msgstr ""
 msgid ""
 ":gh:`142095`: Make gdb 'py-bt' command use frame from thread local state "
 "when available. Patch by Sam Gross and Victor Stinner."
-msgstr ""
-
-msgid "Tests"
 msgstr ""
 
 msgid ""
@@ -327,9 +373,6 @@ msgstr ""
 msgid ""
 ":issue:`31391`: Forward-port test_xpickle from Python 2 to Python 3 and add "
 "the resource back to test's command line."
-msgstr ""
-
-msgid "Security"
 msgstr ""
 
 msgid ""
@@ -918,9 +961,6 @@ msgstr ""
 msgid ""
 ":gh:`137007`: Fix a bug during JIT compilation failure which caused garbage "
 "collection debug assertions to fail."
-msgstr ""
-
-msgid "C API"
 msgstr ""
 
 msgid ""
